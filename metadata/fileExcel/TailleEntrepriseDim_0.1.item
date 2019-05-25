@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_fa4PcH70EemQsp65GKssBA" name="TailleEntrepriseDim" dataPackage="_fa4PcX70EemQsp65GKssBA" Server="Localhost 127.0.0.1" FilePath="C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/Transformation/TAILLE_ENTREPRISE_DIM.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Feuil1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Feuil1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_fa4PcX70EemQsp65GKssBA" name="default" dataManager="_fa4PcH70EemQsp65GKssBA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_fa4Pcn70EemQsp65GKssBA" id="_aI4xYH70EemQsp65GKssBA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fa4Pc370EemQsp65GKssBA" label="code_taille_entreprise" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fa4PdH70EemQsp65GKssBA" label="libelle_taille_entreprise" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
