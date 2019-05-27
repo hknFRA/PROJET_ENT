@@ -16,6 +16,7 @@
     <module>jobs/process/integrationdimensions_0.1</module>
     <module>jobs/process/conversionexcelcsv_0.1</module>
     <module>jobs/process/integrationfaits_0.1</module>
+    <module>jobs/process/integrationfaitst204_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TEST_2</talend.project.name>

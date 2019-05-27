@@ -274,6 +274,138 @@ public class integrationDimensions implements TalendJob {
 		}
 	}
 
+	public void tFileInputExcel_1_error(Exception exception,
+			String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tMap_2_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tLogRow_3_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tDBOutput_2_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tFileInputExcel_2_error(Exception exception,
+			String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_2_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tMap_3_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_2_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tLogRow_4_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_2_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tDBOutput_3_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_2_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tFileInputExcel_3_error(Exception exception,
+			String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_3_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tMap_4_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_3_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tLogRow_5_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_3_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tDBOutput_4_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_3_onSubJobError(exception, errorComponent, globalMap);
+	}
+
 	public void tFileInputExcel_4_error(Exception exception,
 			String errorComponent, final java.util.Map<String, Object> globalMap)
 			throws TalendException {
@@ -285,7 +417,7 @@ public class integrationDimensions implements TalendJob {
 		tFileInputExcel_4_onSubJobError(exception, errorComponent, globalMap);
 	}
 
-	public void tMap_4_error(Exception exception, String errorComponent,
+	public void tMap_5_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap)
 			throws TalendException {
 
@@ -294,6 +426,94 @@ public class integrationDimensions implements TalendJob {
 		status = "failure";
 
 		tFileInputExcel_4_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tLogRow_6_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_4_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tDBOutput_5_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_4_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tFileInputExcel_5_error(Exception exception,
+			String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_5_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tMap_1_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_5_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tLogRow_2_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_5_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tDBOutput_1_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_5_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tFileInputExcel_6_error(Exception exception,
+			String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_6_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tMap_6_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_6_onSubJobError(exception, errorComponent, globalMap);
 	}
 
 	public void tLogRow_1_error(Exception exception, String errorComponent,
@@ -304,10 +524,10 @@ public class integrationDimensions implements TalendJob {
 
 		status = "failure";
 
-		tFileInputExcel_4_onSubJobError(exception, errorComponent, globalMap);
+		tFileInputExcel_6_onSubJobError(exception, errorComponent, globalMap);
 	}
 
-	public void tDBOutput_4_error(Exception exception, String errorComponent,
+	public void tDBOutput_6_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap)
 			throws TalendException {
 
@@ -315,7 +535,40 @@ public class integrationDimensions implements TalendJob {
 
 		status = "failure";
 
-		tFileInputExcel_4_onSubJobError(exception, errorComponent, globalMap);
+		tFileInputExcel_6_onSubJobError(exception, errorComponent, globalMap);
+	}
+
+	public void tFileInputExcel_1_onSubJobError(Exception exception,
+			String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		resumeUtil.addLog("SYSTEM_LOG", "NODE:" + errorComponent, "", Thread
+				.currentThread().getId() + "", "FATAL", "",
+				exception.getMessage(),
+				ResumeUtil.getExceptionStackTrace(exception), "");
+
+	}
+
+	public void tFileInputExcel_2_onSubJobError(Exception exception,
+			String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		resumeUtil.addLog("SYSTEM_LOG", "NODE:" + errorComponent, "", Thread
+				.currentThread().getId() + "", "FATAL", "",
+				exception.getMessage(),
+				ResumeUtil.getExceptionStackTrace(exception), "");
+
+	}
+
+	public void tFileInputExcel_3_onSubJobError(Exception exception,
+			String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		resumeUtil.addLog("SYSTEM_LOG", "NODE:" + errorComponent, "", Thread
+				.currentThread().getId() + "", "FATAL", "",
+				exception.getMessage(),
+				ResumeUtil.getExceptionStackTrace(exception), "");
+
 	}
 
 	public void tFileInputExcel_4_onSubJobError(Exception exception,
@@ -329,15 +582,37 @@ public class integrationDimensions implements TalendJob {
 
 	}
 
-	public static class row4Struct implements
-			routines.system.IPersistableRow<row4Struct> {
+	public void tFileInputExcel_5_onSubJobError(Exception exception,
+			String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		resumeUtil.addLog("SYSTEM_LOG", "NODE:" + errorComponent, "", Thread
+				.currentThread().getId() + "", "FATAL", "",
+				exception.getMessage(),
+				ResumeUtil.getExceptionStackTrace(exception), "");
+
+	}
+
+	public void tFileInputExcel_6_onSubJobError(Exception exception,
+			String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		resumeUtil.addLog("SYSTEM_LOG", "NODE:" + errorComponent, "", Thread
+				.currentThread().getId() + "", "FATAL", "",
+				exception.getMessage(),
+				ResumeUtil.getExceptionStackTrace(exception), "");
+
+	}
+
+	public static class row7Struct implements
+			routines.system.IPersistableRow<row7Struct> {
 		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
 		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
 
-		public String libelle_socio_prof;
+		public String libelle_sexe;
 
-		public String getLibelle_socio_prof() {
-			return this.libelle_socio_prof;
+		public String getLibelle_sexe() {
+			return this.libelle_sexe;
 		}
 
 		private String readString(ObjectInputStream dis) throws IOException {
@@ -383,7 +658,7 @@ public class integrationDimensions implements TalendJob {
 
 					int length = 0;
 
-					this.libelle_socio_prof = readString(dis);
+					this.libelle_sexe = readString(dis);
 
 				} catch (IOException e) {
 					throw new RuntimeException(e);
@@ -399,7 +674,7 @@ public class integrationDimensions implements TalendJob {
 
 				// String
 
-				writeString(this.libelle_socio_prof, dos);
+				writeString(this.libelle_sexe, dos);
 
 			} catch (IOException e) {
 				throw new RuntimeException(e);
@@ -412,7 +687,7 @@ public class integrationDimensions implements TalendJob {
 			StringBuilder sb = new StringBuilder();
 			sb.append(super.toString());
 			sb.append("[");
-			sb.append("libelle_socio_prof=" + libelle_socio_prof);
+			sb.append("libelle_sexe=" + libelle_sexe);
 			sb.append("]");
 
 			return sb.toString();
@@ -421,7 +696,7 @@ public class integrationDimensions implements TalendJob {
 		/**
 		 * Compare keys
 		 */
-		public int compareTo(row4Struct other) {
+		public int compareTo(row7Struct other) {
 
 			int returnValue = -1;
 
@@ -452,15 +727,15 @@ public class integrationDimensions implements TalendJob {
 
 	}
 
-	public static class socioProStruct implements
-			routines.system.IPersistableRow<socioProStruct> {
+	public static class integrationSexeStruct implements
+			routines.system.IPersistableRow<integrationSexeStruct> {
 		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
 		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
 
-		public String libelle_socio_prof;
+		public String libelle_sexe;
 
-		public String getLibelle_socio_prof() {
-			return this.libelle_socio_prof;
+		public String getLibelle_sexe() {
+			return this.libelle_sexe;
 		}
 
 		private String readString(ObjectInputStream dis) throws IOException {
@@ -506,7 +781,7 @@ public class integrationDimensions implements TalendJob {
 
 					int length = 0;
 
-					this.libelle_socio_prof = readString(dis);
+					this.libelle_sexe = readString(dis);
 
 				} catch (IOException e) {
 					throw new RuntimeException(e);
@@ -522,7 +797,7 @@ public class integrationDimensions implements TalendJob {
 
 				// String
 
-				writeString(this.libelle_socio_prof, dos);
+				writeString(this.libelle_sexe, dos);
 
 			} catch (IOException e) {
 				throw new RuntimeException(e);
@@ -535,7 +810,7 @@ public class integrationDimensions implements TalendJob {
 			StringBuilder sb = new StringBuilder();
 			sb.append(super.toString());
 			sb.append("[");
-			sb.append("libelle_socio_prof=" + libelle_socio_prof);
+			sb.append("libelle_sexe=" + libelle_sexe);
 			sb.append("]");
 
 			return sb.toString();
@@ -544,7 +819,7 @@ public class integrationDimensions implements TalendJob {
 		/**
 		 * Compare keys
 		 */
-		public int compareTo(socioProStruct other) {
+		public int compareTo(integrationSexeStruct other) {
 
 			int returnValue = -1;
 
@@ -573,10 +848,2946 @@ public class integrationDimensions implements TalendJob {
 			return string1.compareTo(string2);
 		}
 
+	}
+
+	public static class row2Struct implements
+			routines.system.IPersistableRow<row2Struct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public Character code_sexe;
+
+		public Character getCode_sexe() {
+			return this.code_sexe;
+		}
+
+		public String libelle_sexe;
+
+		public String getLibelle_sexe() {
+			return this.libelle_sexe;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					length = dis.readByte();
+					if (length == -1) {
+						this.code_sexe = null;
+					} else {
+						this.code_sexe = dis.readChar();
+					}
+
+					this.libelle_sexe = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// Character
+
+				if (this.code_sexe == null) {
+					dos.writeByte(-1);
+				} else {
+					dos.writeByte(0);
+					dos.writeChar(this.code_sexe);
+				}
+
+				// String
+
+				writeString(this.libelle_sexe, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("code_sexe=" + String.valueOf(code_sexe));
+			sb.append(",libelle_sexe=" + libelle_sexe);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row2Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public void tFileInputExcel_1Process(
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+		globalMap.put("tFileInputExcel_1_SUBPROCESS_STATE", 0);
+
+		final boolean execStat = this.execStat;
+
+		String iterateId = "";
+
+		String currentComponent = "";
+		java.util.Map<String, Object> resourceMap = new java.util.HashMap<String, Object>();
+
+		try {
+			// TDI-39566 avoid throwing an useless Exception
+			boolean resumeIt = true;
+			if (globalResumeTicket == false && resumeEntryMethodName != null) {
+				String currentMethodName = new java.lang.Exception()
+						.getStackTrace()[0].getMethodName();
+				resumeIt = resumeEntryMethodName.equals(currentMethodName);
+			}
+			if (resumeIt || globalResumeTicket) { // start the resume
+				globalResumeTicket = true;
+
+				row2Struct row2 = new row2Struct();
+				integrationSexeStruct integrationSexe = new integrationSexeStruct();
+				integrationSexeStruct row7 = integrationSexe;
+
+				/**
+				 * [tDBOutput_2 begin ] start
+				 */
+
+				ok_Hash.put("tDBOutput_2", false);
+				start_Hash.put("tDBOutput_2", System.currentTimeMillis());
+
+				currentComponent = "tDBOutput_2";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("row7" + iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tDBOutput_2 = 0;
+
+				int nb_line_tDBOutput_2 = 0;
+				int nb_line_update_tDBOutput_2 = 0;
+				int nb_line_inserted_tDBOutput_2 = 0;
+				int nb_line_deleted_tDBOutput_2 = 0;
+				int nb_line_rejected_tDBOutput_2 = 0;
+
+				int deletedCount_tDBOutput_2 = 0;
+				int updatedCount_tDBOutput_2 = 0;
+				int insertedCount_tDBOutput_2 = 0;
+				int rejectedCount_tDBOutput_2 = 0;
+				String dbschema_tDBOutput_2 = null;
+				String tableName_tDBOutput_2 = null;
+				boolean whetherReject_tDBOutput_2 = false;
+
+				java.util.Calendar calendar_tDBOutput_2 = java.util.Calendar
+						.getInstance();
+				long year1_tDBOutput_2 = TalendDate.parseDate("yyyy-MM-dd",
+						"0001-01-01").getTime();
+				long year2_tDBOutput_2 = TalendDate.parseDate("yyyy-MM-dd",
+						"1753-01-01").getTime();
+				long year10000_tDBOutput_2 = TalendDate.parseDate(
+						"yyyy-MM-dd HH:mm:ss", "9999-12-31 24:00:00").getTime();
+				long date_tDBOutput_2;
+
+				java.util.Calendar calendar_datetimeoffset_tDBOutput_2 = java.util.Calendar
+						.getInstance(java.util.TimeZone.getTimeZone("UTC"));
+
+				java.sql.Connection conn_tDBOutput_2 = null;
+				String dbUser_tDBOutput_2 = null;
+				dbschema_tDBOutput_2 = "";
+				String driverClass_tDBOutput_2 = "net.sourceforge.jtds.jdbc.Driver";
+
+				java.lang.Class.forName(driverClass_tDBOutput_2);
+				String port_tDBOutput_2 = "52890";
+				String dbname_tDBOutput_2 = "PROJET_ENT";
+				String url_tDBOutput_2 = "jdbc:jtds:sqlserver://"
+						+ "desktop-4c70u1q";
+				if (!"".equals(port_tDBOutput_2)) {
+					url_tDBOutput_2 += ":" + "52890";
+				}
+				if (!"".equals(dbname_tDBOutput_2)) {
+					url_tDBOutput_2 += "//" + "PROJET_ENT";
+
+				}
+				url_tDBOutput_2 += ";appName=" + projectName + ";" + "";
+				dbUser_tDBOutput_2 = "sa";
+
+				final String decryptedPassword_tDBOutput_2 = routines.system.PasswordEncryptUtil
+						.decryptPassword("45c9c2d701725302");
+
+				String dbPwd_tDBOutput_2 = decryptedPassword_tDBOutput_2;
+				conn_tDBOutput_2 = java.sql.DriverManager.getConnection(
+						url_tDBOutput_2, dbUser_tDBOutput_2, dbPwd_tDBOutput_2);
+
+				resourceMap.put("conn_tDBOutput_2", conn_tDBOutput_2);
+
+				conn_tDBOutput_2.setAutoCommit(false);
+				int commitEvery_tDBOutput_2 = 10000;
+				int commitCounter_tDBOutput_2 = 0;
+
+				int batchSize_tDBOutput_2 = 10000;
+				int batchSizeCounter_tDBOutput_2 = 0;
+
+				if (dbschema_tDBOutput_2 == null
+						|| dbschema_tDBOutput_2.trim().length() == 0) {
+					tableName_tDBOutput_2 = "SEXE_DIM";
+				} else {
+					tableName_tDBOutput_2 = dbschema_tDBOutput_2 + "].["
+							+ "SEXE_DIM";
+				}
+				int count_tDBOutput_2 = 0;
+
+				String insert_tDBOutput_2 = "INSERT INTO ["
+						+ tableName_tDBOutput_2
+						+ "] ([libelle_sexe]) VALUES (?)";
+				java.sql.PreparedStatement pstmt_tDBOutput_2 = conn_tDBOutput_2
+						.prepareStatement(insert_tDBOutput_2);
+				resourceMap.put("pstmt_tDBOutput_2", pstmt_tDBOutput_2);
+
+				/**
+				 * [tDBOutput_2 begin ] stop
+				 */
+
+				/**
+				 * [tLogRow_3 begin ] start
+				 */
+
+				ok_Hash.put("tLogRow_3", false);
+				start_Hash.put("tLogRow_3", System.currentTimeMillis());
+
+				currentComponent = "tLogRow_3";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("integrationSexe"
+								+ iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tLogRow_3 = 0;
+
+				// /////////////////////
+
+				final String OUTPUT_FIELD_SEPARATOR_tLogRow_3 = "|";
+				java.io.PrintStream consoleOut_tLogRow_3 = null;
+
+				StringBuilder strBuffer_tLogRow_3 = null;
+				int nb_line_tLogRow_3 = 0;
+				// /////////////////////
+
+				/**
+				 * [tLogRow_3 begin ] stop
+				 */
+
+				/**
+				 * [tMap_2 begin ] start
+				 */
+
+				ok_Hash.put("tMap_2", false);
+				start_Hash.put("tMap_2", System.currentTimeMillis());
+
+				currentComponent = "tMap_2";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("row2" + iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tMap_2 = 0;
+
+				// ###############################
+				// # Lookup's keys initialization
+				// ###############################
+
+				// ###############################
+				// # Vars initialization
+				class Var__tMap_2__Struct {
+				}
+				Var__tMap_2__Struct Var__tMap_2 = new Var__tMap_2__Struct();
+				// ###############################
+
+				// ###############################
+				// # Outputs initialization
+				integrationSexeStruct integrationSexe_tmp = new integrationSexeStruct();
+				// ###############################
+
+				/**
+				 * [tMap_2 begin ] stop
+				 */
+
+				/**
+				 * [tFileInputExcel_1 begin ] start
+				 */
+
+				ok_Hash.put("tFileInputExcel_1", false);
+				start_Hash.put("tFileInputExcel_1", System.currentTimeMillis());
+
+				currentComponent = "tFileInputExcel_1";
+
+				int tos_count_tFileInputExcel_1 = 0;
+
+				class RegexUtil_tFileInputExcel_1 {
+
+					public java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(
+							org.apache.poi.xssf.usermodel.XSSFWorkbook workbook,
+							String oneSheetName, boolean useRegex) {
+
+						java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> list = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+
+						if (useRegex) {// this part process the regex issue
+
+							java.util.regex.Pattern pattern = java.util.regex.Pattern
+									.compile(oneSheetName);
+							for (org.apache.poi.ss.usermodel.Sheet sheet : workbook) {
+								String sheetName = sheet.getSheetName();
+								java.util.regex.Matcher matcher = pattern
+										.matcher(sheetName);
+								if (matcher.matches()) {
+									if (sheet != null) {
+										list.add((org.apache.poi.xssf.usermodel.XSSFSheet) sheet);
+									}
+								}
+							}
+
+						} else {
+							org.apache.poi.xssf.usermodel.XSSFSheet sheet = (org.apache.poi.xssf.usermodel.XSSFSheet) workbook
+									.getSheet(oneSheetName);
+							if (sheet != null) {
+								list.add(sheet);
+							}
+
+						}
+
+						return list;
+					}
+
+					public java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(
+							org.apache.poi.xssf.usermodel.XSSFWorkbook workbook,
+							int index, boolean useRegex) {
+						java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> list = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+						org.apache.poi.xssf.usermodel.XSSFSheet sheet = (org.apache.poi.xssf.usermodel.XSSFSheet) workbook
+								.getSheetAt(index);
+						if (sheet != null) {
+							list.add(sheet);
+						}
+						return list;
+					}
+
+				}
+				RegexUtil_tFileInputExcel_1 regexUtil_tFileInputExcel_1 = new RegexUtil_tFileInputExcel_1();
+
+				Object source_tFileInputExcel_1 = "C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/DIM - Excel/SEXE_DIM.xlsx";
+				org.apache.poi.xssf.usermodel.XSSFWorkbook workbook_tFileInputExcel_1 = null;
+
+				if (source_tFileInputExcel_1 instanceof String) {
+					workbook_tFileInputExcel_1 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
+							(String) source_tFileInputExcel_1);
+				} else if (source_tFileInputExcel_1 instanceof java.io.InputStream) {
+					workbook_tFileInputExcel_1 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
+							(java.io.InputStream) source_tFileInputExcel_1);
+				} else {
+					workbook_tFileInputExcel_1 = null;
+					throw new java.lang.Exception(
+							"The data source should be specified as Inputstream or File Path!");
+				}
+				try {
+
+					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_tFileInputExcel_1 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+					for (org.apache.poi.ss.usermodel.Sheet sheet_tFileInputExcel_1 : workbook_tFileInputExcel_1) {
+						sheetList_tFileInputExcel_1
+								.add((org.apache.poi.xssf.usermodel.XSSFSheet) sheet_tFileInputExcel_1);
+					}
+					if (sheetList_tFileInputExcel_1.size() <= 0) {
+						throw new RuntimeException("Special sheets not exist!");
+					}
+
+					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_FilterNull_tFileInputExcel_1 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+					for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_FilterNull_tFileInputExcel_1 : sheetList_tFileInputExcel_1) {
+						if (sheet_FilterNull_tFileInputExcel_1 != null
+								&& sheetList_FilterNull_tFileInputExcel_1
+										.iterator() != null
+								&& sheet_FilterNull_tFileInputExcel_1
+										.iterator().hasNext()) {
+							sheetList_FilterNull_tFileInputExcel_1
+									.add(sheet_FilterNull_tFileInputExcel_1);
+						}
+					}
+					sheetList_tFileInputExcel_1 = sheetList_FilterNull_tFileInputExcel_1;
+					if (sheetList_tFileInputExcel_1.size() > 0) {
+						int nb_line_tFileInputExcel_1 = 0;
+
+						int begin_line_tFileInputExcel_1 = 1;
+
+						int footer_input_tFileInputExcel_1 = 0;
+
+						int end_line_tFileInputExcel_1 = 0;
+						for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_1 : sheetList_tFileInputExcel_1) {
+							end_line_tFileInputExcel_1 += (sheet_tFileInputExcel_1
+									.getLastRowNum() + 1);
+						}
+						end_line_tFileInputExcel_1 -= footer_input_tFileInputExcel_1;
+						int limit_tFileInputExcel_1 = -1;
+						int start_column_tFileInputExcel_1 = 1 - 1;
+						int end_column_tFileInputExcel_1 = -1;
+
+						org.apache.poi.xssf.usermodel.XSSFRow row_tFileInputExcel_1 = null;
+						org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_1 = sheetList_tFileInputExcel_1
+								.get(0);
+						int rowCount_tFileInputExcel_1 = 0;
+						int sheetIndex_tFileInputExcel_1 = 0;
+						int currentRows_tFileInputExcel_1 = (sheetList_tFileInputExcel_1
+								.get(0).getLastRowNum() + 1);
+
+						// for the number format
+						java.text.DecimalFormat df_tFileInputExcel_1 = new java.text.DecimalFormat(
+								"#.####################################");
+						char decimalChar_tFileInputExcel_1 = df_tFileInputExcel_1
+								.getDecimalFormatSymbols()
+								.getDecimalSeparator();
+
+						for (int i_tFileInputExcel_1 = begin_line_tFileInputExcel_1; i_tFileInputExcel_1 < end_line_tFileInputExcel_1; i_tFileInputExcel_1++) {
+
+							int emptyColumnCount_tFileInputExcel_1 = 0;
+
+							if (limit_tFileInputExcel_1 != -1
+									&& nb_line_tFileInputExcel_1 >= limit_tFileInputExcel_1) {
+								break;
+							}
+
+							while (i_tFileInputExcel_1 >= rowCount_tFileInputExcel_1
+									+ currentRows_tFileInputExcel_1) {
+								rowCount_tFileInputExcel_1 += currentRows_tFileInputExcel_1;
+								sheet_tFileInputExcel_1 = sheetList_tFileInputExcel_1
+										.get(++sheetIndex_tFileInputExcel_1);
+								currentRows_tFileInputExcel_1 = (sheet_tFileInputExcel_1
+										.getLastRowNum() + 1);
+							}
+							globalMap.put("tFileInputExcel_1_CURRENT_SHEET",
+									sheet_tFileInputExcel_1.getSheetName());
+							if (rowCount_tFileInputExcel_1 <= i_tFileInputExcel_1) {
+								row_tFileInputExcel_1 = sheet_tFileInputExcel_1
+										.getRow(i_tFileInputExcel_1
+												- rowCount_tFileInputExcel_1);
+							}
+							row2 = null;
+							int tempRowLength_tFileInputExcel_1 = 2;
+
+							int columnIndex_tFileInputExcel_1 = 0;
+
+							String[] temp_row_tFileInputExcel_1 = new String[tempRowLength_tFileInputExcel_1];
+							int excel_end_column_tFileInputExcel_1;
+							if (row_tFileInputExcel_1 == null) {
+								excel_end_column_tFileInputExcel_1 = 0;
+							} else {
+								excel_end_column_tFileInputExcel_1 = row_tFileInputExcel_1
+										.getLastCellNum();
+							}
+							int actual_end_column_tFileInputExcel_1;
+							if (end_column_tFileInputExcel_1 == -1) {
+								actual_end_column_tFileInputExcel_1 = excel_end_column_tFileInputExcel_1;
+							} else {
+								actual_end_column_tFileInputExcel_1 = end_column_tFileInputExcel_1 > excel_end_column_tFileInputExcel_1 ? excel_end_column_tFileInputExcel_1
+										: end_column_tFileInputExcel_1;
+							}
+							org.apache.poi.ss.formula.eval.NumberEval ne_tFileInputExcel_1 = null;
+							for (int i = 0; i < tempRowLength_tFileInputExcel_1; i++) {
+								if (i + start_column_tFileInputExcel_1 < actual_end_column_tFileInputExcel_1) {
+									org.apache.poi.ss.usermodel.Cell cell_tFileInputExcel_1 = row_tFileInputExcel_1
+											.getCell(i
+													+ start_column_tFileInputExcel_1);
+									if (cell_tFileInputExcel_1 != null) {
+										switch (cell_tFileInputExcel_1
+												.getCellType()) {
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_STRING:
+											temp_row_tFileInputExcel_1[i] = cell_tFileInputExcel_1
+													.getRichStringCellValue()
+													.getString();
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC:
+											if (org.apache.poi.ss.usermodel.DateUtil
+													.isCellDateFormatted(cell_tFileInputExcel_1)) {
+												temp_row_tFileInputExcel_1[i] = cell_tFileInputExcel_1
+														.getDateCellValue()
+														.toString();
+											} else {
+												temp_row_tFileInputExcel_1[i] = df_tFileInputExcel_1
+														.format(cell_tFileInputExcel_1
+																.getNumericCellValue());
+											}
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_BOOLEAN:
+											temp_row_tFileInputExcel_1[i] = String
+													.valueOf(cell_tFileInputExcel_1
+															.getBooleanCellValue());
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_FORMULA:
+											switch (cell_tFileInputExcel_1
+													.getCachedFormulaResultType()) {
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_STRING:
+												temp_row_tFileInputExcel_1[i] = cell_tFileInputExcel_1
+														.getRichStringCellValue()
+														.getString();
+												break;
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC:
+												if (org.apache.poi.ss.usermodel.DateUtil
+														.isCellDateFormatted(cell_tFileInputExcel_1)) {
+													temp_row_tFileInputExcel_1[i] = cell_tFileInputExcel_1
+															.getDateCellValue()
+															.toString();
+												} else {
+													ne_tFileInputExcel_1 = new org.apache.poi.ss.formula.eval.NumberEval(
+															cell_tFileInputExcel_1
+																	.getNumericCellValue());
+													temp_row_tFileInputExcel_1[i] = ne_tFileInputExcel_1
+															.getStringValue();
+												}
+												break;
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_BOOLEAN:
+												temp_row_tFileInputExcel_1[i] = String
+														.valueOf(cell_tFileInputExcel_1
+																.getBooleanCellValue());
+												break;
+											default:
+												temp_row_tFileInputExcel_1[i] = "";
+											}
+											break;
+										default:
+											temp_row_tFileInputExcel_1[i] = "";
+										}
+									} else {
+										temp_row_tFileInputExcel_1[i] = "";
+									}
+
+								} else {
+									temp_row_tFileInputExcel_1[i] = "";
+								}
+							}
+							boolean whetherReject_tFileInputExcel_1 = false;
+							row2 = new row2Struct();
+							int curColNum_tFileInputExcel_1 = -1;
+							String curColName_tFileInputExcel_1 = "";
+							try {
+								columnIndex_tFileInputExcel_1 = 0;
+
+								if (temp_row_tFileInputExcel_1[columnIndex_tFileInputExcel_1]
+										.length() > 0) {
+									curColNum_tFileInputExcel_1 = columnIndex_tFileInputExcel_1
+											+ start_column_tFileInputExcel_1
+											+ 1;
+									curColName_tFileInputExcel_1 = "code_sexe";
+
+									row2.code_sexe = ParserUtils
+											.parseTo_Character(temp_row_tFileInputExcel_1[columnIndex_tFileInputExcel_1]);
+								} else {
+									row2.code_sexe = null;
+									emptyColumnCount_tFileInputExcel_1++;
+								}
+								columnIndex_tFileInputExcel_1 = 1;
+
+								if (temp_row_tFileInputExcel_1[columnIndex_tFileInputExcel_1]
+										.length() > 0) {
+									curColNum_tFileInputExcel_1 = columnIndex_tFileInputExcel_1
+											+ start_column_tFileInputExcel_1
+											+ 1;
+									curColName_tFileInputExcel_1 = "libelle_sexe";
+
+									row2.libelle_sexe = temp_row_tFileInputExcel_1[columnIndex_tFileInputExcel_1];
+								} else {
+									row2.libelle_sexe = null;
+									emptyColumnCount_tFileInputExcel_1++;
+								}
+
+								nb_line_tFileInputExcel_1++;
+
+							} catch (java.lang.Exception e) {
+								whetherReject_tFileInputExcel_1 = true;
+								System.err.println(e.getMessage());
+								row2 = null;
+							}
+
+							/**
+							 * [tFileInputExcel_1 begin ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_1 main ] start
+							 */
+
+							currentComponent = "tFileInputExcel_1";
+
+							tos_count_tFileInputExcel_1++;
+
+							/**
+							 * [tFileInputExcel_1 main ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_1 process_data_begin ] start
+							 */
+
+							currentComponent = "tFileInputExcel_1";
+
+							/**
+							 * [tFileInputExcel_1 process_data_begin ] stop
+							 */
+							// Start of branch "row2"
+							if (row2 != null) {
+
+								/**
+								 * [tMap_2 main ] start
+								 */
+
+								currentComponent = "tMap_2";
+
+								// row2
+								// row2
+
+								if (execStat) {
+									runStat.updateStatOnConnection("row2"
+											+ iterateId, 1, 1);
+								}
+
+								boolean hasCasePrimitiveKeyWithNull_tMap_2 = false;
+
+								// ###############################
+								// # Input tables (lookups)
+								boolean rejectedInnerJoin_tMap_2 = false;
+								boolean mainRowRejected_tMap_2 = false;
+
+								// ###############################
+								{ // start of Var scope
+
+									// ###############################
+									// # Vars tables
+
+									Var__tMap_2__Struct Var = Var__tMap_2;// ###############################
+									// ###############################
+									// # Output tables
+
+									integrationSexe = null;
+
+									// # Output table : 'integrationSexe'
+									integrationSexe_tmp.libelle_sexe = row2.libelle_sexe;
+									integrationSexe = integrationSexe_tmp;
+									// ###############################
+
+								} // end of Var scope
+
+								rejectedInnerJoin_tMap_2 = false;
+
+								tos_count_tMap_2++;
+
+								/**
+								 * [tMap_2 main ] stop
+								 */
+
+								/**
+								 * [tMap_2 process_data_begin ] start
+								 */
+
+								currentComponent = "tMap_2";
+
+								/**
+								 * [tMap_2 process_data_begin ] stop
+								 */
+								// Start of branch "integrationSexe"
+								if (integrationSexe != null) {
+
+									/**
+									 * [tLogRow_3 main ] start
+									 */
+
+									currentComponent = "tLogRow_3";
+
+									// integrationSexe
+									// integrationSexe
+
+									if (execStat) {
+										runStat.updateStatOnConnection(
+												"integrationSexe" + iterateId,
+												1, 1);
+									}
+
+									// /////////////////////
+
+									strBuffer_tLogRow_3 = new StringBuilder();
+
+									if (integrationSexe.libelle_sexe != null) { //
+
+										strBuffer_tLogRow_3
+												.append(String
+														.valueOf(integrationSexe.libelle_sexe));
+
+									} //
+
+									if (globalMap.get("tLogRow_CONSOLE") != null) {
+										consoleOut_tLogRow_3 = (java.io.PrintStream) globalMap
+												.get("tLogRow_CONSOLE");
+									} else {
+										consoleOut_tLogRow_3 = new java.io.PrintStream(
+												new java.io.BufferedOutputStream(
+														System.out));
+										globalMap.put("tLogRow_CONSOLE",
+												consoleOut_tLogRow_3);
+									}
+									consoleOut_tLogRow_3
+											.println(strBuffer_tLogRow_3
+													.toString());
+									consoleOut_tLogRow_3.flush();
+									nb_line_tLogRow_3++;
+									// ////
+
+									// ////
+
+									// /////////////////////
+
+									row7 = integrationSexe;
+
+									tos_count_tLogRow_3++;
+
+									/**
+									 * [tLogRow_3 main ] stop
+									 */
+
+									/**
+									 * [tLogRow_3 process_data_begin ] start
+									 */
+
+									currentComponent = "tLogRow_3";
+
+									/**
+									 * [tLogRow_3 process_data_begin ] stop
+									 */
+
+									/**
+									 * [tDBOutput_2 main ] start
+									 */
+
+									currentComponent = "tDBOutput_2";
+
+									// row7
+									// row7
+
+									if (execStat) {
+										runStat.updateStatOnConnection("row7"
+												+ iterateId, 1, 1);
+									}
+
+									whetherReject_tDBOutput_2 = false;
+									if (row7.libelle_sexe == null) {
+										pstmt_tDBOutput_2.setNull(1,
+												java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_2.setString(1,
+												row7.libelle_sexe);
+									}
+
+									pstmt_tDBOutput_2.addBatch();
+									nb_line_tDBOutput_2++;
+
+									batchSizeCounter_tDBOutput_2++;
+
+									// ////////batch execute by batch
+									// size///////
+									class LimitBytesHelper_tDBOutput_2 {
+										public int limitBytePart1(
+												int counter,
+												java.sql.PreparedStatement pstmt_tDBOutput_2)
+												throws Exception {
+											try {
+
+												for (int countEach_tDBOutput_2 : pstmt_tDBOutput_2
+														.executeBatch()) {
+													if (countEach_tDBOutput_2 == -2
+															|| countEach_tDBOutput_2 == -3) {
+														break;
+													}
+													counter += countEach_tDBOutput_2;
+												}
+
+											} catch (java.sql.BatchUpdateException e) {
+
+												int countSum_tDBOutput_2 = 0;
+												for (int countEach_tDBOutput_2 : e
+														.getUpdateCounts()) {
+													counter += (countEach_tDBOutput_2 < 0 ? 0
+															: countEach_tDBOutput_2);
+												}
+
+												System.err.println(e
+														.getMessage());
+
+											}
+											return counter;
+										}
+
+										public int limitBytePart2(
+												int counter,
+												java.sql.PreparedStatement pstmt_tDBOutput_2)
+												throws Exception {
+											try {
+
+												for (int countEach_tDBOutput_2 : pstmt_tDBOutput_2
+														.executeBatch()) {
+													if (countEach_tDBOutput_2 == -2
+															|| countEach_tDBOutput_2 == -3) {
+														break;
+													}
+													counter += countEach_tDBOutput_2;
+												}
+
+											} catch (java.sql.BatchUpdateException e) {
+
+												for (int countEach_tDBOutput_2 : e
+														.getUpdateCounts()) {
+													counter += (countEach_tDBOutput_2 < 0 ? 0
+															: countEach_tDBOutput_2);
+												}
+
+												System.err.println(e
+														.getMessage());
+
+											}
+											return counter;
+										}
+									}
+									if ((batchSize_tDBOutput_2 > 0)
+											&& (batchSize_tDBOutput_2 <= batchSizeCounter_tDBOutput_2)) {
+
+										insertedCount_tDBOutput_2 = new LimitBytesHelper_tDBOutput_2()
+												.limitBytePart1(
+														insertedCount_tDBOutput_2,
+														pstmt_tDBOutput_2);
+
+										batchSizeCounter_tDBOutput_2 = 0;
+									}
+
+									// //////////commit every////////////
+
+									commitCounter_tDBOutput_2++;
+									if (commitEvery_tDBOutput_2 <= commitCounter_tDBOutput_2) {
+										if ((batchSize_tDBOutput_2 > 0)
+												&& (batchSizeCounter_tDBOutput_2 > 0)) {
+
+											insertedCount_tDBOutput_2 = new LimitBytesHelper_tDBOutput_2()
+													.limitBytePart1(
+															insertedCount_tDBOutput_2,
+															pstmt_tDBOutput_2);
+
+											batchSizeCounter_tDBOutput_2 = 0;
+										}
+
+										conn_tDBOutput_2.commit();
+
+										commitCounter_tDBOutput_2 = 0;
+									}
+
+									tos_count_tDBOutput_2++;
+
+									/**
+									 * [tDBOutput_2 main ] stop
+									 */
+
+									/**
+									 * [tDBOutput_2 process_data_begin ] start
+									 */
+
+									currentComponent = "tDBOutput_2";
+
+									/**
+									 * [tDBOutput_2 process_data_begin ] stop
+									 */
+
+									/**
+									 * [tDBOutput_2 process_data_end ] start
+									 */
+
+									currentComponent = "tDBOutput_2";
+
+									/**
+									 * [tDBOutput_2 process_data_end ] stop
+									 */
+
+									/**
+									 * [tLogRow_3 process_data_end ] start
+									 */
+
+									currentComponent = "tLogRow_3";
+
+									/**
+									 * [tLogRow_3 process_data_end ] stop
+									 */
+
+								} // End of branch "integrationSexe"
+
+								/**
+								 * [tMap_2 process_data_end ] start
+								 */
+
+								currentComponent = "tMap_2";
+
+								/**
+								 * [tMap_2 process_data_end ] stop
+								 */
+
+							} // End of branch "row2"
+
+							/**
+							 * [tFileInputExcel_1 process_data_end ] start
+							 */
+
+							currentComponent = "tFileInputExcel_1";
+
+							/**
+							 * [tFileInputExcel_1 process_data_end ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_1 end ] start
+							 */
+
+							currentComponent = "tFileInputExcel_1";
+
+						}
+
+						globalMap.put("tFileInputExcel_1_NB_LINE",
+								nb_line_tFileInputExcel_1);
+
+					}
+
+				} finally {
+
+					if (!(source_tFileInputExcel_1 instanceof java.io.InputStream)) {
+						workbook_tFileInputExcel_1.getPackage().revert();
+					}
+
+				}
+
+				ok_Hash.put("tFileInputExcel_1", true);
+				end_Hash.put("tFileInputExcel_1", System.currentTimeMillis());
+
+				/**
+				 * [tFileInputExcel_1 end ] stop
+				 */
+
+				/**
+				 * [tMap_2 end ] start
+				 */
+
+				currentComponent = "tMap_2";
+
+				// ###############################
+				// # Lookup hashes releasing
+				// ###############################
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row2" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tMap_2", true);
+				end_Hash.put("tMap_2", System.currentTimeMillis());
+
+				/**
+				 * [tMap_2 end ] stop
+				 */
+
+				/**
+				 * [tLogRow_3 end ] start
+				 */
+
+				currentComponent = "tLogRow_3";
+
+				// ////
+				// ////
+				globalMap.put("tLogRow_3_NB_LINE", nb_line_tLogRow_3);
+
+				// /////////////////////
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("integrationSexe"
+								+ iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tLogRow_3", true);
+				end_Hash.put("tLogRow_3", System.currentTimeMillis());
+
+				/**
+				 * [tLogRow_3 end ] stop
+				 */
+
+				/**
+				 * [tDBOutput_2 end ] start
+				 */
+
+				currentComponent = "tDBOutput_2";
+
+				try {
+					int countSum_tDBOutput_2 = 0;
+					if (pstmt_tDBOutput_2 != null
+							&& batchSizeCounter_tDBOutput_2 > 0) {
+
+						for (int countEach_tDBOutput_2 : pstmt_tDBOutput_2
+								.executeBatch()) {
+							if (countEach_tDBOutput_2 == -2
+									|| countEach_tDBOutput_2 == -3) {
+								break;
+							}
+							countSum_tDBOutput_2 += countEach_tDBOutput_2;
+						}
+
+					}
+
+					insertedCount_tDBOutput_2 += countSum_tDBOutput_2;
+
+				} catch (java.sql.BatchUpdateException e) {
+
+					int countSum_tDBOutput_2 = 0;
+					for (int countEach_tDBOutput_2 : e.getUpdateCounts()) {
+						countSum_tDBOutput_2 += (countEach_tDBOutput_2 < 0 ? 0
+								: countEach_tDBOutput_2);
+					}
+
+					insertedCount_tDBOutput_2 += countSum_tDBOutput_2;
+
+					System.err.println(e.getMessage());
+
+				}
+				if (pstmt_tDBOutput_2 != null) {
+
+					pstmt_tDBOutput_2.close();
+					resourceMap.remove("pstmt_tDBOutput_2");
+
+				}
+				resourceMap.put("statementClosed_tDBOutput_2", true);
+				conn_tDBOutput_2.commit();
+
+				conn_tDBOutput_2.close();
+				resourceMap.put("finish_tDBOutput_2", true);
+
+				nb_line_deleted_tDBOutput_2 = nb_line_deleted_tDBOutput_2
+						+ deletedCount_tDBOutput_2;
+				nb_line_update_tDBOutput_2 = nb_line_update_tDBOutput_2
+						+ updatedCount_tDBOutput_2;
+				nb_line_inserted_tDBOutput_2 = nb_line_inserted_tDBOutput_2
+						+ insertedCount_tDBOutput_2;
+				nb_line_rejected_tDBOutput_2 = nb_line_rejected_tDBOutput_2
+						+ rejectedCount_tDBOutput_2;
+
+				globalMap.put("tDBOutput_2_NB_LINE", nb_line_tDBOutput_2);
+				globalMap.put("tDBOutput_2_NB_LINE_UPDATED",
+						nb_line_update_tDBOutput_2);
+				globalMap.put("tDBOutput_2_NB_LINE_INSERTED",
+						nb_line_inserted_tDBOutput_2);
+				globalMap.put("tDBOutput_2_NB_LINE_DELETED",
+						nb_line_deleted_tDBOutput_2);
+				globalMap.put("tDBOutput_2_NB_LINE_REJECTED",
+						nb_line_rejected_tDBOutput_2);
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row7" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tDBOutput_2", true);
+				end_Hash.put("tDBOutput_2", System.currentTimeMillis());
+
+				/**
+				 * [tDBOutput_2 end ] stop
+				 */
+
+			}// end the resume
+
+		} catch (java.lang.Exception e) {
+
+			TalendException te = new TalendException(e, currentComponent,
+					globalMap);
+
+			throw te;
+		} catch (java.lang.Error error) {
+
+			runStat.stopThreadStat();
+
+			throw error;
+		} finally {
+
+			try {
+
+				/**
+				 * [tFileInputExcel_1 finally ] start
+				 */
+
+				currentComponent = "tFileInputExcel_1";
+
+				/**
+				 * [tFileInputExcel_1 finally ] stop
+				 */
+
+				/**
+				 * [tMap_2 finally ] start
+				 */
+
+				currentComponent = "tMap_2";
+
+				/**
+				 * [tMap_2 finally ] stop
+				 */
+
+				/**
+				 * [tLogRow_3 finally ] start
+				 */
+
+				currentComponent = "tLogRow_3";
+
+				/**
+				 * [tLogRow_3 finally ] stop
+				 */
+
+				/**
+				 * [tDBOutput_2 finally ] start
+				 */
+
+				currentComponent = "tDBOutput_2";
+
+				try {
+					if (resourceMap.get("statementClosed_tDBOutput_2") == null) {
+						java.sql.PreparedStatement pstmtToClose_tDBOutput_2 = null;
+						if ((pstmtToClose_tDBOutput_2 = (java.sql.PreparedStatement) resourceMap
+								.remove("pstmt_tDBOutput_2")) != null) {
+							pstmtToClose_tDBOutput_2.close();
+						}
+					}
+				} finally {
+					if (resourceMap.get("finish_tDBOutput_2") == null) {
+						java.sql.Connection ctn_tDBOutput_2 = null;
+						if ((ctn_tDBOutput_2 = (java.sql.Connection) resourceMap
+								.get("conn_tDBOutput_2")) != null) {
+							try {
+								ctn_tDBOutput_2.close();
+							} catch (java.sql.SQLException sqlEx_tDBOutput_2) {
+								String errorMessage_tDBOutput_2 = "failed to close the connection in tDBOutput_2 :"
+										+ sqlEx_tDBOutput_2.getMessage();
+								System.err.println(errorMessage_tDBOutput_2);
+							}
+						}
+					}
+				}
+
+				/**
+				 * [tDBOutput_2 finally ] stop
+				 */
+
+			} catch (java.lang.Exception e) {
+				// ignore
+			} catch (java.lang.Error error) {
+				// ignore
+			}
+			resourceMap = null;
+		}
+
+		globalMap.put("tFileInputExcel_1_SUBPROCESS_STATE", 1);
+	}
+
+	public static class row8Struct implements
+			routines.system.IPersistableRow<row8Struct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String libelle_taille_entreprise;
+
+		public String getLibelle_taille_entreprise() {
+			return this.libelle_taille_entreprise;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.libelle_taille_entreprise = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.libelle_taille_entreprise, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("libelle_taille_entreprise=" + libelle_taille_entreprise);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row8Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class integrationTailleEntrepriseStruct implements
+			routines.system.IPersistableRow<integrationTailleEntrepriseStruct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String libelle_taille_entreprise;
+
+		public String getLibelle_taille_entreprise() {
+			return this.libelle_taille_entreprise;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.libelle_taille_entreprise = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.libelle_taille_entreprise, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("libelle_taille_entreprise=" + libelle_taille_entreprise);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(integrationTailleEntrepriseStruct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class row3Struct implements
+			routines.system.IPersistableRow<row3Struct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String code_taille_entreprise;
+
+		public String getCode_taille_entreprise() {
+			return this.code_taille_entreprise;
+		}
+
+		public String libelle_taille_entreprise;
+
+		public String getLibelle_taille_entreprise() {
+			return this.libelle_taille_entreprise;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.code_taille_entreprise = readString(dis);
+
+					this.libelle_taille_entreprise = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.code_taille_entreprise, dos);
+
+				// String
+
+				writeString(this.libelle_taille_entreprise, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("code_taille_entreprise=" + code_taille_entreprise);
+			sb.append(",libelle_taille_entreprise=" + libelle_taille_entreprise);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row3Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public void tFileInputExcel_2Process(
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+		globalMap.put("tFileInputExcel_2_SUBPROCESS_STATE", 0);
+
+		final boolean execStat = this.execStat;
+
+		String iterateId = "";
+
+		String currentComponent = "";
+		java.util.Map<String, Object> resourceMap = new java.util.HashMap<String, Object>();
+
+		try {
+			// TDI-39566 avoid throwing an useless Exception
+			boolean resumeIt = true;
+			if (globalResumeTicket == false && resumeEntryMethodName != null) {
+				String currentMethodName = new java.lang.Exception()
+						.getStackTrace()[0].getMethodName();
+				resumeIt = resumeEntryMethodName.equals(currentMethodName);
+			}
+			if (resumeIt || globalResumeTicket) { // start the resume
+				globalResumeTicket = true;
+
+				row3Struct row3 = new row3Struct();
+				integrationTailleEntrepriseStruct integrationTailleEntreprise = new integrationTailleEntrepriseStruct();
+				integrationTailleEntrepriseStruct row8 = integrationTailleEntreprise;
+
+				/**
+				 * [tDBOutput_3 begin ] start
+				 */
+
+				ok_Hash.put("tDBOutput_3", false);
+				start_Hash.put("tDBOutput_3", System.currentTimeMillis());
+
+				currentComponent = "tDBOutput_3";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("row8" + iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tDBOutput_3 = 0;
+
+				int nb_line_tDBOutput_3 = 0;
+				int nb_line_update_tDBOutput_3 = 0;
+				int nb_line_inserted_tDBOutput_3 = 0;
+				int nb_line_deleted_tDBOutput_3 = 0;
+				int nb_line_rejected_tDBOutput_3 = 0;
+
+				int deletedCount_tDBOutput_3 = 0;
+				int updatedCount_tDBOutput_3 = 0;
+				int insertedCount_tDBOutput_3 = 0;
+				int rejectedCount_tDBOutput_3 = 0;
+				String dbschema_tDBOutput_3 = null;
+				String tableName_tDBOutput_3 = null;
+				boolean whetherReject_tDBOutput_3 = false;
+
+				java.util.Calendar calendar_tDBOutput_3 = java.util.Calendar
+						.getInstance();
+				long year1_tDBOutput_3 = TalendDate.parseDate("yyyy-MM-dd",
+						"0001-01-01").getTime();
+				long year2_tDBOutput_3 = TalendDate.parseDate("yyyy-MM-dd",
+						"1753-01-01").getTime();
+				long year10000_tDBOutput_3 = TalendDate.parseDate(
+						"yyyy-MM-dd HH:mm:ss", "9999-12-31 24:00:00").getTime();
+				long date_tDBOutput_3;
+
+				java.util.Calendar calendar_datetimeoffset_tDBOutput_3 = java.util.Calendar
+						.getInstance(java.util.TimeZone.getTimeZone("UTC"));
+
+				java.sql.Connection conn_tDBOutput_3 = null;
+				String dbUser_tDBOutput_3 = null;
+				dbschema_tDBOutput_3 = "";
+				String driverClass_tDBOutput_3 = "net.sourceforge.jtds.jdbc.Driver";
+
+				java.lang.Class.forName(driverClass_tDBOutput_3);
+				String port_tDBOutput_3 = "52890";
+				String dbname_tDBOutput_3 = "PROJET_ENT";
+				String url_tDBOutput_3 = "jdbc:jtds:sqlserver://"
+						+ "desktop-4c70u1q";
+				if (!"".equals(port_tDBOutput_3)) {
+					url_tDBOutput_3 += ":" + "52890";
+				}
+				if (!"".equals(dbname_tDBOutput_3)) {
+					url_tDBOutput_3 += "//" + "PROJET_ENT";
+
+				}
+				url_tDBOutput_3 += ";appName=" + projectName + ";" + "";
+				dbUser_tDBOutput_3 = "sa";
+
+				final String decryptedPassword_tDBOutput_3 = routines.system.PasswordEncryptUtil
+						.decryptPassword("45c9c2d701725302");
+
+				String dbPwd_tDBOutput_3 = decryptedPassword_tDBOutput_3;
+				conn_tDBOutput_3 = java.sql.DriverManager.getConnection(
+						url_tDBOutput_3, dbUser_tDBOutput_3, dbPwd_tDBOutput_3);
+
+				resourceMap.put("conn_tDBOutput_3", conn_tDBOutput_3);
+
+				conn_tDBOutput_3.setAutoCommit(false);
+				int commitEvery_tDBOutput_3 = 10000;
+				int commitCounter_tDBOutput_3 = 0;
+
+				int batchSize_tDBOutput_3 = 10000;
+				int batchSizeCounter_tDBOutput_3 = 0;
+
+				if (dbschema_tDBOutput_3 == null
+						|| dbschema_tDBOutput_3.trim().length() == 0) {
+					tableName_tDBOutput_3 = "TAILLE_ENTREPRISE_DIM";
+				} else {
+					tableName_tDBOutput_3 = dbschema_tDBOutput_3 + "].["
+							+ "TAILLE_ENTREPRISE_DIM";
+				}
+				int count_tDBOutput_3 = 0;
+
+				String insert_tDBOutput_3 = "INSERT INTO ["
+						+ tableName_tDBOutput_3
+						+ "] ([libelle_taille_entreprise]) VALUES (?)";
+				java.sql.PreparedStatement pstmt_tDBOutput_3 = conn_tDBOutput_3
+						.prepareStatement(insert_tDBOutput_3);
+				resourceMap.put("pstmt_tDBOutput_3", pstmt_tDBOutput_3);
+
+				/**
+				 * [tDBOutput_3 begin ] stop
+				 */
+
+				/**
+				 * [tLogRow_4 begin ] start
+				 */
+
+				ok_Hash.put("tLogRow_4", false);
+				start_Hash.put("tLogRow_4", System.currentTimeMillis());
+
+				currentComponent = "tLogRow_4";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection(
+								"integrationTailleEntreprise" + iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tLogRow_4 = 0;
+
+				// /////////////////////
+
+				final String OUTPUT_FIELD_SEPARATOR_tLogRow_4 = "|";
+				java.io.PrintStream consoleOut_tLogRow_4 = null;
+
+				StringBuilder strBuffer_tLogRow_4 = null;
+				int nb_line_tLogRow_4 = 0;
+				// /////////////////////
+
+				/**
+				 * [tLogRow_4 begin ] stop
+				 */
+
+				/**
+				 * [tMap_3 begin ] start
+				 */
+
+				ok_Hash.put("tMap_3", false);
+				start_Hash.put("tMap_3", System.currentTimeMillis());
+
+				currentComponent = "tMap_3";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("row3" + iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tMap_3 = 0;
+
+				// ###############################
+				// # Lookup's keys initialization
+				// ###############################
+
+				// ###############################
+				// # Vars initialization
+				class Var__tMap_3__Struct {
+				}
+				Var__tMap_3__Struct Var__tMap_3 = new Var__tMap_3__Struct();
+				// ###############################
+
+				// ###############################
+				// # Outputs initialization
+				integrationTailleEntrepriseStruct integrationTailleEntreprise_tmp = new integrationTailleEntrepriseStruct();
+				// ###############################
+
+				/**
+				 * [tMap_3 begin ] stop
+				 */
+
+				/**
+				 * [tFileInputExcel_2 begin ] start
+				 */
+
+				ok_Hash.put("tFileInputExcel_2", false);
+				start_Hash.put("tFileInputExcel_2", System.currentTimeMillis());
+
+				currentComponent = "tFileInputExcel_2";
+
+				int tos_count_tFileInputExcel_2 = 0;
+
+				class RegexUtil_tFileInputExcel_2 {
+
+					public java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(
+							org.apache.poi.xssf.usermodel.XSSFWorkbook workbook,
+							String oneSheetName, boolean useRegex) {
+
+						java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> list = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+
+						if (useRegex) {// this part process the regex issue
+
+							java.util.regex.Pattern pattern = java.util.regex.Pattern
+									.compile(oneSheetName);
+							for (org.apache.poi.ss.usermodel.Sheet sheet : workbook) {
+								String sheetName = sheet.getSheetName();
+								java.util.regex.Matcher matcher = pattern
+										.matcher(sheetName);
+								if (matcher.matches()) {
+									if (sheet != null) {
+										list.add((org.apache.poi.xssf.usermodel.XSSFSheet) sheet);
+									}
+								}
+							}
+
+						} else {
+							org.apache.poi.xssf.usermodel.XSSFSheet sheet = (org.apache.poi.xssf.usermodel.XSSFSheet) workbook
+									.getSheet(oneSheetName);
+							if (sheet != null) {
+								list.add(sheet);
+							}
+
+						}
+
+						return list;
+					}
+
+					public java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(
+							org.apache.poi.xssf.usermodel.XSSFWorkbook workbook,
+							int index, boolean useRegex) {
+						java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> list = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+						org.apache.poi.xssf.usermodel.XSSFSheet sheet = (org.apache.poi.xssf.usermodel.XSSFSheet) workbook
+								.getSheetAt(index);
+						if (sheet != null) {
+							list.add(sheet);
+						}
+						return list;
+					}
+
+				}
+				RegexUtil_tFileInputExcel_2 regexUtil_tFileInputExcel_2 = new RegexUtil_tFileInputExcel_2();
+
+				Object source_tFileInputExcel_2 = "C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/DIM - Excel/TAILLE_ENTREPRISE_DIM.xlsx";
+				org.apache.poi.xssf.usermodel.XSSFWorkbook workbook_tFileInputExcel_2 = null;
+
+				if (source_tFileInputExcel_2 instanceof String) {
+					workbook_tFileInputExcel_2 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
+							(String) source_tFileInputExcel_2);
+				} else if (source_tFileInputExcel_2 instanceof java.io.InputStream) {
+					workbook_tFileInputExcel_2 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
+							(java.io.InputStream) source_tFileInputExcel_2);
+				} else {
+					workbook_tFileInputExcel_2 = null;
+					throw new java.lang.Exception(
+							"The data source should be specified as Inputstream or File Path!");
+				}
+				try {
+
+					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_tFileInputExcel_2 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+					for (org.apache.poi.ss.usermodel.Sheet sheet_tFileInputExcel_2 : workbook_tFileInputExcel_2) {
+						sheetList_tFileInputExcel_2
+								.add((org.apache.poi.xssf.usermodel.XSSFSheet) sheet_tFileInputExcel_2);
+					}
+					if (sheetList_tFileInputExcel_2.size() <= 0) {
+						throw new RuntimeException("Special sheets not exist!");
+					}
+
+					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_FilterNull_tFileInputExcel_2 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+					for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_FilterNull_tFileInputExcel_2 : sheetList_tFileInputExcel_2) {
+						if (sheet_FilterNull_tFileInputExcel_2 != null
+								&& sheetList_FilterNull_tFileInputExcel_2
+										.iterator() != null
+								&& sheet_FilterNull_tFileInputExcel_2
+										.iterator().hasNext()) {
+							sheetList_FilterNull_tFileInputExcel_2
+									.add(sheet_FilterNull_tFileInputExcel_2);
+						}
+					}
+					sheetList_tFileInputExcel_2 = sheetList_FilterNull_tFileInputExcel_2;
+					if (sheetList_tFileInputExcel_2.size() > 0) {
+						int nb_line_tFileInputExcel_2 = 0;
+
+						int begin_line_tFileInputExcel_2 = 1;
+
+						int footer_input_tFileInputExcel_2 = 0;
+
+						int end_line_tFileInputExcel_2 = 0;
+						for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_2 : sheetList_tFileInputExcel_2) {
+							end_line_tFileInputExcel_2 += (sheet_tFileInputExcel_2
+									.getLastRowNum() + 1);
+						}
+						end_line_tFileInputExcel_2 -= footer_input_tFileInputExcel_2;
+						int limit_tFileInputExcel_2 = -1;
+						int start_column_tFileInputExcel_2 = 1 - 1;
+						int end_column_tFileInputExcel_2 = -1;
+
+						org.apache.poi.xssf.usermodel.XSSFRow row_tFileInputExcel_2 = null;
+						org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_2 = sheetList_tFileInputExcel_2
+								.get(0);
+						int rowCount_tFileInputExcel_2 = 0;
+						int sheetIndex_tFileInputExcel_2 = 0;
+						int currentRows_tFileInputExcel_2 = (sheetList_tFileInputExcel_2
+								.get(0).getLastRowNum() + 1);
+
+						// for the number format
+						java.text.DecimalFormat df_tFileInputExcel_2 = new java.text.DecimalFormat(
+								"#.####################################");
+						char decimalChar_tFileInputExcel_2 = df_tFileInputExcel_2
+								.getDecimalFormatSymbols()
+								.getDecimalSeparator();
+
+						for (int i_tFileInputExcel_2 = begin_line_tFileInputExcel_2; i_tFileInputExcel_2 < end_line_tFileInputExcel_2; i_tFileInputExcel_2++) {
+
+							int emptyColumnCount_tFileInputExcel_2 = 0;
+
+							if (limit_tFileInputExcel_2 != -1
+									&& nb_line_tFileInputExcel_2 >= limit_tFileInputExcel_2) {
+								break;
+							}
+
+							while (i_tFileInputExcel_2 >= rowCount_tFileInputExcel_2
+									+ currentRows_tFileInputExcel_2) {
+								rowCount_tFileInputExcel_2 += currentRows_tFileInputExcel_2;
+								sheet_tFileInputExcel_2 = sheetList_tFileInputExcel_2
+										.get(++sheetIndex_tFileInputExcel_2);
+								currentRows_tFileInputExcel_2 = (sheet_tFileInputExcel_2
+										.getLastRowNum() + 1);
+							}
+							globalMap.put("tFileInputExcel_2_CURRENT_SHEET",
+									sheet_tFileInputExcel_2.getSheetName());
+							if (rowCount_tFileInputExcel_2 <= i_tFileInputExcel_2) {
+								row_tFileInputExcel_2 = sheet_tFileInputExcel_2
+										.getRow(i_tFileInputExcel_2
+												- rowCount_tFileInputExcel_2);
+							}
+							row3 = null;
+							int tempRowLength_tFileInputExcel_2 = 2;
+
+							int columnIndex_tFileInputExcel_2 = 0;
+
+							String[] temp_row_tFileInputExcel_2 = new String[tempRowLength_tFileInputExcel_2];
+							int excel_end_column_tFileInputExcel_2;
+							if (row_tFileInputExcel_2 == null) {
+								excel_end_column_tFileInputExcel_2 = 0;
+							} else {
+								excel_end_column_tFileInputExcel_2 = row_tFileInputExcel_2
+										.getLastCellNum();
+							}
+							int actual_end_column_tFileInputExcel_2;
+							if (end_column_tFileInputExcel_2 == -1) {
+								actual_end_column_tFileInputExcel_2 = excel_end_column_tFileInputExcel_2;
+							} else {
+								actual_end_column_tFileInputExcel_2 = end_column_tFileInputExcel_2 > excel_end_column_tFileInputExcel_2 ? excel_end_column_tFileInputExcel_2
+										: end_column_tFileInputExcel_2;
+							}
+							org.apache.poi.ss.formula.eval.NumberEval ne_tFileInputExcel_2 = null;
+							for (int i = 0; i < tempRowLength_tFileInputExcel_2; i++) {
+								if (i + start_column_tFileInputExcel_2 < actual_end_column_tFileInputExcel_2) {
+									org.apache.poi.ss.usermodel.Cell cell_tFileInputExcel_2 = row_tFileInputExcel_2
+											.getCell(i
+													+ start_column_tFileInputExcel_2);
+									if (cell_tFileInputExcel_2 != null) {
+										switch (cell_tFileInputExcel_2
+												.getCellType()) {
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_STRING:
+											temp_row_tFileInputExcel_2[i] = cell_tFileInputExcel_2
+													.getRichStringCellValue()
+													.getString();
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC:
+											if (org.apache.poi.ss.usermodel.DateUtil
+													.isCellDateFormatted(cell_tFileInputExcel_2)) {
+												temp_row_tFileInputExcel_2[i] = cell_tFileInputExcel_2
+														.getDateCellValue()
+														.toString();
+											} else {
+												temp_row_tFileInputExcel_2[i] = df_tFileInputExcel_2
+														.format(cell_tFileInputExcel_2
+																.getNumericCellValue());
+											}
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_BOOLEAN:
+											temp_row_tFileInputExcel_2[i] = String
+													.valueOf(cell_tFileInputExcel_2
+															.getBooleanCellValue());
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_FORMULA:
+											switch (cell_tFileInputExcel_2
+													.getCachedFormulaResultType()) {
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_STRING:
+												temp_row_tFileInputExcel_2[i] = cell_tFileInputExcel_2
+														.getRichStringCellValue()
+														.getString();
+												break;
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC:
+												if (org.apache.poi.ss.usermodel.DateUtil
+														.isCellDateFormatted(cell_tFileInputExcel_2)) {
+													temp_row_tFileInputExcel_2[i] = cell_tFileInputExcel_2
+															.getDateCellValue()
+															.toString();
+												} else {
+													ne_tFileInputExcel_2 = new org.apache.poi.ss.formula.eval.NumberEval(
+															cell_tFileInputExcel_2
+																	.getNumericCellValue());
+													temp_row_tFileInputExcel_2[i] = ne_tFileInputExcel_2
+															.getStringValue();
+												}
+												break;
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_BOOLEAN:
+												temp_row_tFileInputExcel_2[i] = String
+														.valueOf(cell_tFileInputExcel_2
+																.getBooleanCellValue());
+												break;
+											default:
+												temp_row_tFileInputExcel_2[i] = "";
+											}
+											break;
+										default:
+											temp_row_tFileInputExcel_2[i] = "";
+										}
+									} else {
+										temp_row_tFileInputExcel_2[i] = "";
+									}
+
+								} else {
+									temp_row_tFileInputExcel_2[i] = "";
+								}
+							}
+							boolean whetherReject_tFileInputExcel_2 = false;
+							row3 = new row3Struct();
+							int curColNum_tFileInputExcel_2 = -1;
+							String curColName_tFileInputExcel_2 = "";
+							try {
+								columnIndex_tFileInputExcel_2 = 0;
+
+								if (temp_row_tFileInputExcel_2[columnIndex_tFileInputExcel_2]
+										.length() > 0) {
+									curColNum_tFileInputExcel_2 = columnIndex_tFileInputExcel_2
+											+ start_column_tFileInputExcel_2
+											+ 1;
+									curColName_tFileInputExcel_2 = "code_taille_entreprise";
+
+									row3.code_taille_entreprise = temp_row_tFileInputExcel_2[columnIndex_tFileInputExcel_2];
+								} else {
+									row3.code_taille_entreprise = null;
+									emptyColumnCount_tFileInputExcel_2++;
+								}
+								columnIndex_tFileInputExcel_2 = 1;
+
+								if (temp_row_tFileInputExcel_2[columnIndex_tFileInputExcel_2]
+										.length() > 0) {
+									curColNum_tFileInputExcel_2 = columnIndex_tFileInputExcel_2
+											+ start_column_tFileInputExcel_2
+											+ 1;
+									curColName_tFileInputExcel_2 = "libelle_taille_entreprise";
+
+									row3.libelle_taille_entreprise = temp_row_tFileInputExcel_2[columnIndex_tFileInputExcel_2];
+								} else {
+									row3.libelle_taille_entreprise = null;
+									emptyColumnCount_tFileInputExcel_2++;
+								}
+
+								nb_line_tFileInputExcel_2++;
+
+							} catch (java.lang.Exception e) {
+								whetherReject_tFileInputExcel_2 = true;
+								System.err.println(e.getMessage());
+								row3 = null;
+							}
+
+							/**
+							 * [tFileInputExcel_2 begin ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_2 main ] start
+							 */
+
+							currentComponent = "tFileInputExcel_2";
+
+							tos_count_tFileInputExcel_2++;
+
+							/**
+							 * [tFileInputExcel_2 main ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_2 process_data_begin ] start
+							 */
+
+							currentComponent = "tFileInputExcel_2";
+
+							/**
+							 * [tFileInputExcel_2 process_data_begin ] stop
+							 */
+							// Start of branch "row3"
+							if (row3 != null) {
+
+								/**
+								 * [tMap_3 main ] start
+								 */
+
+								currentComponent = "tMap_3";
+
+								// row3
+								// row3
+
+								if (execStat) {
+									runStat.updateStatOnConnection("row3"
+											+ iterateId, 1, 1);
+								}
+
+								boolean hasCasePrimitiveKeyWithNull_tMap_3 = false;
+
+								// ###############################
+								// # Input tables (lookups)
+								boolean rejectedInnerJoin_tMap_3 = false;
+								boolean mainRowRejected_tMap_3 = false;
+
+								// ###############################
+								{ // start of Var scope
+
+									// ###############################
+									// # Vars tables
+
+									Var__tMap_3__Struct Var = Var__tMap_3;// ###############################
+									// ###############################
+									// # Output tables
+
+									integrationTailleEntreprise = null;
+
+									// # Output table :
+									// 'integrationTailleEntreprise'
+									integrationTailleEntreprise_tmp.libelle_taille_entreprise = row3.libelle_taille_entreprise;
+									integrationTailleEntreprise = integrationTailleEntreprise_tmp;
+									// ###############################
+
+								} // end of Var scope
+
+								rejectedInnerJoin_tMap_3 = false;
+
+								tos_count_tMap_3++;
+
+								/**
+								 * [tMap_3 main ] stop
+								 */
+
+								/**
+								 * [tMap_3 process_data_begin ] start
+								 */
+
+								currentComponent = "tMap_3";
+
+								/**
+								 * [tMap_3 process_data_begin ] stop
+								 */
+								// Start of branch "integrationTailleEntreprise"
+								if (integrationTailleEntreprise != null) {
+
+									/**
+									 * [tLogRow_4 main ] start
+									 */
+
+									currentComponent = "tLogRow_4";
+
+									// integrationTailleEntreprise
+									// integrationTailleEntreprise
+
+									if (execStat) {
+										runStat.updateStatOnConnection(
+												"integrationTailleEntreprise"
+														+ iterateId, 1, 1);
+									}
+
+									// /////////////////////
+
+									strBuffer_tLogRow_4 = new StringBuilder();
+
+									if (integrationTailleEntreprise.libelle_taille_entreprise != null) { //
+
+										strBuffer_tLogRow_4
+												.append(String
+														.valueOf(integrationTailleEntreprise.libelle_taille_entreprise));
+
+									} //
+
+									if (globalMap.get("tLogRow_CONSOLE") != null) {
+										consoleOut_tLogRow_4 = (java.io.PrintStream) globalMap
+												.get("tLogRow_CONSOLE");
+									} else {
+										consoleOut_tLogRow_4 = new java.io.PrintStream(
+												new java.io.BufferedOutputStream(
+														System.out));
+										globalMap.put("tLogRow_CONSOLE",
+												consoleOut_tLogRow_4);
+									}
+									consoleOut_tLogRow_4
+											.println(strBuffer_tLogRow_4
+													.toString());
+									consoleOut_tLogRow_4.flush();
+									nb_line_tLogRow_4++;
+									// ////
+
+									// ////
+
+									// /////////////////////
+
+									row8 = integrationTailleEntreprise;
+
+									tos_count_tLogRow_4++;
+
+									/**
+									 * [tLogRow_4 main ] stop
+									 */
+
+									/**
+									 * [tLogRow_4 process_data_begin ] start
+									 */
+
+									currentComponent = "tLogRow_4";
+
+									/**
+									 * [tLogRow_4 process_data_begin ] stop
+									 */
+
+									/**
+									 * [tDBOutput_3 main ] start
+									 */
+
+									currentComponent = "tDBOutput_3";
+
+									// row8
+									// row8
+
+									if (execStat) {
+										runStat.updateStatOnConnection("row8"
+												+ iterateId, 1, 1);
+									}
+
+									whetherReject_tDBOutput_3 = false;
+									if (row8.libelle_taille_entreprise == null) {
+										pstmt_tDBOutput_3.setNull(1,
+												java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_3.setString(1,
+												row8.libelle_taille_entreprise);
+									}
+
+									pstmt_tDBOutput_3.addBatch();
+									nb_line_tDBOutput_3++;
+
+									batchSizeCounter_tDBOutput_3++;
+
+									// ////////batch execute by batch
+									// size///////
+									class LimitBytesHelper_tDBOutput_3 {
+										public int limitBytePart1(
+												int counter,
+												java.sql.PreparedStatement pstmt_tDBOutput_3)
+												throws Exception {
+											try {
+
+												for (int countEach_tDBOutput_3 : pstmt_tDBOutput_3
+														.executeBatch()) {
+													if (countEach_tDBOutput_3 == -2
+															|| countEach_tDBOutput_3 == -3) {
+														break;
+													}
+													counter += countEach_tDBOutput_3;
+												}
+
+											} catch (java.sql.BatchUpdateException e) {
+
+												int countSum_tDBOutput_3 = 0;
+												for (int countEach_tDBOutput_3 : e
+														.getUpdateCounts()) {
+													counter += (countEach_tDBOutput_3 < 0 ? 0
+															: countEach_tDBOutput_3);
+												}
+
+												System.err.println(e
+														.getMessage());
+
+											}
+											return counter;
+										}
+
+										public int limitBytePart2(
+												int counter,
+												java.sql.PreparedStatement pstmt_tDBOutput_3)
+												throws Exception {
+											try {
+
+												for (int countEach_tDBOutput_3 : pstmt_tDBOutput_3
+														.executeBatch()) {
+													if (countEach_tDBOutput_3 == -2
+															|| countEach_tDBOutput_3 == -3) {
+														break;
+													}
+													counter += countEach_tDBOutput_3;
+												}
+
+											} catch (java.sql.BatchUpdateException e) {
+
+												for (int countEach_tDBOutput_3 : e
+														.getUpdateCounts()) {
+													counter += (countEach_tDBOutput_3 < 0 ? 0
+															: countEach_tDBOutput_3);
+												}
+
+												System.err.println(e
+														.getMessage());
+
+											}
+											return counter;
+										}
+									}
+									if ((batchSize_tDBOutput_3 > 0)
+											&& (batchSize_tDBOutput_3 <= batchSizeCounter_tDBOutput_3)) {
+
+										insertedCount_tDBOutput_3 = new LimitBytesHelper_tDBOutput_3()
+												.limitBytePart1(
+														insertedCount_tDBOutput_3,
+														pstmt_tDBOutput_3);
+
+										batchSizeCounter_tDBOutput_3 = 0;
+									}
+
+									// //////////commit every////////////
+
+									commitCounter_tDBOutput_3++;
+									if (commitEvery_tDBOutput_3 <= commitCounter_tDBOutput_3) {
+										if ((batchSize_tDBOutput_3 > 0)
+												&& (batchSizeCounter_tDBOutput_3 > 0)) {
+
+											insertedCount_tDBOutput_3 = new LimitBytesHelper_tDBOutput_3()
+													.limitBytePart1(
+															insertedCount_tDBOutput_3,
+															pstmt_tDBOutput_3);
+
+											batchSizeCounter_tDBOutput_3 = 0;
+										}
+
+										conn_tDBOutput_3.commit();
+
+										commitCounter_tDBOutput_3 = 0;
+									}
+
+									tos_count_tDBOutput_3++;
+
+									/**
+									 * [tDBOutput_3 main ] stop
+									 */
+
+									/**
+									 * [tDBOutput_3 process_data_begin ] start
+									 */
+
+									currentComponent = "tDBOutput_3";
+
+									/**
+									 * [tDBOutput_3 process_data_begin ] stop
+									 */
+
+									/**
+									 * [tDBOutput_3 process_data_end ] start
+									 */
+
+									currentComponent = "tDBOutput_3";
+
+									/**
+									 * [tDBOutput_3 process_data_end ] stop
+									 */
+
+									/**
+									 * [tLogRow_4 process_data_end ] start
+									 */
+
+									currentComponent = "tLogRow_4";
+
+									/**
+									 * [tLogRow_4 process_data_end ] stop
+									 */
+
+								} // End of branch "integrationTailleEntreprise"
+
+								/**
+								 * [tMap_3 process_data_end ] start
+								 */
+
+								currentComponent = "tMap_3";
+
+								/**
+								 * [tMap_3 process_data_end ] stop
+								 */
+
+							} // End of branch "row3"
+
+							/**
+							 * [tFileInputExcel_2 process_data_end ] start
+							 */
+
+							currentComponent = "tFileInputExcel_2";
+
+							/**
+							 * [tFileInputExcel_2 process_data_end ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_2 end ] start
+							 */
+
+							currentComponent = "tFileInputExcel_2";
+
+						}
+
+						globalMap.put("tFileInputExcel_2_NB_LINE",
+								nb_line_tFileInputExcel_2);
+
+					}
+
+				} finally {
+
+					if (!(source_tFileInputExcel_2 instanceof java.io.InputStream)) {
+						workbook_tFileInputExcel_2.getPackage().revert();
+					}
+
+				}
+
+				ok_Hash.put("tFileInputExcel_2", true);
+				end_Hash.put("tFileInputExcel_2", System.currentTimeMillis());
+
+				/**
+				 * [tFileInputExcel_2 end ] stop
+				 */
+
+				/**
+				 * [tMap_3 end ] start
+				 */
+
+				currentComponent = "tMap_3";
+
+				// ###############################
+				// # Lookup hashes releasing
+				// ###############################
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row3" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tMap_3", true);
+				end_Hash.put("tMap_3", System.currentTimeMillis());
+
+				/**
+				 * [tMap_3 end ] stop
+				 */
+
+				/**
+				 * [tLogRow_4 end ] start
+				 */
+
+				currentComponent = "tLogRow_4";
+
+				// ////
+				// ////
+				globalMap.put("tLogRow_4_NB_LINE", nb_line_tLogRow_4);
+
+				// /////////////////////
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection(
+								"integrationTailleEntreprise" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tLogRow_4", true);
+				end_Hash.put("tLogRow_4", System.currentTimeMillis());
+
+				/**
+				 * [tLogRow_4 end ] stop
+				 */
+
+				/**
+				 * [tDBOutput_3 end ] start
+				 */
+
+				currentComponent = "tDBOutput_3";
+
+				try {
+					int countSum_tDBOutput_3 = 0;
+					if (pstmt_tDBOutput_3 != null
+							&& batchSizeCounter_tDBOutput_3 > 0) {
+
+						for (int countEach_tDBOutput_3 : pstmt_tDBOutput_3
+								.executeBatch()) {
+							if (countEach_tDBOutput_3 == -2
+									|| countEach_tDBOutput_3 == -3) {
+								break;
+							}
+							countSum_tDBOutput_3 += countEach_tDBOutput_3;
+						}
+
+					}
+
+					insertedCount_tDBOutput_3 += countSum_tDBOutput_3;
+
+				} catch (java.sql.BatchUpdateException e) {
+
+					int countSum_tDBOutput_3 = 0;
+					for (int countEach_tDBOutput_3 : e.getUpdateCounts()) {
+						countSum_tDBOutput_3 += (countEach_tDBOutput_3 < 0 ? 0
+								: countEach_tDBOutput_3);
+					}
+
+					insertedCount_tDBOutput_3 += countSum_tDBOutput_3;
+
+					System.err.println(e.getMessage());
+
+				}
+				if (pstmt_tDBOutput_3 != null) {
+
+					pstmt_tDBOutput_3.close();
+					resourceMap.remove("pstmt_tDBOutput_3");
+
+				}
+				resourceMap.put("statementClosed_tDBOutput_3", true);
+				conn_tDBOutput_3.commit();
+
+				conn_tDBOutput_3.close();
+				resourceMap.put("finish_tDBOutput_3", true);
+
+				nb_line_deleted_tDBOutput_3 = nb_line_deleted_tDBOutput_3
+						+ deletedCount_tDBOutput_3;
+				nb_line_update_tDBOutput_3 = nb_line_update_tDBOutput_3
+						+ updatedCount_tDBOutput_3;
+				nb_line_inserted_tDBOutput_3 = nb_line_inserted_tDBOutput_3
+						+ insertedCount_tDBOutput_3;
+				nb_line_rejected_tDBOutput_3 = nb_line_rejected_tDBOutput_3
+						+ rejectedCount_tDBOutput_3;
+
+				globalMap.put("tDBOutput_3_NB_LINE", nb_line_tDBOutput_3);
+				globalMap.put("tDBOutput_3_NB_LINE_UPDATED",
+						nb_line_update_tDBOutput_3);
+				globalMap.put("tDBOutput_3_NB_LINE_INSERTED",
+						nb_line_inserted_tDBOutput_3);
+				globalMap.put("tDBOutput_3_NB_LINE_DELETED",
+						nb_line_deleted_tDBOutput_3);
+				globalMap.put("tDBOutput_3_NB_LINE_REJECTED",
+						nb_line_rejected_tDBOutput_3);
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row8" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tDBOutput_3", true);
+				end_Hash.put("tDBOutput_3", System.currentTimeMillis());
+
+				/**
+				 * [tDBOutput_3 end ] stop
+				 */
+
+			}// end the resume
+
+		} catch (java.lang.Exception e) {
+
+			TalendException te = new TalendException(e, currentComponent,
+					globalMap);
+
+			throw te;
+		} catch (java.lang.Error error) {
+
+			runStat.stopThreadStat();
+
+			throw error;
+		} finally {
+
+			try {
+
+				/**
+				 * [tFileInputExcel_2 finally ] start
+				 */
+
+				currentComponent = "tFileInputExcel_2";
+
+				/**
+				 * [tFileInputExcel_2 finally ] stop
+				 */
+
+				/**
+				 * [tMap_3 finally ] start
+				 */
+
+				currentComponent = "tMap_3";
+
+				/**
+				 * [tMap_3 finally ] stop
+				 */
+
+				/**
+				 * [tLogRow_4 finally ] start
+				 */
+
+				currentComponent = "tLogRow_4";
+
+				/**
+				 * [tLogRow_4 finally ] stop
+				 */
+
+				/**
+				 * [tDBOutput_3 finally ] start
+				 */
+
+				currentComponent = "tDBOutput_3";
+
+				try {
+					if (resourceMap.get("statementClosed_tDBOutput_3") == null) {
+						java.sql.PreparedStatement pstmtToClose_tDBOutput_3 = null;
+						if ((pstmtToClose_tDBOutput_3 = (java.sql.PreparedStatement) resourceMap
+								.remove("pstmt_tDBOutput_3")) != null) {
+							pstmtToClose_tDBOutput_3.close();
+						}
+					}
+				} finally {
+					if (resourceMap.get("finish_tDBOutput_3") == null) {
+						java.sql.Connection ctn_tDBOutput_3 = null;
+						if ((ctn_tDBOutput_3 = (java.sql.Connection) resourceMap
+								.get("conn_tDBOutput_3")) != null) {
+							try {
+								ctn_tDBOutput_3.close();
+							} catch (java.sql.SQLException sqlEx_tDBOutput_3) {
+								String errorMessage_tDBOutput_3 = "failed to close the connection in tDBOutput_3 :"
+										+ sqlEx_tDBOutput_3.getMessage();
+								System.err.println(errorMessage_tDBOutput_3);
+							}
+						}
+					}
+				}
+
+				/**
+				 * [tDBOutput_3 finally ] stop
+				 */
+
+			} catch (java.lang.Exception e) {
+				// ignore
+			} catch (java.lang.Error error) {
+				// ignore
+			}
+			resourceMap = null;
+		}
+
+		globalMap.put("tFileInputExcel_2_SUBPROCESS_STATE", 1);
 	}
 
 	public static class row9Struct implements
 			routines.system.IPersistableRow<row9Struct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String libelle_socio_prof;
+
+		public String getLibelle_socio_prof() {
+			return this.libelle_socio_prof;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.libelle_socio_prof = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.libelle_socio_prof, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("libelle_socio_prof=" + libelle_socio_prof);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row9Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class integrationCatProfSocialeStruct implements
+			routines.system.IPersistableRow<integrationCatProfSocialeStruct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String libelle_socio_prof;
+
+		public String getLibelle_socio_prof() {
+			return this.libelle_socio_prof;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.libelle_socio_prof = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.libelle_socio_prof, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("libelle_socio_prof=" + libelle_socio_prof);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(integrationCatProfSocialeStruct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class row4Struct implements
+			routines.system.IPersistableRow<row4Struct> {
 		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
 		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
 
@@ -681,7 +3892,7 @@ public class integrationDimensions implements TalendJob {
 		/**
 		 * Compare keys
 		 */
-		public int compareTo(row9Struct other) {
+		public int compareTo(row4Struct other) {
 
 			int returnValue = -1;
 
@@ -712,10 +3923,10 @@ public class integrationDimensions implements TalendJob {
 
 	}
 
-	public void tFileInputExcel_4Process(
+	public void tFileInputExcel_3Process(
 			final java.util.Map<String, Object> globalMap)
 			throws TalendException {
-		globalMap.put("tFileInputExcel_4_SUBPROCESS_STATE", 0);
+		globalMap.put("tFileInputExcel_3_SUBPROCESS_STATE", 0);
 
 		final boolean execStat = this.execStat;
 
@@ -735,9 +3946,9 @@ public class integrationDimensions implements TalendJob {
 			if (resumeIt || globalResumeTicket) { // start the resume
 				globalResumeTicket = true;
 
-				row9Struct row9 = new row9Struct();
-				socioProStruct socioPro = new socioProStruct();
-				socioProStruct row4 = socioPro;
+				row4Struct row4 = new row4Struct();
+				integrationCatProfSocialeStruct integrationCatProfSociale = new integrationCatProfSocialeStruct();
+				integrationCatProfSocialeStruct row9 = integrationCatProfSociale;
 
 				/**
 				 * [tDBOutput_4 begin ] start
@@ -751,7 +3962,7 @@ public class integrationDimensions implements TalendJob {
 				if (execStat) {
 					if (resourceMap.get("inIterateVComp") == null) {
 
-						runStat.updateStatOnConnection("row4" + iterateId, 0, 0);
+						runStat.updateStatOnConnection("row9" + iterateId, 0, 0);
 
 					}
 				}
@@ -842,36 +4053,36 @@ public class integrationDimensions implements TalendJob {
 				 */
 
 				/**
-				 * [tLogRow_1 begin ] start
+				 * [tLogRow_5 begin ] start
 				 */
 
-				ok_Hash.put("tLogRow_1", false);
-				start_Hash.put("tLogRow_1", System.currentTimeMillis());
+				ok_Hash.put("tLogRow_5", false);
+				start_Hash.put("tLogRow_5", System.currentTimeMillis());
 
-				currentComponent = "tLogRow_1";
+				currentComponent = "tLogRow_5";
 
 				if (execStat) {
 					if (resourceMap.get("inIterateVComp") == null) {
 
-						runStat.updateStatOnConnection("socioPro" + iterateId,
-								0, 0);
+						runStat.updateStatOnConnection(
+								"integrationCatProfSociale" + iterateId, 0, 0);
 
 					}
 				}
 
-				int tos_count_tLogRow_1 = 0;
+				int tos_count_tLogRow_5 = 0;
 
 				// /////////////////////
 
-				final String OUTPUT_FIELD_SEPARATOR_tLogRow_1 = "|";
-				java.io.PrintStream consoleOut_tLogRow_1 = null;
+				final String OUTPUT_FIELD_SEPARATOR_tLogRow_5 = "|";
+				java.io.PrintStream consoleOut_tLogRow_5 = null;
 
-				StringBuilder strBuffer_tLogRow_1 = null;
-				int nb_line_tLogRow_1 = 0;
+				StringBuilder strBuffer_tLogRow_5 = null;
+				int nb_line_tLogRow_5 = 0;
 				// /////////////////////
 
 				/**
-				 * [tLogRow_1 begin ] stop
+				 * [tLogRow_5 begin ] stop
 				 */
 
 				/**
@@ -886,7 +4097,7 @@ public class integrationDimensions implements TalendJob {
 				if (execStat) {
 					if (resourceMap.get("inIterateVComp") == null) {
 
-						runStat.updateStatOnConnection("row9" + iterateId, 0, 0);
+						runStat.updateStatOnConnection("row4" + iterateId, 0, 0);
 
 					}
 				}
@@ -906,7 +4117,7 @@ public class integrationDimensions implements TalendJob {
 
 				// ###############################
 				// # Outputs initialization
-				socioProStruct socioPro_tmp = new socioProStruct();
+				integrationCatProfSocialeStruct integrationCatProfSociale_tmp = new integrationCatProfSocialeStruct();
 				// ###############################
 
 				/**
@@ -914,17 +4125,17 @@ public class integrationDimensions implements TalendJob {
 				 */
 
 				/**
-				 * [tFileInputExcel_4 begin ] start
+				 * [tFileInputExcel_3 begin ] start
 				 */
 
-				ok_Hash.put("tFileInputExcel_4", false);
-				start_Hash.put("tFileInputExcel_4", System.currentTimeMillis());
+				ok_Hash.put("tFileInputExcel_3", false);
+				start_Hash.put("tFileInputExcel_3", System.currentTimeMillis());
 
-				currentComponent = "tFileInputExcel_4";
+				currentComponent = "tFileInputExcel_3";
 
-				int tos_count_tFileInputExcel_4 = 0;
+				int tos_count_tFileInputExcel_3 = 0;
 
-				class RegexUtil_tFileInputExcel_4 {
+				class RegexUtil_tFileInputExcel_3 {
 
 					public java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(
 							org.apache.poi.xssf.usermodel.XSSFWorkbook workbook,
@@ -972,263 +4183,263 @@ public class integrationDimensions implements TalendJob {
 					}
 
 				}
-				RegexUtil_tFileInputExcel_4 regexUtil_tFileInputExcel_4 = new RegexUtil_tFileInputExcel_4();
+				RegexUtil_tFileInputExcel_3 regexUtil_tFileInputExcel_3 = new RegexUtil_tFileInputExcel_3();
 
-				Object source_tFileInputExcel_4 = "C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/Transformation/CATEGORIE_SOCIO_PROF_DIM.xlsx";
-				org.apache.poi.xssf.usermodel.XSSFWorkbook workbook_tFileInputExcel_4 = null;
+				Object source_tFileInputExcel_3 = "C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/DIM - Excel/CATEGORIE_SOCIO_PROF_DIM.xlsx";
+				org.apache.poi.xssf.usermodel.XSSFWorkbook workbook_tFileInputExcel_3 = null;
 
-				if (source_tFileInputExcel_4 instanceof String) {
-					workbook_tFileInputExcel_4 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
-							(String) source_tFileInputExcel_4);
-				} else if (source_tFileInputExcel_4 instanceof java.io.InputStream) {
-					workbook_tFileInputExcel_4 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
-							(java.io.InputStream) source_tFileInputExcel_4);
+				if (source_tFileInputExcel_3 instanceof String) {
+					workbook_tFileInputExcel_3 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
+							(String) source_tFileInputExcel_3);
+				} else if (source_tFileInputExcel_3 instanceof java.io.InputStream) {
+					workbook_tFileInputExcel_3 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
+							(java.io.InputStream) source_tFileInputExcel_3);
 				} else {
-					workbook_tFileInputExcel_4 = null;
+					workbook_tFileInputExcel_3 = null;
 					throw new java.lang.Exception(
 							"The data source should be specified as Inputstream or File Path!");
 				}
 				try {
 
-					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_tFileInputExcel_4 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
-					for (org.apache.poi.ss.usermodel.Sheet sheet_tFileInputExcel_4 : workbook_tFileInputExcel_4) {
-						sheetList_tFileInputExcel_4
-								.add((org.apache.poi.xssf.usermodel.XSSFSheet) sheet_tFileInputExcel_4);
+					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_tFileInputExcel_3 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+					for (org.apache.poi.ss.usermodel.Sheet sheet_tFileInputExcel_3 : workbook_tFileInputExcel_3) {
+						sheetList_tFileInputExcel_3
+								.add((org.apache.poi.xssf.usermodel.XSSFSheet) sheet_tFileInputExcel_3);
 					}
-					if (sheetList_tFileInputExcel_4.size() <= 0) {
+					if (sheetList_tFileInputExcel_3.size() <= 0) {
 						throw new RuntimeException("Special sheets not exist!");
 					}
 
-					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_FilterNull_tFileInputExcel_4 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
-					for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_FilterNull_tFileInputExcel_4 : sheetList_tFileInputExcel_4) {
-						if (sheet_FilterNull_tFileInputExcel_4 != null
-								&& sheetList_FilterNull_tFileInputExcel_4
+					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_FilterNull_tFileInputExcel_3 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+					for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_FilterNull_tFileInputExcel_3 : sheetList_tFileInputExcel_3) {
+						if (sheet_FilterNull_tFileInputExcel_3 != null
+								&& sheetList_FilterNull_tFileInputExcel_3
 										.iterator() != null
-								&& sheet_FilterNull_tFileInputExcel_4
+								&& sheet_FilterNull_tFileInputExcel_3
 										.iterator().hasNext()) {
-							sheetList_FilterNull_tFileInputExcel_4
-									.add(sheet_FilterNull_tFileInputExcel_4);
+							sheetList_FilterNull_tFileInputExcel_3
+									.add(sheet_FilterNull_tFileInputExcel_3);
 						}
 					}
-					sheetList_tFileInputExcel_4 = sheetList_FilterNull_tFileInputExcel_4;
-					if (sheetList_tFileInputExcel_4.size() > 0) {
-						int nb_line_tFileInputExcel_4 = 0;
+					sheetList_tFileInputExcel_3 = sheetList_FilterNull_tFileInputExcel_3;
+					if (sheetList_tFileInputExcel_3.size() > 0) {
+						int nb_line_tFileInputExcel_3 = 0;
 
-						int begin_line_tFileInputExcel_4 = 1;
+						int begin_line_tFileInputExcel_3 = 1;
 
-						int footer_input_tFileInputExcel_4 = 0;
+						int footer_input_tFileInputExcel_3 = 0;
 
-						int end_line_tFileInputExcel_4 = 0;
-						for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_4 : sheetList_tFileInputExcel_4) {
-							end_line_tFileInputExcel_4 += (sheet_tFileInputExcel_4
+						int end_line_tFileInputExcel_3 = 0;
+						for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_3 : sheetList_tFileInputExcel_3) {
+							end_line_tFileInputExcel_3 += (sheet_tFileInputExcel_3
 									.getLastRowNum() + 1);
 						}
-						end_line_tFileInputExcel_4 -= footer_input_tFileInputExcel_4;
-						int limit_tFileInputExcel_4 = -1;
-						int start_column_tFileInputExcel_4 = 1 - 1;
-						int end_column_tFileInputExcel_4 = -1;
+						end_line_tFileInputExcel_3 -= footer_input_tFileInputExcel_3;
+						int limit_tFileInputExcel_3 = -1;
+						int start_column_tFileInputExcel_3 = 1 - 1;
+						int end_column_tFileInputExcel_3 = -1;
 
-						org.apache.poi.xssf.usermodel.XSSFRow row_tFileInputExcel_4 = null;
-						org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_4 = sheetList_tFileInputExcel_4
+						org.apache.poi.xssf.usermodel.XSSFRow row_tFileInputExcel_3 = null;
+						org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_3 = sheetList_tFileInputExcel_3
 								.get(0);
-						int rowCount_tFileInputExcel_4 = 0;
-						int sheetIndex_tFileInputExcel_4 = 0;
-						int currentRows_tFileInputExcel_4 = (sheetList_tFileInputExcel_4
+						int rowCount_tFileInputExcel_3 = 0;
+						int sheetIndex_tFileInputExcel_3 = 0;
+						int currentRows_tFileInputExcel_3 = (sheetList_tFileInputExcel_3
 								.get(0).getLastRowNum() + 1);
 
 						// for the number format
-						java.text.DecimalFormat df_tFileInputExcel_4 = new java.text.DecimalFormat(
+						java.text.DecimalFormat df_tFileInputExcel_3 = new java.text.DecimalFormat(
 								"#.####################################");
-						char decimalChar_tFileInputExcel_4 = df_tFileInputExcel_4
+						char decimalChar_tFileInputExcel_3 = df_tFileInputExcel_3
 								.getDecimalFormatSymbols()
 								.getDecimalSeparator();
 
-						for (int i_tFileInputExcel_4 = begin_line_tFileInputExcel_4; i_tFileInputExcel_4 < end_line_tFileInputExcel_4; i_tFileInputExcel_4++) {
+						for (int i_tFileInputExcel_3 = begin_line_tFileInputExcel_3; i_tFileInputExcel_3 < end_line_tFileInputExcel_3; i_tFileInputExcel_3++) {
 
-							int emptyColumnCount_tFileInputExcel_4 = 0;
+							int emptyColumnCount_tFileInputExcel_3 = 0;
 
-							if (limit_tFileInputExcel_4 != -1
-									&& nb_line_tFileInputExcel_4 >= limit_tFileInputExcel_4) {
+							if (limit_tFileInputExcel_3 != -1
+									&& nb_line_tFileInputExcel_3 >= limit_tFileInputExcel_3) {
 								break;
 							}
 
-							while (i_tFileInputExcel_4 >= rowCount_tFileInputExcel_4
-									+ currentRows_tFileInputExcel_4) {
-								rowCount_tFileInputExcel_4 += currentRows_tFileInputExcel_4;
-								sheet_tFileInputExcel_4 = sheetList_tFileInputExcel_4
-										.get(++sheetIndex_tFileInputExcel_4);
-								currentRows_tFileInputExcel_4 = (sheet_tFileInputExcel_4
+							while (i_tFileInputExcel_3 >= rowCount_tFileInputExcel_3
+									+ currentRows_tFileInputExcel_3) {
+								rowCount_tFileInputExcel_3 += currentRows_tFileInputExcel_3;
+								sheet_tFileInputExcel_3 = sheetList_tFileInputExcel_3
+										.get(++sheetIndex_tFileInputExcel_3);
+								currentRows_tFileInputExcel_3 = (sheet_tFileInputExcel_3
 										.getLastRowNum() + 1);
 							}
-							globalMap.put("tFileInputExcel_4_CURRENT_SHEET",
-									sheet_tFileInputExcel_4.getSheetName());
-							if (rowCount_tFileInputExcel_4 <= i_tFileInputExcel_4) {
-								row_tFileInputExcel_4 = sheet_tFileInputExcel_4
-										.getRow(i_tFileInputExcel_4
-												- rowCount_tFileInputExcel_4);
+							globalMap.put("tFileInputExcel_3_CURRENT_SHEET",
+									sheet_tFileInputExcel_3.getSheetName());
+							if (rowCount_tFileInputExcel_3 <= i_tFileInputExcel_3) {
+								row_tFileInputExcel_3 = sheet_tFileInputExcel_3
+										.getRow(i_tFileInputExcel_3
+												- rowCount_tFileInputExcel_3);
 							}
-							row9 = null;
-							int tempRowLength_tFileInputExcel_4 = 2;
+							row4 = null;
+							int tempRowLength_tFileInputExcel_3 = 2;
 
-							int columnIndex_tFileInputExcel_4 = 0;
+							int columnIndex_tFileInputExcel_3 = 0;
 
-							String[] temp_row_tFileInputExcel_4 = new String[tempRowLength_tFileInputExcel_4];
-							int excel_end_column_tFileInputExcel_4;
-							if (row_tFileInputExcel_4 == null) {
-								excel_end_column_tFileInputExcel_4 = 0;
+							String[] temp_row_tFileInputExcel_3 = new String[tempRowLength_tFileInputExcel_3];
+							int excel_end_column_tFileInputExcel_3;
+							if (row_tFileInputExcel_3 == null) {
+								excel_end_column_tFileInputExcel_3 = 0;
 							} else {
-								excel_end_column_tFileInputExcel_4 = row_tFileInputExcel_4
+								excel_end_column_tFileInputExcel_3 = row_tFileInputExcel_3
 										.getLastCellNum();
 							}
-							int actual_end_column_tFileInputExcel_4;
-							if (end_column_tFileInputExcel_4 == -1) {
-								actual_end_column_tFileInputExcel_4 = excel_end_column_tFileInputExcel_4;
+							int actual_end_column_tFileInputExcel_3;
+							if (end_column_tFileInputExcel_3 == -1) {
+								actual_end_column_tFileInputExcel_3 = excel_end_column_tFileInputExcel_3;
 							} else {
-								actual_end_column_tFileInputExcel_4 = end_column_tFileInputExcel_4 > excel_end_column_tFileInputExcel_4 ? excel_end_column_tFileInputExcel_4
-										: end_column_tFileInputExcel_4;
+								actual_end_column_tFileInputExcel_3 = end_column_tFileInputExcel_3 > excel_end_column_tFileInputExcel_3 ? excel_end_column_tFileInputExcel_3
+										: end_column_tFileInputExcel_3;
 							}
-							org.apache.poi.ss.formula.eval.NumberEval ne_tFileInputExcel_4 = null;
-							for (int i = 0; i < tempRowLength_tFileInputExcel_4; i++) {
-								if (i + start_column_tFileInputExcel_4 < actual_end_column_tFileInputExcel_4) {
-									org.apache.poi.ss.usermodel.Cell cell_tFileInputExcel_4 = row_tFileInputExcel_4
+							org.apache.poi.ss.formula.eval.NumberEval ne_tFileInputExcel_3 = null;
+							for (int i = 0; i < tempRowLength_tFileInputExcel_3; i++) {
+								if (i + start_column_tFileInputExcel_3 < actual_end_column_tFileInputExcel_3) {
+									org.apache.poi.ss.usermodel.Cell cell_tFileInputExcel_3 = row_tFileInputExcel_3
 											.getCell(i
-													+ start_column_tFileInputExcel_4);
-									if (cell_tFileInputExcel_4 != null) {
-										switch (cell_tFileInputExcel_4
+													+ start_column_tFileInputExcel_3);
+									if (cell_tFileInputExcel_3 != null) {
+										switch (cell_tFileInputExcel_3
 												.getCellType()) {
 										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_STRING:
-											temp_row_tFileInputExcel_4[i] = cell_tFileInputExcel_4
+											temp_row_tFileInputExcel_3[i] = cell_tFileInputExcel_3
 													.getRichStringCellValue()
 													.getString();
 											break;
 										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC:
 											if (org.apache.poi.ss.usermodel.DateUtil
-													.isCellDateFormatted(cell_tFileInputExcel_4)) {
-												temp_row_tFileInputExcel_4[i] = cell_tFileInputExcel_4
+													.isCellDateFormatted(cell_tFileInputExcel_3)) {
+												temp_row_tFileInputExcel_3[i] = cell_tFileInputExcel_3
 														.getDateCellValue()
 														.toString();
 											} else {
-												temp_row_tFileInputExcel_4[i] = df_tFileInputExcel_4
-														.format(cell_tFileInputExcel_4
+												temp_row_tFileInputExcel_3[i] = df_tFileInputExcel_3
+														.format(cell_tFileInputExcel_3
 																.getNumericCellValue());
 											}
 											break;
 										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_BOOLEAN:
-											temp_row_tFileInputExcel_4[i] = String
-													.valueOf(cell_tFileInputExcel_4
+											temp_row_tFileInputExcel_3[i] = String
+													.valueOf(cell_tFileInputExcel_3
 															.getBooleanCellValue());
 											break;
 										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_FORMULA:
-											switch (cell_tFileInputExcel_4
+											switch (cell_tFileInputExcel_3
 													.getCachedFormulaResultType()) {
 											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_STRING:
-												temp_row_tFileInputExcel_4[i] = cell_tFileInputExcel_4
+												temp_row_tFileInputExcel_3[i] = cell_tFileInputExcel_3
 														.getRichStringCellValue()
 														.getString();
 												break;
 											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC:
 												if (org.apache.poi.ss.usermodel.DateUtil
-														.isCellDateFormatted(cell_tFileInputExcel_4)) {
-													temp_row_tFileInputExcel_4[i] = cell_tFileInputExcel_4
+														.isCellDateFormatted(cell_tFileInputExcel_3)) {
+													temp_row_tFileInputExcel_3[i] = cell_tFileInputExcel_3
 															.getDateCellValue()
 															.toString();
 												} else {
-													ne_tFileInputExcel_4 = new org.apache.poi.ss.formula.eval.NumberEval(
-															cell_tFileInputExcel_4
+													ne_tFileInputExcel_3 = new org.apache.poi.ss.formula.eval.NumberEval(
+															cell_tFileInputExcel_3
 																	.getNumericCellValue());
-													temp_row_tFileInputExcel_4[i] = ne_tFileInputExcel_4
+													temp_row_tFileInputExcel_3[i] = ne_tFileInputExcel_3
 															.getStringValue();
 												}
 												break;
 											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_BOOLEAN:
-												temp_row_tFileInputExcel_4[i] = String
-														.valueOf(cell_tFileInputExcel_4
+												temp_row_tFileInputExcel_3[i] = String
+														.valueOf(cell_tFileInputExcel_3
 																.getBooleanCellValue());
 												break;
 											default:
-												temp_row_tFileInputExcel_4[i] = "";
+												temp_row_tFileInputExcel_3[i] = "";
 											}
 											break;
 										default:
-											temp_row_tFileInputExcel_4[i] = "";
+											temp_row_tFileInputExcel_3[i] = "";
 										}
 									} else {
-										temp_row_tFileInputExcel_4[i] = "";
+										temp_row_tFileInputExcel_3[i] = "";
 									}
 
 								} else {
-									temp_row_tFileInputExcel_4[i] = "";
+									temp_row_tFileInputExcel_3[i] = "";
 								}
 							}
-							boolean whetherReject_tFileInputExcel_4 = false;
-							row9 = new row9Struct();
-							int curColNum_tFileInputExcel_4 = -1;
-							String curColName_tFileInputExcel_4 = "";
+							boolean whetherReject_tFileInputExcel_3 = false;
+							row4 = new row4Struct();
+							int curColNum_tFileInputExcel_3 = -1;
+							String curColName_tFileInputExcel_3 = "";
 							try {
-								columnIndex_tFileInputExcel_4 = 0;
+								columnIndex_tFileInputExcel_3 = 0;
 
-								if (temp_row_tFileInputExcel_4[columnIndex_tFileInputExcel_4]
+								if (temp_row_tFileInputExcel_3[columnIndex_tFileInputExcel_3]
 										.length() > 0) {
-									curColNum_tFileInputExcel_4 = columnIndex_tFileInputExcel_4
-											+ start_column_tFileInputExcel_4
+									curColNum_tFileInputExcel_3 = columnIndex_tFileInputExcel_3
+											+ start_column_tFileInputExcel_3
 											+ 1;
-									curColName_tFileInputExcel_4 = "code_categorie_socio_prof";
+									curColName_tFileInputExcel_3 = "code_categorie_socio_prof";
 
-									row9.code_categorie_socio_prof = temp_row_tFileInputExcel_4[columnIndex_tFileInputExcel_4];
+									row4.code_categorie_socio_prof = temp_row_tFileInputExcel_3[columnIndex_tFileInputExcel_3];
 								} else {
-									row9.code_categorie_socio_prof = null;
-									emptyColumnCount_tFileInputExcel_4++;
+									row4.code_categorie_socio_prof = null;
+									emptyColumnCount_tFileInputExcel_3++;
 								}
-								columnIndex_tFileInputExcel_4 = 1;
+								columnIndex_tFileInputExcel_3 = 1;
 
-								if (temp_row_tFileInputExcel_4[columnIndex_tFileInputExcel_4]
+								if (temp_row_tFileInputExcel_3[columnIndex_tFileInputExcel_3]
 										.length() > 0) {
-									curColNum_tFileInputExcel_4 = columnIndex_tFileInputExcel_4
-											+ start_column_tFileInputExcel_4
+									curColNum_tFileInputExcel_3 = columnIndex_tFileInputExcel_3
+											+ start_column_tFileInputExcel_3
 											+ 1;
-									curColName_tFileInputExcel_4 = "libelle_categorie_socio_prof";
+									curColName_tFileInputExcel_3 = "libelle_categorie_socio_prof";
 
-									row9.libelle_categorie_socio_prof = temp_row_tFileInputExcel_4[columnIndex_tFileInputExcel_4];
+									row4.libelle_categorie_socio_prof = temp_row_tFileInputExcel_3[columnIndex_tFileInputExcel_3];
 								} else {
-									row9.libelle_categorie_socio_prof = null;
-									emptyColumnCount_tFileInputExcel_4++;
+									row4.libelle_categorie_socio_prof = null;
+									emptyColumnCount_tFileInputExcel_3++;
 								}
 
-								nb_line_tFileInputExcel_4++;
+								nb_line_tFileInputExcel_3++;
 
 							} catch (java.lang.Exception e) {
-								whetherReject_tFileInputExcel_4 = true;
+								whetherReject_tFileInputExcel_3 = true;
 								System.err.println(e.getMessage());
-								row9 = null;
+								row4 = null;
 							}
 
 							/**
-							 * [tFileInputExcel_4 begin ] stop
+							 * [tFileInputExcel_3 begin ] stop
 							 */
 
 							/**
-							 * [tFileInputExcel_4 main ] start
+							 * [tFileInputExcel_3 main ] start
 							 */
 
-							currentComponent = "tFileInputExcel_4";
+							currentComponent = "tFileInputExcel_3";
 
-							tos_count_tFileInputExcel_4++;
+							tos_count_tFileInputExcel_3++;
 
 							/**
-							 * [tFileInputExcel_4 main ] stop
+							 * [tFileInputExcel_3 main ] stop
 							 */
 
 							/**
-							 * [tFileInputExcel_4 process_data_begin ] start
+							 * [tFileInputExcel_3 process_data_begin ] start
 							 */
 
-							currentComponent = "tFileInputExcel_4";
+							currentComponent = "tFileInputExcel_3";
 
 							/**
-							 * [tFileInputExcel_4 process_data_begin ] stop
+							 * [tFileInputExcel_3 process_data_begin ] stop
 							 */
-							// Start of branch "row9"
-							if (row9 != null) {
+							// Start of branch "row4"
+							if (row4 != null) {
 
 								/**
 								 * [tMap_4 main ] start
@@ -1236,11 +4447,11 @@ public class integrationDimensions implements TalendJob {
 
 								currentComponent = "tMap_4";
 
-								// row9
-								// row9
+								// row4
+								// row4
 
 								if (execStat) {
-									runStat.updateStatOnConnection("row9"
+									runStat.updateStatOnConnection("row4"
 											+ iterateId, 1, 1);
 								}
 
@@ -1261,11 +4472,12 @@ public class integrationDimensions implements TalendJob {
 									// ###############################
 									// # Output tables
 
-									socioPro = null;
+									integrationCatProfSociale = null;
 
-									// # Output table : 'socioPro'
-									socioPro_tmp.libelle_socio_prof = row9.libelle_categorie_socio_prof;
-									socioPro = socioPro_tmp;
+									// # Output table :
+									// 'integrationCatProfSociale'
+									integrationCatProfSociale_tmp.libelle_socio_prof = row4.libelle_categorie_socio_prof;
+									integrationCatProfSociale = integrationCatProfSociale_tmp;
 									// ###############################
 
 								} // end of Var scope
@@ -1287,72 +4499,73 @@ public class integrationDimensions implements TalendJob {
 								/**
 								 * [tMap_4 process_data_begin ] stop
 								 */
-								// Start of branch "socioPro"
-								if (socioPro != null) {
+								// Start of branch "integrationCatProfSociale"
+								if (integrationCatProfSociale != null) {
 
 									/**
-									 * [tLogRow_1 main ] start
+									 * [tLogRow_5 main ] start
 									 */
 
-									currentComponent = "tLogRow_1";
+									currentComponent = "tLogRow_5";
 
-									// socioPro
-									// socioPro
+									// integrationCatProfSociale
+									// integrationCatProfSociale
 
 									if (execStat) {
 										runStat.updateStatOnConnection(
-												"socioPro" + iterateId, 1, 1);
+												"integrationCatProfSociale"
+														+ iterateId, 1, 1);
 									}
 
 									// /////////////////////
 
-									strBuffer_tLogRow_1 = new StringBuilder();
+									strBuffer_tLogRow_5 = new StringBuilder();
 
-									if (socioPro.libelle_socio_prof != null) { //
+									if (integrationCatProfSociale.libelle_socio_prof != null) { //
 
-										strBuffer_tLogRow_1
+										strBuffer_tLogRow_5
 												.append(String
-														.valueOf(socioPro.libelle_socio_prof));
+														.valueOf(integrationCatProfSociale.libelle_socio_prof));
 
 									} //
 
 									if (globalMap.get("tLogRow_CONSOLE") != null) {
-										consoleOut_tLogRow_1 = (java.io.PrintStream) globalMap
+										consoleOut_tLogRow_5 = (java.io.PrintStream) globalMap
 												.get("tLogRow_CONSOLE");
 									} else {
-										consoleOut_tLogRow_1 = new java.io.PrintStream(
+										consoleOut_tLogRow_5 = new java.io.PrintStream(
 												new java.io.BufferedOutputStream(
 														System.out));
 										globalMap.put("tLogRow_CONSOLE",
-												consoleOut_tLogRow_1);
+												consoleOut_tLogRow_5);
 									}
-									consoleOut_tLogRow_1
-											.println(strBuffer_tLogRow_1
+									consoleOut_tLogRow_5
+											.println(strBuffer_tLogRow_5
 													.toString());
-									consoleOut_tLogRow_1.flush();
-									nb_line_tLogRow_1++;
+									consoleOut_tLogRow_5.flush();
+									nb_line_tLogRow_5++;
 									// ////
 
 									// ////
 
 									// /////////////////////
 
-									row4 = socioPro;
+									row9 = integrationCatProfSociale;
 
-									tos_count_tLogRow_1++;
+									tos_count_tLogRow_5++;
 
 									/**
-									 * [tLogRow_1 main ] stop
+									 * [tLogRow_5 main ] stop
 									 */
 
 									/**
-									 * [tLogRow_1 process_data_begin ] start
+									 * [tLogRow_5 process_data_begin ] start
 									 */
 
-									currentComponent = "tLogRow_1";
+									currentComponent = "tLogRow_5";
 
 									/**
-									 * [tLogRow_1 process_data_begin ] stop
+									 * [tLogRow_5 process_data_begin ] stop
 									 */
 
 									/**
@@ -1361,21 +4574,21 @@ public class integrationDimensions implements TalendJob {
 
 									currentComponent = "tDBOutput_4";
 
-									// row4
-									// row4
+									// row9
+									// row9
 
 									if (execStat) {
-										runStat.updateStatOnConnection("row4"
+										runStat.updateStatOnConnection("row9"
 												+ iterateId, 1, 1);
 									}
 
 									whetherReject_tDBOutput_4 = false;
-									if (row4.libelle_socio_prof == null) {
+									if (row9.libelle_socio_prof == null) {
 										pstmt_tDBOutput_4.setNull(1,
 												java.sql.Types.VARCHAR);
 									} else {
 										pstmt_tDBOutput_4.setString(1,
-												row4.libelle_socio_prof);
+												row9.libelle_socio_prof);
 									}
 
 									pstmt_tDBOutput_4.addBatch();
@@ -1505,16 +4718,16 @@ public class integrationDimensions implements TalendJob {
 									 */
 
 									/**
-									 * [tLogRow_1 process_data_end ] start
+									 * [tLogRow_5 process_data_end ] start
 									 */
 
-									currentComponent = "tLogRow_1";
+									currentComponent = "tLogRow_5";
 
 									/**
-									 * [tLogRow_1 process_data_end ] stop
+									 * [tLogRow_5 process_data_end ] stop
 									 */
 
-								} // End of branch "socioPro"
+								} // End of branch "integrationCatProfSociale"
 
 								/**
 								 * [tMap_4 process_data_end ] start
@@ -1526,44 +4739,44 @@ public class integrationDimensions implements TalendJob {
 								 * [tMap_4 process_data_end ] stop
 								 */
 
-							} // End of branch "row9"
+							} // End of branch "row4"
 
 							/**
-							 * [tFileInputExcel_4 process_data_end ] start
+							 * [tFileInputExcel_3 process_data_end ] start
 							 */
 
-							currentComponent = "tFileInputExcel_4";
+							currentComponent = "tFileInputExcel_3";
 
 							/**
-							 * [tFileInputExcel_4 process_data_end ] stop
+							 * [tFileInputExcel_3 process_data_end ] stop
 							 */
 
 							/**
-							 * [tFileInputExcel_4 end ] start
+							 * [tFileInputExcel_3 end ] start
 							 */
 
-							currentComponent = "tFileInputExcel_4";
+							currentComponent = "tFileInputExcel_3";
 
 						}
 
-						globalMap.put("tFileInputExcel_4_NB_LINE",
-								nb_line_tFileInputExcel_4);
+						globalMap.put("tFileInputExcel_3_NB_LINE",
+								nb_line_tFileInputExcel_3);
 
 					}
 
 				} finally {
 
-					if (!(source_tFileInputExcel_4 instanceof java.io.InputStream)) {
-						workbook_tFileInputExcel_4.getPackage().revert();
+					if (!(source_tFileInputExcel_3 instanceof java.io.InputStream)) {
+						workbook_tFileInputExcel_3.getPackage().revert();
 					}
 
 				}
 
-				ok_Hash.put("tFileInputExcel_4", true);
-				end_Hash.put("tFileInputExcel_4", System.currentTimeMillis());
+				ok_Hash.put("tFileInputExcel_3", true);
+				end_Hash.put("tFileInputExcel_3", System.currentTimeMillis());
 
 				/**
-				 * [tFileInputExcel_4 end ] stop
+				 * [tFileInputExcel_3 end ] stop
 				 */
 
 				/**
@@ -1579,7 +4792,7 @@ public class integrationDimensions implements TalendJob {
 				if (execStat) {
 					if (resourceMap.get("inIterateVComp") == null
 							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
-						runStat.updateStatOnConnection("row9" + iterateId, 2, 0);
+						runStat.updateStatOnConnection("row4" + iterateId, 2, 0);
 					}
 				}
 
@@ -1591,30 +4804,30 @@ public class integrationDimensions implements TalendJob {
 				 */
 
 				/**
-				 * [tLogRow_1 end ] start
+				 * [tLogRow_5 end ] start
 				 */
 
-				currentComponent = "tLogRow_1";
+				currentComponent = "tLogRow_5";
 
 				// ////
 				// ////
-				globalMap.put("tLogRow_1_NB_LINE", nb_line_tLogRow_1);
+				globalMap.put("tLogRow_5_NB_LINE", nb_line_tLogRow_5);
 
 				// /////////////////////
 
 				if (execStat) {
 					if (resourceMap.get("inIterateVComp") == null
 							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
-						runStat.updateStatOnConnection("socioPro" + iterateId,
-								2, 0);
+						runStat.updateStatOnConnection(
+								"integrationCatProfSociale" + iterateId, 2, 0);
 					}
 				}
 
-				ok_Hash.put("tLogRow_1", true);
-				end_Hash.put("tLogRow_1", System.currentTimeMillis());
+				ok_Hash.put("tLogRow_5", true);
+				end_Hash.put("tLogRow_5", System.currentTimeMillis());
 
 				/**
-				 * [tLogRow_1 end ] stop
+				 * [tLogRow_5 end ] stop
 				 */
 
 				/**
@@ -1688,7 +4901,7 @@ public class integrationDimensions implements TalendJob {
 				if (execStat) {
 					if (resourceMap.get("inIterateVComp") == null
 							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
-						runStat.updateStatOnConnection("row4" + iterateId, 2, 0);
+						runStat.updateStatOnConnection("row9" + iterateId, 2, 0);
 					}
 				}
 
@@ -1717,13 +4930,13 @@ public class integrationDimensions implements TalendJob {
 			try {
 
 				/**
-				 * [tFileInputExcel_4 finally ] start
+				 * [tFileInputExcel_3 finally ] start
 				 */
 
-				currentComponent = "tFileInputExcel_4";
+				currentComponent = "tFileInputExcel_3";
 
 				/**
-				 * [tFileInputExcel_4 finally ] stop
+				 * [tFileInputExcel_3 finally ] stop
 				 */
 
 				/**
@@ -1737,13 +4950,13 @@ public class integrationDimensions implements TalendJob {
 				 */
 
 				/**
-				 * [tLogRow_1 finally ] start
+				 * [tLogRow_5 finally ] start
 				 */
 
-				currentComponent = "tLogRow_1";
+				currentComponent = "tLogRow_5";
 
 				/**
-				 * [tLogRow_1 finally ] stop
+				 * [tLogRow_5 finally ] stop
 				 */
 
 				/**
@@ -1788,7 +5001,4391 @@ public class integrationDimensions implements TalendJob {
 			resourceMap = null;
 		}
 
+		globalMap.put("tFileInputExcel_3_SUBPROCESS_STATE", 1);
+	}
+
+	public static class row10Struct implements
+			routines.system.IPersistableRow<row10Struct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String libelle_secteur_activite;
+
+		public String getLibelle_secteur_activite() {
+			return this.libelle_secteur_activite;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.libelle_secteur_activite = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.libelle_secteur_activite, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("libelle_secteur_activite=" + libelle_secteur_activite);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row10Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class integrationSectActiviteStruct implements
+			routines.system.IPersistableRow<integrationSectActiviteStruct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String libelle_secteur_activite;
+
+		public String getLibelle_secteur_activite() {
+			return this.libelle_secteur_activite;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.libelle_secteur_activite = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.libelle_secteur_activite, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("libelle_secteur_activite=" + libelle_secteur_activite);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(integrationSectActiviteStruct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class row5Struct implements
+			routines.system.IPersistableRow<row5Struct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String libelle_activite;
+
+		public String getLibelle_activite() {
+			return this.libelle_activite;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.libelle_activite = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.libelle_activite, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("libelle_activite=" + libelle_activite);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row5Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public void tFileInputExcel_4Process(
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+		globalMap.put("tFileInputExcel_4_SUBPROCESS_STATE", 0);
+
+		final boolean execStat = this.execStat;
+
+		String iterateId = "";
+
+		String currentComponent = "";
+		java.util.Map<String, Object> resourceMap = new java.util.HashMap<String, Object>();
+
+		try {
+			// TDI-39566 avoid throwing an useless Exception
+			boolean resumeIt = true;
+			if (globalResumeTicket == false && resumeEntryMethodName != null) {
+				String currentMethodName = new java.lang.Exception()
+						.getStackTrace()[0].getMethodName();
+				resumeIt = resumeEntryMethodName.equals(currentMethodName);
+			}
+			if (resumeIt || globalResumeTicket) { // start the resume
+				globalResumeTicket = true;
+
+				row5Struct row5 = new row5Struct();
+				integrationSectActiviteStruct integrationSectActivite = new integrationSectActiviteStruct();
+				integrationSectActiviteStruct row10 = integrationSectActivite;
+
+				/**
+				 * [tDBOutput_5 begin ] start
+				 */
+
+				ok_Hash.put("tDBOutput_5", false);
+				start_Hash.put("tDBOutput_5", System.currentTimeMillis());
+
+				currentComponent = "tDBOutput_5";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("row10" + iterateId, 0,
+								0);
+
+					}
+				}
+
+				int tos_count_tDBOutput_5 = 0;
+
+				int nb_line_tDBOutput_5 = 0;
+				int nb_line_update_tDBOutput_5 = 0;
+				int nb_line_inserted_tDBOutput_5 = 0;
+				int nb_line_deleted_tDBOutput_5 = 0;
+				int nb_line_rejected_tDBOutput_5 = 0;
+
+				int deletedCount_tDBOutput_5 = 0;
+				int updatedCount_tDBOutput_5 = 0;
+				int insertedCount_tDBOutput_5 = 0;
+				int rejectedCount_tDBOutput_5 = 0;
+				String dbschema_tDBOutput_5 = null;
+				String tableName_tDBOutput_5 = null;
+				boolean whetherReject_tDBOutput_5 = false;
+
+				java.util.Calendar calendar_tDBOutput_5 = java.util.Calendar
+						.getInstance();
+				long year1_tDBOutput_5 = TalendDate.parseDate("yyyy-MM-dd",
+						"0001-01-01").getTime();
+				long year2_tDBOutput_5 = TalendDate.parseDate("yyyy-MM-dd",
+						"1753-01-01").getTime();
+				long year10000_tDBOutput_5 = TalendDate.parseDate(
+						"yyyy-MM-dd HH:mm:ss", "9999-12-31 24:00:00").getTime();
+				long date_tDBOutput_5;
+
+				java.util.Calendar calendar_datetimeoffset_tDBOutput_5 = java.util.Calendar
+						.getInstance(java.util.TimeZone.getTimeZone("UTC"));
+
+				java.sql.Connection conn_tDBOutput_5 = null;
+				String dbUser_tDBOutput_5 = null;
+				dbschema_tDBOutput_5 = "";
+				String driverClass_tDBOutput_5 = "net.sourceforge.jtds.jdbc.Driver";
+
+				java.lang.Class.forName(driverClass_tDBOutput_5);
+				String port_tDBOutput_5 = "52890";
+				String dbname_tDBOutput_5 = "PROJET_ENT";
+				String url_tDBOutput_5 = "jdbc:jtds:sqlserver://"
+						+ "desktop-4c70u1q";
+				if (!"".equals(port_tDBOutput_5)) {
+					url_tDBOutput_5 += ":" + "52890";
+				}
+				if (!"".equals(dbname_tDBOutput_5)) {
+					url_tDBOutput_5 += "//" + "PROJET_ENT";
+
+				}
+				url_tDBOutput_5 += ";appName=" + projectName + ";" + "";
+				dbUser_tDBOutput_5 = "sa";
+
+				final String decryptedPassword_tDBOutput_5 = routines.system.PasswordEncryptUtil
+						.decryptPassword("45c9c2d701725302");
+
+				String dbPwd_tDBOutput_5 = decryptedPassword_tDBOutput_5;
+				conn_tDBOutput_5 = java.sql.DriverManager.getConnection(
+						url_tDBOutput_5, dbUser_tDBOutput_5, dbPwd_tDBOutput_5);
+
+				resourceMap.put("conn_tDBOutput_5", conn_tDBOutput_5);
+
+				conn_tDBOutput_5.setAutoCommit(false);
+				int commitEvery_tDBOutput_5 = 10000;
+				int commitCounter_tDBOutput_5 = 0;
+
+				int batchSize_tDBOutput_5 = 10000;
+				int batchSizeCounter_tDBOutput_5 = 0;
+
+				if (dbschema_tDBOutput_5 == null
+						|| dbschema_tDBOutput_5.trim().length() == 0) {
+					tableName_tDBOutput_5 = "SECTEUR_ACTIVITE_DIM";
+				} else {
+					tableName_tDBOutput_5 = dbschema_tDBOutput_5 + "].["
+							+ "SECTEUR_ACTIVITE_DIM";
+				}
+				int count_tDBOutput_5 = 0;
+
+				String insert_tDBOutput_5 = "INSERT INTO ["
+						+ tableName_tDBOutput_5
+						+ "] ([libelle_secteur_activite]) VALUES (?)";
+				java.sql.PreparedStatement pstmt_tDBOutput_5 = conn_tDBOutput_5
+						.prepareStatement(insert_tDBOutput_5);
+				resourceMap.put("pstmt_tDBOutput_5", pstmt_tDBOutput_5);
+
+				/**
+				 * [tDBOutput_5 begin ] stop
+				 */
+
+				/**
+				 * [tLogRow_6 begin ] start
+				 */
+
+				ok_Hash.put("tLogRow_6", false);
+				start_Hash.put("tLogRow_6", System.currentTimeMillis());
+
+				currentComponent = "tLogRow_6";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection(
+								"integrationSectActivite" + iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tLogRow_6 = 0;
+
+				// /////////////////////
+
+				final String OUTPUT_FIELD_SEPARATOR_tLogRow_6 = "|";
+				java.io.PrintStream consoleOut_tLogRow_6 = null;
+
+				StringBuilder strBuffer_tLogRow_6 = null;
+				int nb_line_tLogRow_6 = 0;
+				// /////////////////////
+
+				/**
+				 * [tLogRow_6 begin ] stop
+				 */
+
+				/**
+				 * [tMap_5 begin ] start
+				 */
+
+				ok_Hash.put("tMap_5", false);
+				start_Hash.put("tMap_5", System.currentTimeMillis());
+
+				currentComponent = "tMap_5";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("row5" + iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tMap_5 = 0;
+
+				// ###############################
+				// # Lookup's keys initialization
+				// ###############################
+
+				// ###############################
+				// # Vars initialization
+				class Var__tMap_5__Struct {
+				}
+				Var__tMap_5__Struct Var__tMap_5 = new Var__tMap_5__Struct();
+				// ###############################
+
+				// ###############################
+				// # Outputs initialization
+				integrationSectActiviteStruct integrationSectActivite_tmp = new integrationSectActiviteStruct();
+				// ###############################
+
+				/**
+				 * [tMap_5 begin ] stop
+				 */
+
+				/**
+				 * [tFileInputExcel_4 begin ] start
+				 */
+
+				ok_Hash.put("tFileInputExcel_4", false);
+				start_Hash.put("tFileInputExcel_4", System.currentTimeMillis());
+
+				currentComponent = "tFileInputExcel_4";
+
+				int tos_count_tFileInputExcel_4 = 0;
+
+				class RegexUtil_tFileInputExcel_4 {
+
+					public java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(
+							org.apache.poi.xssf.usermodel.XSSFWorkbook workbook,
+							String oneSheetName, boolean useRegex) {
+
+						java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> list = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+
+						if (useRegex) {// this part process the regex issue
+
+							java.util.regex.Pattern pattern = java.util.regex.Pattern
+									.compile(oneSheetName);
+							for (org.apache.poi.ss.usermodel.Sheet sheet : workbook) {
+								String sheetName = sheet.getSheetName();
+								java.util.regex.Matcher matcher = pattern
+										.matcher(sheetName);
+								if (matcher.matches()) {
+									if (sheet != null) {
+										list.add((org.apache.poi.xssf.usermodel.XSSFSheet) sheet);
+									}
+								}
+							}
+
+						} else {
+							org.apache.poi.xssf.usermodel.XSSFSheet sheet = (org.apache.poi.xssf.usermodel.XSSFSheet) workbook
+									.getSheet(oneSheetName);
+							if (sheet != null) {
+								list.add(sheet);
+							}
+
+						}
+
+						return list;
+					}
+
+					public java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(
+							org.apache.poi.xssf.usermodel.XSSFWorkbook workbook,
+							int index, boolean useRegex) {
+						java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> list = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+						org.apache.poi.xssf.usermodel.XSSFSheet sheet = (org.apache.poi.xssf.usermodel.XSSFSheet) workbook
+								.getSheetAt(index);
+						if (sheet != null) {
+							list.add(sheet);
+						}
+						return list;
+					}
+
+				}
+				RegexUtil_tFileInputExcel_4 regexUtil_tFileInputExcel_4 = new RegexUtil_tFileInputExcel_4();
+
+				Object source_tFileInputExcel_4 = "C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/DIM - Excel/ACTIVITE_DIM.xlsx";
+				org.apache.poi.xssf.usermodel.XSSFWorkbook workbook_tFileInputExcel_4 = null;
+
+				if (source_tFileInputExcel_4 instanceof String) {
+					workbook_tFileInputExcel_4 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
+							(String) source_tFileInputExcel_4);
+				} else if (source_tFileInputExcel_4 instanceof java.io.InputStream) {
+					workbook_tFileInputExcel_4 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
+							(java.io.InputStream) source_tFileInputExcel_4);
+				} else {
+					workbook_tFileInputExcel_4 = null;
+					throw new java.lang.Exception(
+							"The data source should be specified as Inputstream or File Path!");
+				}
+				try {
+
+					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_tFileInputExcel_4 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+					for (org.apache.poi.ss.usermodel.Sheet sheet_tFileInputExcel_4 : workbook_tFileInputExcel_4) {
+						sheetList_tFileInputExcel_4
+								.add((org.apache.poi.xssf.usermodel.XSSFSheet) sheet_tFileInputExcel_4);
+					}
+					if (sheetList_tFileInputExcel_4.size() <= 0) {
+						throw new RuntimeException("Special sheets not exist!");
+					}
+
+					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_FilterNull_tFileInputExcel_4 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+					for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_FilterNull_tFileInputExcel_4 : sheetList_tFileInputExcel_4) {
+						if (sheet_FilterNull_tFileInputExcel_4 != null
+								&& sheetList_FilterNull_tFileInputExcel_4
+										.iterator() != null
+								&& sheet_FilterNull_tFileInputExcel_4
+										.iterator().hasNext()) {
+							sheetList_FilterNull_tFileInputExcel_4
+									.add(sheet_FilterNull_tFileInputExcel_4);
+						}
+					}
+					sheetList_tFileInputExcel_4 = sheetList_FilterNull_tFileInputExcel_4;
+					if (sheetList_tFileInputExcel_4.size() > 0) {
+						int nb_line_tFileInputExcel_4 = 0;
+
+						int begin_line_tFileInputExcel_4 = 1;
+
+						int footer_input_tFileInputExcel_4 = 0;
+
+						int end_line_tFileInputExcel_4 = 0;
+						for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_4 : sheetList_tFileInputExcel_4) {
+							end_line_tFileInputExcel_4 += (sheet_tFileInputExcel_4
+									.getLastRowNum() + 1);
+						}
+						end_line_tFileInputExcel_4 -= footer_input_tFileInputExcel_4;
+						int limit_tFileInputExcel_4 = -1;
+						int start_column_tFileInputExcel_4 = 1 - 1;
+						int end_column_tFileInputExcel_4 = -1;
+
+						org.apache.poi.xssf.usermodel.XSSFRow row_tFileInputExcel_4 = null;
+						org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_4 = sheetList_tFileInputExcel_4
+								.get(0);
+						int rowCount_tFileInputExcel_4 = 0;
+						int sheetIndex_tFileInputExcel_4 = 0;
+						int currentRows_tFileInputExcel_4 = (sheetList_tFileInputExcel_4
+								.get(0).getLastRowNum() + 1);
+
+						// for the number format
+						java.text.DecimalFormat df_tFileInputExcel_4 = new java.text.DecimalFormat(
+								"#.####################################");
+						char decimalChar_tFileInputExcel_4 = df_tFileInputExcel_4
+								.getDecimalFormatSymbols()
+								.getDecimalSeparator();
+
+						for (int i_tFileInputExcel_4 = begin_line_tFileInputExcel_4; i_tFileInputExcel_4 < end_line_tFileInputExcel_4; i_tFileInputExcel_4++) {
+
+							int emptyColumnCount_tFileInputExcel_4 = 0;
+
+							if (limit_tFileInputExcel_4 != -1
+									&& nb_line_tFileInputExcel_4 >= limit_tFileInputExcel_4) {
+								break;
+							}
+
+							while (i_tFileInputExcel_4 >= rowCount_tFileInputExcel_4
+									+ currentRows_tFileInputExcel_4) {
+								rowCount_tFileInputExcel_4 += currentRows_tFileInputExcel_4;
+								sheet_tFileInputExcel_4 = sheetList_tFileInputExcel_4
+										.get(++sheetIndex_tFileInputExcel_4);
+								currentRows_tFileInputExcel_4 = (sheet_tFileInputExcel_4
+										.getLastRowNum() + 1);
+							}
+							globalMap.put("tFileInputExcel_4_CURRENT_SHEET",
+									sheet_tFileInputExcel_4.getSheetName());
+							if (rowCount_tFileInputExcel_4 <= i_tFileInputExcel_4) {
+								row_tFileInputExcel_4 = sheet_tFileInputExcel_4
+										.getRow(i_tFileInputExcel_4
+												- rowCount_tFileInputExcel_4);
+							}
+							row5 = null;
+							int tempRowLength_tFileInputExcel_4 = 1;
+
+							int columnIndex_tFileInputExcel_4 = 0;
+
+							String[] temp_row_tFileInputExcel_4 = new String[tempRowLength_tFileInputExcel_4];
+							int excel_end_column_tFileInputExcel_4;
+							if (row_tFileInputExcel_4 == null) {
+								excel_end_column_tFileInputExcel_4 = 0;
+							} else {
+								excel_end_column_tFileInputExcel_4 = row_tFileInputExcel_4
+										.getLastCellNum();
+							}
+							int actual_end_column_tFileInputExcel_4;
+							if (end_column_tFileInputExcel_4 == -1) {
+								actual_end_column_tFileInputExcel_4 = excel_end_column_tFileInputExcel_4;
+							} else {
+								actual_end_column_tFileInputExcel_4 = end_column_tFileInputExcel_4 > excel_end_column_tFileInputExcel_4 ? excel_end_column_tFileInputExcel_4
+										: end_column_tFileInputExcel_4;
+							}
+							org.apache.poi.ss.formula.eval.NumberEval ne_tFileInputExcel_4 = null;
+							for (int i = 0; i < tempRowLength_tFileInputExcel_4; i++) {
+								if (i + start_column_tFileInputExcel_4 < actual_end_column_tFileInputExcel_4) {
+									org.apache.poi.ss.usermodel.Cell cell_tFileInputExcel_4 = row_tFileInputExcel_4
+											.getCell(i
+													+ start_column_tFileInputExcel_4);
+									if (cell_tFileInputExcel_4 != null) {
+										switch (cell_tFileInputExcel_4
+												.getCellType()) {
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_STRING:
+											temp_row_tFileInputExcel_4[i] = cell_tFileInputExcel_4
+													.getRichStringCellValue()
+													.getString();
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC:
+											if (org.apache.poi.ss.usermodel.DateUtil
+													.isCellDateFormatted(cell_tFileInputExcel_4)) {
+												temp_row_tFileInputExcel_4[i] = cell_tFileInputExcel_4
+														.getDateCellValue()
+														.toString();
+											} else {
+												temp_row_tFileInputExcel_4[i] = df_tFileInputExcel_4
+														.format(cell_tFileInputExcel_4
+																.getNumericCellValue());
+											}
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_BOOLEAN:
+											temp_row_tFileInputExcel_4[i] = String
+													.valueOf(cell_tFileInputExcel_4
+															.getBooleanCellValue());
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_FORMULA:
+											switch (cell_tFileInputExcel_4
+													.getCachedFormulaResultType()) {
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_STRING:
+												temp_row_tFileInputExcel_4[i] = cell_tFileInputExcel_4
+														.getRichStringCellValue()
+														.getString();
+												break;
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC:
+												if (org.apache.poi.ss.usermodel.DateUtil
+														.isCellDateFormatted(cell_tFileInputExcel_4)) {
+													temp_row_tFileInputExcel_4[i] = cell_tFileInputExcel_4
+															.getDateCellValue()
+															.toString();
+												} else {
+													ne_tFileInputExcel_4 = new org.apache.poi.ss.formula.eval.NumberEval(
+															cell_tFileInputExcel_4
+																	.getNumericCellValue());
+													temp_row_tFileInputExcel_4[i] = ne_tFileInputExcel_4
+															.getStringValue();
+												}
+												break;
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_BOOLEAN:
+												temp_row_tFileInputExcel_4[i] = String
+														.valueOf(cell_tFileInputExcel_4
+																.getBooleanCellValue());
+												break;
+											default:
+												temp_row_tFileInputExcel_4[i] = "";
+											}
+											break;
+										default:
+											temp_row_tFileInputExcel_4[i] = "";
+										}
+									} else {
+										temp_row_tFileInputExcel_4[i] = "";
+									}
+
+								} else {
+									temp_row_tFileInputExcel_4[i] = "";
+								}
+							}
+							boolean whetherReject_tFileInputExcel_4 = false;
+							row5 = new row5Struct();
+							int curColNum_tFileInputExcel_4 = -1;
+							String curColName_tFileInputExcel_4 = "";
+							try {
+								columnIndex_tFileInputExcel_4 = 0;
+
+								if (temp_row_tFileInputExcel_4[columnIndex_tFileInputExcel_4]
+										.length() > 0) {
+									curColNum_tFileInputExcel_4 = columnIndex_tFileInputExcel_4
+											+ start_column_tFileInputExcel_4
+											+ 1;
+									curColName_tFileInputExcel_4 = "libelle_activite";
+
+									row5.libelle_activite = temp_row_tFileInputExcel_4[columnIndex_tFileInputExcel_4];
+								} else {
+									row5.libelle_activite = null;
+									emptyColumnCount_tFileInputExcel_4++;
+								}
+
+								nb_line_tFileInputExcel_4++;
+
+							} catch (java.lang.Exception e) {
+								whetherReject_tFileInputExcel_4 = true;
+								System.err.println(e.getMessage());
+								row5 = null;
+							}
+
+							/**
+							 * [tFileInputExcel_4 begin ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_4 main ] start
+							 */
+
+							currentComponent = "tFileInputExcel_4";
+
+							tos_count_tFileInputExcel_4++;
+
+							/**
+							 * [tFileInputExcel_4 main ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_4 process_data_begin ] start
+							 */
+
+							currentComponent = "tFileInputExcel_4";
+
+							/**
+							 * [tFileInputExcel_4 process_data_begin ] stop
+							 */
+							// Start of branch "row5"
+							if (row5 != null) {
+
+								/**
+								 * [tMap_5 main ] start
+								 */
+
+								currentComponent = "tMap_5";
+
+								// row5
+								// row5
+
+								if (execStat) {
+									runStat.updateStatOnConnection("row5"
+											+ iterateId, 1, 1);
+								}
+
+								boolean hasCasePrimitiveKeyWithNull_tMap_5 = false;
+
+								// ###############################
+								// # Input tables (lookups)
+								boolean rejectedInnerJoin_tMap_5 = false;
+								boolean mainRowRejected_tMap_5 = false;
+
+								// ###############################
+								{ // start of Var scope
+
+									// ###############################
+									// # Vars tables
+
+									Var__tMap_5__Struct Var = Var__tMap_5;// ###############################
+									// ###############################
+									// # Output tables
+
+									integrationSectActivite = null;
+
+									// # Output table :
+									// 'integrationSectActivite'
+									integrationSectActivite_tmp.libelle_secteur_activite = row5.libelle_activite;
+									integrationSectActivite = integrationSectActivite_tmp;
+									// ###############################
+
+								} // end of Var scope
+
+								rejectedInnerJoin_tMap_5 = false;
+
+								tos_count_tMap_5++;
+
+								/**
+								 * [tMap_5 main ] stop
+								 */
+
+								/**
+								 * [tMap_5 process_data_begin ] start
+								 */
+
+								currentComponent = "tMap_5";
+
+								/**
+								 * [tMap_5 process_data_begin ] stop
+								 */
+								// Start of branch "integrationSectActivite"
+								if (integrationSectActivite != null) {
+
+									/**
+									 * [tLogRow_6 main ] start
+									 */
+
+									currentComponent = "tLogRow_6";
+
+									// integrationSectActivite
+									// integrationSectActivite
+
+									if (execStat) {
+										runStat.updateStatOnConnection(
+												"integrationSectActivite"
+														+ iterateId, 1, 1);
+									}
+
+									// /////////////////////
+
+									strBuffer_tLogRow_6 = new StringBuilder();
+
+									if (integrationSectActivite.libelle_secteur_activite != null) { //
+
+										strBuffer_tLogRow_6
+												.append(String
+														.valueOf(integrationSectActivite.libelle_secteur_activite));
+
+									} //
+
+									if (globalMap.get("tLogRow_CONSOLE") != null) {
+										consoleOut_tLogRow_6 = (java.io.PrintStream) globalMap
+												.get("tLogRow_CONSOLE");
+									} else {
+										consoleOut_tLogRow_6 = new java.io.PrintStream(
+												new java.io.BufferedOutputStream(
+														System.out));
+										globalMap.put("tLogRow_CONSOLE",
+												consoleOut_tLogRow_6);
+									}
+									consoleOut_tLogRow_6
+											.println(strBuffer_tLogRow_6
+													.toString());
+									consoleOut_tLogRow_6.flush();
+									nb_line_tLogRow_6++;
+									// ////
+
+									// ////
+
+									// /////////////////////
+
+									row10 = integrationSectActivite;
+
+									tos_count_tLogRow_6++;
+
+									/**
+									 * [tLogRow_6 main ] stop
+									 */
+
+									/**
+									 * [tLogRow_6 process_data_begin ] start
+									 */
+
+									currentComponent = "tLogRow_6";
+
+									/**
+									 * [tLogRow_6 process_data_begin ] stop
+									 */
+
+									/**
+									 * [tDBOutput_5 main ] start
+									 */
+
+									currentComponent = "tDBOutput_5";
+
+									// row10
+									// row10
+
+									if (execStat) {
+										runStat.updateStatOnConnection("row10"
+												+ iterateId, 1, 1);
+									}
+
+									whetherReject_tDBOutput_5 = false;
+									if (row10.libelle_secteur_activite == null) {
+										pstmt_tDBOutput_5.setNull(1,
+												java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_5.setString(1,
+												row10.libelle_secteur_activite);
+									}
+
+									pstmt_tDBOutput_5.addBatch();
+									nb_line_tDBOutput_5++;
+
+									batchSizeCounter_tDBOutput_5++;
+
+									// ////////batch execute by batch
+									// size///////
+									class LimitBytesHelper_tDBOutput_5 {
+										public int limitBytePart1(
+												int counter,
+												java.sql.PreparedStatement pstmt_tDBOutput_5)
+												throws Exception {
+											try {
+
+												for (int countEach_tDBOutput_5 : pstmt_tDBOutput_5
+														.executeBatch()) {
+													if (countEach_tDBOutput_5 == -2
+															|| countEach_tDBOutput_5 == -3) {
+														break;
+													}
+													counter += countEach_tDBOutput_5;
+												}
+
+											} catch (java.sql.BatchUpdateException e) {
+
+												int countSum_tDBOutput_5 = 0;
+												for (int countEach_tDBOutput_5 : e
+														.getUpdateCounts()) {
+													counter += (countEach_tDBOutput_5 < 0 ? 0
+															: countEach_tDBOutput_5);
+												}
+
+												System.err.println(e
+														.getMessage());
+
+											}
+											return counter;
+										}
+
+										public int limitBytePart2(
+												int counter,
+												java.sql.PreparedStatement pstmt_tDBOutput_5)
+												throws Exception {
+											try {
+
+												for (int countEach_tDBOutput_5 : pstmt_tDBOutput_5
+														.executeBatch()) {
+													if (countEach_tDBOutput_5 == -2
+															|| countEach_tDBOutput_5 == -3) {
+														break;
+													}
+													counter += countEach_tDBOutput_5;
+												}
+
+											} catch (java.sql.BatchUpdateException e) {
+
+												for (int countEach_tDBOutput_5 : e
+														.getUpdateCounts()) {
+													counter += (countEach_tDBOutput_5 < 0 ? 0
+															: countEach_tDBOutput_5);
+												}
+
+												System.err.println(e
+														.getMessage());
+
+											}
+											return counter;
+										}
+									}
+									if ((batchSize_tDBOutput_5 > 0)
+											&& (batchSize_tDBOutput_5 <= batchSizeCounter_tDBOutput_5)) {
+
+										insertedCount_tDBOutput_5 = new LimitBytesHelper_tDBOutput_5()
+												.limitBytePart1(
+														insertedCount_tDBOutput_5,
+														pstmt_tDBOutput_5);
+
+										batchSizeCounter_tDBOutput_5 = 0;
+									}
+
+									// //////////commit every////////////
+
+									commitCounter_tDBOutput_5++;
+									if (commitEvery_tDBOutput_5 <= commitCounter_tDBOutput_5) {
+										if ((batchSize_tDBOutput_5 > 0)
+												&& (batchSizeCounter_tDBOutput_5 > 0)) {
+
+											insertedCount_tDBOutput_5 = new LimitBytesHelper_tDBOutput_5()
+													.limitBytePart1(
+															insertedCount_tDBOutput_5,
+															pstmt_tDBOutput_5);
+
+											batchSizeCounter_tDBOutput_5 = 0;
+										}
+
+										conn_tDBOutput_5.commit();
+
+										commitCounter_tDBOutput_5 = 0;
+									}
+
+									tos_count_tDBOutput_5++;
+
+									/**
+									 * [tDBOutput_5 main ] stop
+									 */
+
+									/**
+									 * [tDBOutput_5 process_data_begin ] start
+									 */
+
+									currentComponent = "tDBOutput_5";
+
+									/**
+									 * [tDBOutput_5 process_data_begin ] stop
+									 */
+
+									/**
+									 * [tDBOutput_5 process_data_end ] start
+									 */
+
+									currentComponent = "tDBOutput_5";
+
+									/**
+									 * [tDBOutput_5 process_data_end ] stop
+									 */
+
+									/**
+									 * [tLogRow_6 process_data_end ] start
+									 */
+
+									currentComponent = "tLogRow_6";
+
+									/**
+									 * [tLogRow_6 process_data_end ] stop
+									 */
+
+								} // End of branch "integrationSectActivite"
+
+								/**
+								 * [tMap_5 process_data_end ] start
+								 */
+
+								currentComponent = "tMap_5";
+
+								/**
+								 * [tMap_5 process_data_end ] stop
+								 */
+
+							} // End of branch "row5"
+
+							/**
+							 * [tFileInputExcel_4 process_data_end ] start
+							 */
+
+							currentComponent = "tFileInputExcel_4";
+
+							/**
+							 * [tFileInputExcel_4 process_data_end ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_4 end ] start
+							 */
+
+							currentComponent = "tFileInputExcel_4";
+
+						}
+
+						globalMap.put("tFileInputExcel_4_NB_LINE",
+								nb_line_tFileInputExcel_4);
+
+					}
+
+				} finally {
+
+					if (!(source_tFileInputExcel_4 instanceof java.io.InputStream)) {
+						workbook_tFileInputExcel_4.getPackage().revert();
+					}
+
+				}
+
+				ok_Hash.put("tFileInputExcel_4", true);
+				end_Hash.put("tFileInputExcel_4", System.currentTimeMillis());
+
+				/**
+				 * [tFileInputExcel_4 end ] stop
+				 */
+
+				/**
+				 * [tMap_5 end ] start
+				 */
+
+				currentComponent = "tMap_5";
+
+				// ###############################
+				// # Lookup hashes releasing
+				// ###############################
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row5" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tMap_5", true);
+				end_Hash.put("tMap_5", System.currentTimeMillis());
+
+				/**
+				 * [tMap_5 end ] stop
+				 */
+
+				/**
+				 * [tLogRow_6 end ] start
+				 */
+
+				currentComponent = "tLogRow_6";
+
+				// ////
+				// ////
+				globalMap.put("tLogRow_6_NB_LINE", nb_line_tLogRow_6);
+
+				// /////////////////////
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection(
+								"integrationSectActivite" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tLogRow_6", true);
+				end_Hash.put("tLogRow_6", System.currentTimeMillis());
+
+				/**
+				 * [tLogRow_6 end ] stop
+				 */
+
+				/**
+				 * [tDBOutput_5 end ] start
+				 */
+
+				currentComponent = "tDBOutput_5";
+
+				try {
+					int countSum_tDBOutput_5 = 0;
+					if (pstmt_tDBOutput_5 != null
+							&& batchSizeCounter_tDBOutput_5 > 0) {
+
+						for (int countEach_tDBOutput_5 : pstmt_tDBOutput_5
+								.executeBatch()) {
+							if (countEach_tDBOutput_5 == -2
+									|| countEach_tDBOutput_5 == -3) {
+								break;
+							}
+							countSum_tDBOutput_5 += countEach_tDBOutput_5;
+						}
+
+					}
+
+					insertedCount_tDBOutput_5 += countSum_tDBOutput_5;
+
+				} catch (java.sql.BatchUpdateException e) {
+
+					int countSum_tDBOutput_5 = 0;
+					for (int countEach_tDBOutput_5 : e.getUpdateCounts()) {
+						countSum_tDBOutput_5 += (countEach_tDBOutput_5 < 0 ? 0
+								: countEach_tDBOutput_5);
+					}
+
+					insertedCount_tDBOutput_5 += countSum_tDBOutput_5;
+
+					System.err.println(e.getMessage());
+
+				}
+				if (pstmt_tDBOutput_5 != null) {
+
+					pstmt_tDBOutput_5.close();
+					resourceMap.remove("pstmt_tDBOutput_5");
+
+				}
+				resourceMap.put("statementClosed_tDBOutput_5", true);
+				conn_tDBOutput_5.commit();
+
+				conn_tDBOutput_5.close();
+				resourceMap.put("finish_tDBOutput_5", true);
+
+				nb_line_deleted_tDBOutput_5 = nb_line_deleted_tDBOutput_5
+						+ deletedCount_tDBOutput_5;
+				nb_line_update_tDBOutput_5 = nb_line_update_tDBOutput_5
+						+ updatedCount_tDBOutput_5;
+				nb_line_inserted_tDBOutput_5 = nb_line_inserted_tDBOutput_5
+						+ insertedCount_tDBOutput_5;
+				nb_line_rejected_tDBOutput_5 = nb_line_rejected_tDBOutput_5
+						+ rejectedCount_tDBOutput_5;
+
+				globalMap.put("tDBOutput_5_NB_LINE", nb_line_tDBOutput_5);
+				globalMap.put("tDBOutput_5_NB_LINE_UPDATED",
+						nb_line_update_tDBOutput_5);
+				globalMap.put("tDBOutput_5_NB_LINE_INSERTED",
+						nb_line_inserted_tDBOutput_5);
+				globalMap.put("tDBOutput_5_NB_LINE_DELETED",
+						nb_line_deleted_tDBOutput_5);
+				globalMap.put("tDBOutput_5_NB_LINE_REJECTED",
+						nb_line_rejected_tDBOutput_5);
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row10" + iterateId, 2,
+								0);
+					}
+				}
+
+				ok_Hash.put("tDBOutput_5", true);
+				end_Hash.put("tDBOutput_5", System.currentTimeMillis());
+
+				/**
+				 * [tDBOutput_5 end ] stop
+				 */
+
+			}// end the resume
+
+		} catch (java.lang.Exception e) {
+
+			TalendException te = new TalendException(e, currentComponent,
+					globalMap);
+
+			throw te;
+		} catch (java.lang.Error error) {
+
+			runStat.stopThreadStat();
+
+			throw error;
+		} finally {
+
+			try {
+
+				/**
+				 * [tFileInputExcel_4 finally ] start
+				 */
+
+				currentComponent = "tFileInputExcel_4";
+
+				/**
+				 * [tFileInputExcel_4 finally ] stop
+				 */
+
+				/**
+				 * [tMap_5 finally ] start
+				 */
+
+				currentComponent = "tMap_5";
+
+				/**
+				 * [tMap_5 finally ] stop
+				 */
+
+				/**
+				 * [tLogRow_6 finally ] start
+				 */
+
+				currentComponent = "tLogRow_6";
+
+				/**
+				 * [tLogRow_6 finally ] stop
+				 */
+
+				/**
+				 * [tDBOutput_5 finally ] start
+				 */
+
+				currentComponent = "tDBOutput_5";
+
+				try {
+					if (resourceMap.get("statementClosed_tDBOutput_5") == null) {
+						java.sql.PreparedStatement pstmtToClose_tDBOutput_5 = null;
+						if ((pstmtToClose_tDBOutput_5 = (java.sql.PreparedStatement) resourceMap
+								.remove("pstmt_tDBOutput_5")) != null) {
+							pstmtToClose_tDBOutput_5.close();
+						}
+					}
+				} finally {
+					if (resourceMap.get("finish_tDBOutput_5") == null) {
+						java.sql.Connection ctn_tDBOutput_5 = null;
+						if ((ctn_tDBOutput_5 = (java.sql.Connection) resourceMap
+								.get("conn_tDBOutput_5")) != null) {
+							try {
+								ctn_tDBOutput_5.close();
+							} catch (java.sql.SQLException sqlEx_tDBOutput_5) {
+								String errorMessage_tDBOutput_5 = "failed to close the connection in tDBOutput_5 :"
+										+ sqlEx_tDBOutput_5.getMessage();
+								System.err.println(errorMessage_tDBOutput_5);
+							}
+						}
+					}
+				}
+
+				/**
+				 * [tDBOutput_5 finally ] stop
+				 */
+
+			} catch (java.lang.Exception e) {
+				// ignore
+			} catch (java.lang.Error error) {
+				// ignore
+			}
+			resourceMap = null;
+		}
+
 		globalMap.put("tFileInputExcel_4_SUBPROCESS_STATE", 1);
+	}
+
+	public static class row6Struct implements
+			routines.system.IPersistableRow<row6Struct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String code_age;
+
+		public String getCode_age() {
+			return this.code_age;
+		}
+
+		public String libelle_age;
+
+		public String getLibelle_age() {
+			return this.libelle_age;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.code_age = readString(dis);
+
+					this.libelle_age = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.code_age, dos);
+
+				// String
+
+				writeString(this.libelle_age, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("code_age=" + code_age);
+			sb.append(",libelle_age=" + libelle_age);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row6Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class integrationAgeStruct implements
+			routines.system.IPersistableRow<integrationAgeStruct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String code_age;
+
+		public String getCode_age() {
+			return this.code_age;
+		}
+
+		public String libelle_age;
+
+		public String getLibelle_age() {
+			return this.libelle_age;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.code_age = readString(dis);
+
+					this.libelle_age = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.code_age, dos);
+
+				// String
+
+				writeString(this.libelle_age, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("code_age=" + code_age);
+			sb.append(",libelle_age=" + libelle_age);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(integrationAgeStruct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class row1Struct implements
+			routines.system.IPersistableRow<row1Struct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String code_age;
+
+		public String getCode_age() {
+			return this.code_age;
+		}
+
+		public String libelle_age;
+
+		public String getLibelle_age() {
+			return this.libelle_age;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.code_age = readString(dis);
+
+					this.libelle_age = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.code_age, dos);
+
+				// String
+
+				writeString(this.libelle_age, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("code_age=" + code_age);
+			sb.append(",libelle_age=" + libelle_age);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row1Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public void tFileInputExcel_5Process(
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+		globalMap.put("tFileInputExcel_5_SUBPROCESS_STATE", 0);
+
+		final boolean execStat = this.execStat;
+
+		String iterateId = "";
+
+		String currentComponent = "";
+		java.util.Map<String, Object> resourceMap = new java.util.HashMap<String, Object>();
+
+		try {
+			// TDI-39566 avoid throwing an useless Exception
+			boolean resumeIt = true;
+			if (globalResumeTicket == false && resumeEntryMethodName != null) {
+				String currentMethodName = new java.lang.Exception()
+						.getStackTrace()[0].getMethodName();
+				resumeIt = resumeEntryMethodName.equals(currentMethodName);
+			}
+			if (resumeIt || globalResumeTicket) { // start the resume
+				globalResumeTicket = true;
+
+				row1Struct row1 = new row1Struct();
+				integrationAgeStruct integrationAge = new integrationAgeStruct();
+				integrationAgeStruct row6 = integrationAge;
+
+				/**
+				 * [tDBOutput_1 begin ] start
+				 */
+
+				ok_Hash.put("tDBOutput_1", false);
+				start_Hash.put("tDBOutput_1", System.currentTimeMillis());
+
+				currentComponent = "tDBOutput_1";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("row6" + iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tDBOutput_1 = 0;
+
+				int nb_line_tDBOutput_1 = 0;
+				int nb_line_update_tDBOutput_1 = 0;
+				int nb_line_inserted_tDBOutput_1 = 0;
+				int nb_line_deleted_tDBOutput_1 = 0;
+				int nb_line_rejected_tDBOutput_1 = 0;
+
+				int deletedCount_tDBOutput_1 = 0;
+				int updatedCount_tDBOutput_1 = 0;
+				int insertedCount_tDBOutput_1 = 0;
+				int rejectedCount_tDBOutput_1 = 0;
+				String dbschema_tDBOutput_1 = null;
+				String tableName_tDBOutput_1 = null;
+				boolean whetherReject_tDBOutput_1 = false;
+
+				java.util.Calendar calendar_tDBOutput_1 = java.util.Calendar
+						.getInstance();
+				long year1_tDBOutput_1 = TalendDate.parseDate("yyyy-MM-dd",
+						"0001-01-01").getTime();
+				long year2_tDBOutput_1 = TalendDate.parseDate("yyyy-MM-dd",
+						"1753-01-01").getTime();
+				long year10000_tDBOutput_1 = TalendDate.parseDate(
+						"yyyy-MM-dd HH:mm:ss", "9999-12-31 24:00:00").getTime();
+				long date_tDBOutput_1;
+
+				java.util.Calendar calendar_datetimeoffset_tDBOutput_1 = java.util.Calendar
+						.getInstance(java.util.TimeZone.getTimeZone("UTC"));
+
+				java.sql.Connection conn_tDBOutput_1 = null;
+				String dbUser_tDBOutput_1 = null;
+				dbschema_tDBOutput_1 = "";
+				String driverClass_tDBOutput_1 = "net.sourceforge.jtds.jdbc.Driver";
+
+				java.lang.Class.forName(driverClass_tDBOutput_1);
+				String port_tDBOutput_1 = "52890";
+				String dbname_tDBOutput_1 = "PROJET_ENT";
+				String url_tDBOutput_1 = "jdbc:jtds:sqlserver://"
+						+ "desktop-4c70u1q";
+				if (!"".equals(port_tDBOutput_1)) {
+					url_tDBOutput_1 += ":" + "52890";
+				}
+				if (!"".equals(dbname_tDBOutput_1)) {
+					url_tDBOutput_1 += "//" + "PROJET_ENT";
+
+				}
+				url_tDBOutput_1 += ";appName=" + projectName + ";" + "";
+				dbUser_tDBOutput_1 = "sa";
+
+				final String decryptedPassword_tDBOutput_1 = routines.system.PasswordEncryptUtil
+						.decryptPassword("45c9c2d701725302");
+
+				String dbPwd_tDBOutput_1 = decryptedPassword_tDBOutput_1;
+				conn_tDBOutput_1 = java.sql.DriverManager.getConnection(
+						url_tDBOutput_1, dbUser_tDBOutput_1, dbPwd_tDBOutput_1);
+
+				resourceMap.put("conn_tDBOutput_1", conn_tDBOutput_1);
+
+				conn_tDBOutput_1.setAutoCommit(false);
+				int commitEvery_tDBOutput_1 = 10000;
+				int commitCounter_tDBOutput_1 = 0;
+
+				int batchSize_tDBOutput_1 = 10000;
+				int batchSizeCounter_tDBOutput_1 = 0;
+
+				if (dbschema_tDBOutput_1 == null
+						|| dbschema_tDBOutput_1.trim().length() == 0) {
+					tableName_tDBOutput_1 = "AGE_DIM";
+				} else {
+					tableName_tDBOutput_1 = dbschema_tDBOutput_1 + "].["
+							+ "AGE_DIM";
+				}
+				int count_tDBOutput_1 = 0;
+
+				String insert_tDBOutput_1 = "INSERT INTO ["
+						+ tableName_tDBOutput_1
+						+ "] ([code_age],[libelle_age]) VALUES (?,?)";
+				java.sql.PreparedStatement pstmt_tDBOutput_1 = conn_tDBOutput_1
+						.prepareStatement(insert_tDBOutput_1);
+				resourceMap.put("pstmt_tDBOutput_1", pstmt_tDBOutput_1);
+
+				/**
+				 * [tDBOutput_1 begin ] stop
+				 */
+
+				/**
+				 * [tLogRow_2 begin ] start
+				 */
+
+				ok_Hash.put("tLogRow_2", false);
+				start_Hash.put("tLogRow_2", System.currentTimeMillis());
+
+				currentComponent = "tLogRow_2";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("integrationAge"
+								+ iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tLogRow_2 = 0;
+
+				// /////////////////////
+
+				final String OUTPUT_FIELD_SEPARATOR_tLogRow_2 = "|";
+				java.io.PrintStream consoleOut_tLogRow_2 = null;
+
+				StringBuilder strBuffer_tLogRow_2 = null;
+				int nb_line_tLogRow_2 = 0;
+				// /////////////////////
+
+				/**
+				 * [tLogRow_2 begin ] stop
+				 */
+
+				/**
+				 * [tMap_1 begin ] start
+				 */
+
+				ok_Hash.put("tMap_1", false);
+				start_Hash.put("tMap_1", System.currentTimeMillis());
+
+				currentComponent = "tMap_1";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("row1" + iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tMap_1 = 0;
+
+				// ###############################
+				// # Lookup's keys initialization
+				// ###############################
+
+				// ###############################
+				// # Vars initialization
+				class Var__tMap_1__Struct {
+				}
+				Var__tMap_1__Struct Var__tMap_1 = new Var__tMap_1__Struct();
+				// ###############################
+
+				// ###############################
+				// # Outputs initialization
+				integrationAgeStruct integrationAge_tmp = new integrationAgeStruct();
+				// ###############################
+
+				/**
+				 * [tMap_1 begin ] stop
+				 */
+
+				/**
+				 * [tFileInputExcel_5 begin ] start
+				 */
+
+				ok_Hash.put("tFileInputExcel_5", false);
+				start_Hash.put("tFileInputExcel_5", System.currentTimeMillis());
+
+				currentComponent = "tFileInputExcel_5";
+
+				int tos_count_tFileInputExcel_5 = 0;
+
+				class RegexUtil_tFileInputExcel_5 {
+
+					public java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(
+							org.apache.poi.xssf.usermodel.XSSFWorkbook workbook,
+							String oneSheetName, boolean useRegex) {
+
+						java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> list = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+
+						if (useRegex) {// this part process the regex issue
+
+							java.util.regex.Pattern pattern = java.util.regex.Pattern
+									.compile(oneSheetName);
+							for (org.apache.poi.ss.usermodel.Sheet sheet : workbook) {
+								String sheetName = sheet.getSheetName();
+								java.util.regex.Matcher matcher = pattern
+										.matcher(sheetName);
+								if (matcher.matches()) {
+									if (sheet != null) {
+										list.add((org.apache.poi.xssf.usermodel.XSSFSheet) sheet);
+									}
+								}
+							}
+
+						} else {
+							org.apache.poi.xssf.usermodel.XSSFSheet sheet = (org.apache.poi.xssf.usermodel.XSSFSheet) workbook
+									.getSheet(oneSheetName);
+							if (sheet != null) {
+								list.add(sheet);
+							}
+
+						}
+
+						return list;
+					}
+
+					public java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(
+							org.apache.poi.xssf.usermodel.XSSFWorkbook workbook,
+							int index, boolean useRegex) {
+						java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> list = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+						org.apache.poi.xssf.usermodel.XSSFSheet sheet = (org.apache.poi.xssf.usermodel.XSSFSheet) workbook
+								.getSheetAt(index);
+						if (sheet != null) {
+							list.add(sheet);
+						}
+						return list;
+					}
+
+				}
+				RegexUtil_tFileInputExcel_5 regexUtil_tFileInputExcel_5 = new RegexUtil_tFileInputExcel_5();
+
+				Object source_tFileInputExcel_5 = "C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/DIM - Excel/AGE_DIM.xlsx";
+				org.apache.poi.xssf.usermodel.XSSFWorkbook workbook_tFileInputExcel_5 = null;
+
+				if (source_tFileInputExcel_5 instanceof String) {
+					workbook_tFileInputExcel_5 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
+							(String) source_tFileInputExcel_5);
+				} else if (source_tFileInputExcel_5 instanceof java.io.InputStream) {
+					workbook_tFileInputExcel_5 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
+							(java.io.InputStream) source_tFileInputExcel_5);
+				} else {
+					workbook_tFileInputExcel_5 = null;
+					throw new java.lang.Exception(
+							"The data source should be specified as Inputstream or File Path!");
+				}
+				try {
+
+					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_tFileInputExcel_5 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+					for (org.apache.poi.ss.usermodel.Sheet sheet_tFileInputExcel_5 : workbook_tFileInputExcel_5) {
+						sheetList_tFileInputExcel_5
+								.add((org.apache.poi.xssf.usermodel.XSSFSheet) sheet_tFileInputExcel_5);
+					}
+					if (sheetList_tFileInputExcel_5.size() <= 0) {
+						throw new RuntimeException("Special sheets not exist!");
+					}
+
+					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_FilterNull_tFileInputExcel_5 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+					for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_FilterNull_tFileInputExcel_5 : sheetList_tFileInputExcel_5) {
+						if (sheet_FilterNull_tFileInputExcel_5 != null
+								&& sheetList_FilterNull_tFileInputExcel_5
+										.iterator() != null
+								&& sheet_FilterNull_tFileInputExcel_5
+										.iterator().hasNext()) {
+							sheetList_FilterNull_tFileInputExcel_5
+									.add(sheet_FilterNull_tFileInputExcel_5);
+						}
+					}
+					sheetList_tFileInputExcel_5 = sheetList_FilterNull_tFileInputExcel_5;
+					if (sheetList_tFileInputExcel_5.size() > 0) {
+						int nb_line_tFileInputExcel_5 = 0;
+
+						int begin_line_tFileInputExcel_5 = 1;
+
+						int footer_input_tFileInputExcel_5 = 0;
+
+						int end_line_tFileInputExcel_5 = 0;
+						for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_5 : sheetList_tFileInputExcel_5) {
+							end_line_tFileInputExcel_5 += (sheet_tFileInputExcel_5
+									.getLastRowNum() + 1);
+						}
+						end_line_tFileInputExcel_5 -= footer_input_tFileInputExcel_5;
+						int limit_tFileInputExcel_5 = -1;
+						int start_column_tFileInputExcel_5 = 1 - 1;
+						int end_column_tFileInputExcel_5 = -1;
+
+						org.apache.poi.xssf.usermodel.XSSFRow row_tFileInputExcel_5 = null;
+						org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_5 = sheetList_tFileInputExcel_5
+								.get(0);
+						int rowCount_tFileInputExcel_5 = 0;
+						int sheetIndex_tFileInputExcel_5 = 0;
+						int currentRows_tFileInputExcel_5 = (sheetList_tFileInputExcel_5
+								.get(0).getLastRowNum() + 1);
+
+						// for the number format
+						java.text.DecimalFormat df_tFileInputExcel_5 = new java.text.DecimalFormat(
+								"#.####################################");
+						char decimalChar_tFileInputExcel_5 = df_tFileInputExcel_5
+								.getDecimalFormatSymbols()
+								.getDecimalSeparator();
+
+						for (int i_tFileInputExcel_5 = begin_line_tFileInputExcel_5; i_tFileInputExcel_5 < end_line_tFileInputExcel_5; i_tFileInputExcel_5++) {
+
+							int emptyColumnCount_tFileInputExcel_5 = 0;
+
+							if (limit_tFileInputExcel_5 != -1
+									&& nb_line_tFileInputExcel_5 >= limit_tFileInputExcel_5) {
+								break;
+							}
+
+							while (i_tFileInputExcel_5 >= rowCount_tFileInputExcel_5
+									+ currentRows_tFileInputExcel_5) {
+								rowCount_tFileInputExcel_5 += currentRows_tFileInputExcel_5;
+								sheet_tFileInputExcel_5 = sheetList_tFileInputExcel_5
+										.get(++sheetIndex_tFileInputExcel_5);
+								currentRows_tFileInputExcel_5 = (sheet_tFileInputExcel_5
+										.getLastRowNum() + 1);
+							}
+							globalMap.put("tFileInputExcel_5_CURRENT_SHEET",
+									sheet_tFileInputExcel_5.getSheetName());
+							if (rowCount_tFileInputExcel_5 <= i_tFileInputExcel_5) {
+								row_tFileInputExcel_5 = sheet_tFileInputExcel_5
+										.getRow(i_tFileInputExcel_5
+												- rowCount_tFileInputExcel_5);
+							}
+							row1 = null;
+							int tempRowLength_tFileInputExcel_5 = 2;
+
+							int columnIndex_tFileInputExcel_5 = 0;
+
+							String[] temp_row_tFileInputExcel_5 = new String[tempRowLength_tFileInputExcel_5];
+							int excel_end_column_tFileInputExcel_5;
+							if (row_tFileInputExcel_5 == null) {
+								excel_end_column_tFileInputExcel_5 = 0;
+							} else {
+								excel_end_column_tFileInputExcel_5 = row_tFileInputExcel_5
+										.getLastCellNum();
+							}
+							int actual_end_column_tFileInputExcel_5;
+							if (end_column_tFileInputExcel_5 == -1) {
+								actual_end_column_tFileInputExcel_5 = excel_end_column_tFileInputExcel_5;
+							} else {
+								actual_end_column_tFileInputExcel_5 = end_column_tFileInputExcel_5 > excel_end_column_tFileInputExcel_5 ? excel_end_column_tFileInputExcel_5
+										: end_column_tFileInputExcel_5;
+							}
+							org.apache.poi.ss.formula.eval.NumberEval ne_tFileInputExcel_5 = null;
+							for (int i = 0; i < tempRowLength_tFileInputExcel_5; i++) {
+								if (i + start_column_tFileInputExcel_5 < actual_end_column_tFileInputExcel_5) {
+									org.apache.poi.ss.usermodel.Cell cell_tFileInputExcel_5 = row_tFileInputExcel_5
+											.getCell(i
+													+ start_column_tFileInputExcel_5);
+									if (cell_tFileInputExcel_5 != null) {
+										switch (cell_tFileInputExcel_5
+												.getCellType()) {
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_STRING:
+											temp_row_tFileInputExcel_5[i] = cell_tFileInputExcel_5
+													.getRichStringCellValue()
+													.getString();
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC:
+											if (org.apache.poi.ss.usermodel.DateUtil
+													.isCellDateFormatted(cell_tFileInputExcel_5)) {
+												temp_row_tFileInputExcel_5[i] = cell_tFileInputExcel_5
+														.getDateCellValue()
+														.toString();
+											} else {
+												temp_row_tFileInputExcel_5[i] = df_tFileInputExcel_5
+														.format(cell_tFileInputExcel_5
+																.getNumericCellValue());
+											}
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_BOOLEAN:
+											temp_row_tFileInputExcel_5[i] = String
+													.valueOf(cell_tFileInputExcel_5
+															.getBooleanCellValue());
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_FORMULA:
+											switch (cell_tFileInputExcel_5
+													.getCachedFormulaResultType()) {
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_STRING:
+												temp_row_tFileInputExcel_5[i] = cell_tFileInputExcel_5
+														.getRichStringCellValue()
+														.getString();
+												break;
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC:
+												if (org.apache.poi.ss.usermodel.DateUtil
+														.isCellDateFormatted(cell_tFileInputExcel_5)) {
+													temp_row_tFileInputExcel_5[i] = cell_tFileInputExcel_5
+															.getDateCellValue()
+															.toString();
+												} else {
+													ne_tFileInputExcel_5 = new org.apache.poi.ss.formula.eval.NumberEval(
+															cell_tFileInputExcel_5
+																	.getNumericCellValue());
+													temp_row_tFileInputExcel_5[i] = ne_tFileInputExcel_5
+															.getStringValue();
+												}
+												break;
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_BOOLEAN:
+												temp_row_tFileInputExcel_5[i] = String
+														.valueOf(cell_tFileInputExcel_5
+																.getBooleanCellValue());
+												break;
+											default:
+												temp_row_tFileInputExcel_5[i] = "";
+											}
+											break;
+										default:
+											temp_row_tFileInputExcel_5[i] = "";
+										}
+									} else {
+										temp_row_tFileInputExcel_5[i] = "";
+									}
+
+								} else {
+									temp_row_tFileInputExcel_5[i] = "";
+								}
+							}
+							boolean whetherReject_tFileInputExcel_5 = false;
+							row1 = new row1Struct();
+							int curColNum_tFileInputExcel_5 = -1;
+							String curColName_tFileInputExcel_5 = "";
+							try {
+								columnIndex_tFileInputExcel_5 = 0;
+
+								if (temp_row_tFileInputExcel_5[columnIndex_tFileInputExcel_5]
+										.length() > 0) {
+									curColNum_tFileInputExcel_5 = columnIndex_tFileInputExcel_5
+											+ start_column_tFileInputExcel_5
+											+ 1;
+									curColName_tFileInputExcel_5 = "code_age";
+
+									row1.code_age = temp_row_tFileInputExcel_5[columnIndex_tFileInputExcel_5];
+								} else {
+									row1.code_age = null;
+									emptyColumnCount_tFileInputExcel_5++;
+								}
+								columnIndex_tFileInputExcel_5 = 1;
+
+								if (temp_row_tFileInputExcel_5[columnIndex_tFileInputExcel_5]
+										.length() > 0) {
+									curColNum_tFileInputExcel_5 = columnIndex_tFileInputExcel_5
+											+ start_column_tFileInputExcel_5
+											+ 1;
+									curColName_tFileInputExcel_5 = "libelle_age";
+
+									row1.libelle_age = temp_row_tFileInputExcel_5[columnIndex_tFileInputExcel_5];
+								} else {
+									row1.libelle_age = null;
+									emptyColumnCount_tFileInputExcel_5++;
+								}
+
+								nb_line_tFileInputExcel_5++;
+
+							} catch (java.lang.Exception e) {
+								whetherReject_tFileInputExcel_5 = true;
+								System.err.println(e.getMessage());
+								row1 = null;
+							}
+
+							/**
+							 * [tFileInputExcel_5 begin ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_5 main ] start
+							 */
+
+							currentComponent = "tFileInputExcel_5";
+
+							tos_count_tFileInputExcel_5++;
+
+							/**
+							 * [tFileInputExcel_5 main ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_5 process_data_begin ] start
+							 */
+
+							currentComponent = "tFileInputExcel_5";
+
+							/**
+							 * [tFileInputExcel_5 process_data_begin ] stop
+							 */
+							// Start of branch "row1"
+							if (row1 != null) {
+
+								/**
+								 * [tMap_1 main ] start
+								 */
+
+								currentComponent = "tMap_1";
+
+								// row1
+								// row1
+
+								if (execStat) {
+									runStat.updateStatOnConnection("row1"
+											+ iterateId, 1, 1);
+								}
+
+								boolean hasCasePrimitiveKeyWithNull_tMap_1 = false;
+
+								// ###############################
+								// # Input tables (lookups)
+								boolean rejectedInnerJoin_tMap_1 = false;
+								boolean mainRowRejected_tMap_1 = false;
+
+								// ###############################
+								{ // start of Var scope
+
+									// ###############################
+									// # Vars tables
+
+									Var__tMap_1__Struct Var = Var__tMap_1;// ###############################
+									// ###############################
+									// # Output tables
+
+									integrationAge = null;
+
+									// # Output table : 'integrationAge'
+									integrationAge_tmp.code_age = row1.code_age;
+									integrationAge_tmp.libelle_age = row1.libelle_age;
+									integrationAge = integrationAge_tmp;
+									// ###############################
+
+								} // end of Var scope
+
+								rejectedInnerJoin_tMap_1 = false;
+
+								tos_count_tMap_1++;
+
+								/**
+								 * [tMap_1 main ] stop
+								 */
+
+								/**
+								 * [tMap_1 process_data_begin ] start
+								 */
+
+								currentComponent = "tMap_1";
+
+								/**
+								 * [tMap_1 process_data_begin ] stop
+								 */
+								// Start of branch "integrationAge"
+								if (integrationAge != null) {
+
+									/**
+									 * [tLogRow_2 main ] start
+									 */
+
+									currentComponent = "tLogRow_2";
+
+									// integrationAge
+									// integrationAge
+
+									if (execStat) {
+										runStat.updateStatOnConnection(
+												"integrationAge" + iterateId,
+												1, 1);
+									}
+
+									// /////////////////////
+
+									strBuffer_tLogRow_2 = new StringBuilder();
+
+									if (integrationAge.code_age != null) { //
+
+										strBuffer_tLogRow_2
+												.append(String
+														.valueOf(integrationAge.code_age));
+
+									} //
+
+									strBuffer_tLogRow_2.append("|");
+
+									if (integrationAge.libelle_age != null) { //
+
+										strBuffer_tLogRow_2
+												.append(String
+														.valueOf(integrationAge.libelle_age));
+
+									} //
+
+									if (globalMap.get("tLogRow_CONSOLE") != null) {
+										consoleOut_tLogRow_2 = (java.io.PrintStream) globalMap
+												.get("tLogRow_CONSOLE");
+									} else {
+										consoleOut_tLogRow_2 = new java.io.PrintStream(
+												new java.io.BufferedOutputStream(
+														System.out));
+										globalMap.put("tLogRow_CONSOLE",
+												consoleOut_tLogRow_2);
+									}
+									consoleOut_tLogRow_2
+											.println(strBuffer_tLogRow_2
+													.toString());
+									consoleOut_tLogRow_2.flush();
+									nb_line_tLogRow_2++;
+									// ////
+
+									// ////
+
+									// /////////////////////
+
+									row6 = integrationAge;
+
+									tos_count_tLogRow_2++;
+
+									/**
+									 * [tLogRow_2 main ] stop
+									 */
+
+									/**
+									 * [tLogRow_2 process_data_begin ] start
+									 */
+
+									currentComponent = "tLogRow_2";
+
+									/**
+									 * [tLogRow_2 process_data_begin ] stop
+									 */
+
+									/**
+									 * [tDBOutput_1 main ] start
+									 */
+
+									currentComponent = "tDBOutput_1";
+
+									// row6
+									// row6
+
+									if (execStat) {
+										runStat.updateStatOnConnection("row6"
+												+ iterateId, 1, 1);
+									}
+
+									whetherReject_tDBOutput_1 = false;
+									if (row6.code_age == null) {
+										pstmt_tDBOutput_1.setNull(1,
+												java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_1.setString(1,
+												row6.code_age);
+									}
+
+									if (row6.libelle_age == null) {
+										pstmt_tDBOutput_1.setNull(2,
+												java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_1.setString(2,
+												row6.libelle_age);
+									}
+
+									pstmt_tDBOutput_1.addBatch();
+									nb_line_tDBOutput_1++;
+
+									batchSizeCounter_tDBOutput_1++;
+
+									// ////////batch execute by batch
+									// size///////
+									class LimitBytesHelper_tDBOutput_1 {
+										public int limitBytePart1(
+												int counter,
+												java.sql.PreparedStatement pstmt_tDBOutput_1)
+												throws Exception {
+											try {
+
+												for (int countEach_tDBOutput_1 : pstmt_tDBOutput_1
+														.executeBatch()) {
+													if (countEach_tDBOutput_1 == -2
+															|| countEach_tDBOutput_1 == -3) {
+														break;
+													}
+													counter += countEach_tDBOutput_1;
+												}
+
+											} catch (java.sql.BatchUpdateException e) {
+
+												int countSum_tDBOutput_1 = 0;
+												for (int countEach_tDBOutput_1 : e
+														.getUpdateCounts()) {
+													counter += (countEach_tDBOutput_1 < 0 ? 0
+															: countEach_tDBOutput_1);
+												}
+
+												System.err.println(e
+														.getMessage());
+
+											}
+											return counter;
+										}
+
+										public int limitBytePart2(
+												int counter,
+												java.sql.PreparedStatement pstmt_tDBOutput_1)
+												throws Exception {
+											try {
+
+												for (int countEach_tDBOutput_1 : pstmt_tDBOutput_1
+														.executeBatch()) {
+													if (countEach_tDBOutput_1 == -2
+															|| countEach_tDBOutput_1 == -3) {
+														break;
+													}
+													counter += countEach_tDBOutput_1;
+												}
+
+											} catch (java.sql.BatchUpdateException e) {
+
+												for (int countEach_tDBOutput_1 : e
+														.getUpdateCounts()) {
+													counter += (countEach_tDBOutput_1 < 0 ? 0
+															: countEach_tDBOutput_1);
+												}
+
+												System.err.println(e
+														.getMessage());
+
+											}
+											return counter;
+										}
+									}
+									if ((batchSize_tDBOutput_1 > 0)
+											&& (batchSize_tDBOutput_1 <= batchSizeCounter_tDBOutput_1)) {
+
+										insertedCount_tDBOutput_1 = new LimitBytesHelper_tDBOutput_1()
+												.limitBytePart1(
+														insertedCount_tDBOutput_1,
+														pstmt_tDBOutput_1);
+
+										batchSizeCounter_tDBOutput_1 = 0;
+									}
+
+									// //////////commit every////////////
+
+									commitCounter_tDBOutput_1++;
+									if (commitEvery_tDBOutput_1 <= commitCounter_tDBOutput_1) {
+										if ((batchSize_tDBOutput_1 > 0)
+												&& (batchSizeCounter_tDBOutput_1 > 0)) {
+
+											insertedCount_tDBOutput_1 = new LimitBytesHelper_tDBOutput_1()
+													.limitBytePart1(
+															insertedCount_tDBOutput_1,
+															pstmt_tDBOutput_1);
+
+											batchSizeCounter_tDBOutput_1 = 0;
+										}
+
+										conn_tDBOutput_1.commit();
+
+										commitCounter_tDBOutput_1 = 0;
+									}
+
+									tos_count_tDBOutput_1++;
+
+									/**
+									 * [tDBOutput_1 main ] stop
+									 */
+
+									/**
+									 * [tDBOutput_1 process_data_begin ] start
+									 */
+
+									currentComponent = "tDBOutput_1";
+
+									/**
+									 * [tDBOutput_1 process_data_begin ] stop
+									 */
+
+									/**
+									 * [tDBOutput_1 process_data_end ] start
+									 */
+
+									currentComponent = "tDBOutput_1";
+
+									/**
+									 * [tDBOutput_1 process_data_end ] stop
+									 */
+
+									/**
+									 * [tLogRow_2 process_data_end ] start
+									 */
+
+									currentComponent = "tLogRow_2";
+
+									/**
+									 * [tLogRow_2 process_data_end ] stop
+									 */
+
+								} // End of branch "integrationAge"
+
+								/**
+								 * [tMap_1 process_data_end ] start
+								 */
+
+								currentComponent = "tMap_1";
+
+								/**
+								 * [tMap_1 process_data_end ] stop
+								 */
+
+							} // End of branch "row1"
+
+							/**
+							 * [tFileInputExcel_5 process_data_end ] start
+							 */
+
+							currentComponent = "tFileInputExcel_5";
+
+							/**
+							 * [tFileInputExcel_5 process_data_end ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_5 end ] start
+							 */
+
+							currentComponent = "tFileInputExcel_5";
+
+						}
+
+						globalMap.put("tFileInputExcel_5_NB_LINE",
+								nb_line_tFileInputExcel_5);
+
+					}
+
+				} finally {
+
+					if (!(source_tFileInputExcel_5 instanceof java.io.InputStream)) {
+						workbook_tFileInputExcel_5.getPackage().revert();
+					}
+
+				}
+
+				ok_Hash.put("tFileInputExcel_5", true);
+				end_Hash.put("tFileInputExcel_5", System.currentTimeMillis());
+
+				/**
+				 * [tFileInputExcel_5 end ] stop
+				 */
+
+				/**
+				 * [tMap_1 end ] start
+				 */
+
+				currentComponent = "tMap_1";
+
+				// ###############################
+				// # Lookup hashes releasing
+				// ###############################
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row1" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tMap_1", true);
+				end_Hash.put("tMap_1", System.currentTimeMillis());
+
+				/**
+				 * [tMap_1 end ] stop
+				 */
+
+				/**
+				 * [tLogRow_2 end ] start
+				 */
+
+				currentComponent = "tLogRow_2";
+
+				// ////
+				// ////
+				globalMap.put("tLogRow_2_NB_LINE", nb_line_tLogRow_2);
+
+				// /////////////////////
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("integrationAge"
+								+ iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tLogRow_2", true);
+				end_Hash.put("tLogRow_2", System.currentTimeMillis());
+
+				/**
+				 * [tLogRow_2 end ] stop
+				 */
+
+				/**
+				 * [tDBOutput_1 end ] start
+				 */
+
+				currentComponent = "tDBOutput_1";
+
+				try {
+					int countSum_tDBOutput_1 = 0;
+					if (pstmt_tDBOutput_1 != null
+							&& batchSizeCounter_tDBOutput_1 > 0) {
+
+						for (int countEach_tDBOutput_1 : pstmt_tDBOutput_1
+								.executeBatch()) {
+							if (countEach_tDBOutput_1 == -2
+									|| countEach_tDBOutput_1 == -3) {
+								break;
+							}
+							countSum_tDBOutput_1 += countEach_tDBOutput_1;
+						}
+
+					}
+
+					insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+				} catch (java.sql.BatchUpdateException e) {
+
+					int countSum_tDBOutput_1 = 0;
+					for (int countEach_tDBOutput_1 : e.getUpdateCounts()) {
+						countSum_tDBOutput_1 += (countEach_tDBOutput_1 < 0 ? 0
+								: countEach_tDBOutput_1);
+					}
+
+					insertedCount_tDBOutput_1 += countSum_tDBOutput_1;
+
+					System.err.println(e.getMessage());
+
+				}
+				if (pstmt_tDBOutput_1 != null) {
+
+					pstmt_tDBOutput_1.close();
+					resourceMap.remove("pstmt_tDBOutput_1");
+
+				}
+				resourceMap.put("statementClosed_tDBOutput_1", true);
+				conn_tDBOutput_1.commit();
+
+				conn_tDBOutput_1.close();
+				resourceMap.put("finish_tDBOutput_1", true);
+
+				nb_line_deleted_tDBOutput_1 = nb_line_deleted_tDBOutput_1
+						+ deletedCount_tDBOutput_1;
+				nb_line_update_tDBOutput_1 = nb_line_update_tDBOutput_1
+						+ updatedCount_tDBOutput_1;
+				nb_line_inserted_tDBOutput_1 = nb_line_inserted_tDBOutput_1
+						+ insertedCount_tDBOutput_1;
+				nb_line_rejected_tDBOutput_1 = nb_line_rejected_tDBOutput_1
+						+ rejectedCount_tDBOutput_1;
+
+				globalMap.put("tDBOutput_1_NB_LINE", nb_line_tDBOutput_1);
+				globalMap.put("tDBOutput_1_NB_LINE_UPDATED",
+						nb_line_update_tDBOutput_1);
+				globalMap.put("tDBOutput_1_NB_LINE_INSERTED",
+						nb_line_inserted_tDBOutput_1);
+				globalMap.put("tDBOutput_1_NB_LINE_DELETED",
+						nb_line_deleted_tDBOutput_1);
+				globalMap.put("tDBOutput_1_NB_LINE_REJECTED",
+						nb_line_rejected_tDBOutput_1);
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row6" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tDBOutput_1", true);
+				end_Hash.put("tDBOutput_1", System.currentTimeMillis());
+
+				/**
+				 * [tDBOutput_1 end ] stop
+				 */
+
+			}// end the resume
+
+		} catch (java.lang.Exception e) {
+
+			TalendException te = new TalendException(e, currentComponent,
+					globalMap);
+
+			throw te;
+		} catch (java.lang.Error error) {
+
+			runStat.stopThreadStat();
+
+			throw error;
+		} finally {
+
+			try {
+
+				/**
+				 * [tFileInputExcel_5 finally ] start
+				 */
+
+				currentComponent = "tFileInputExcel_5";
+
+				/**
+				 * [tFileInputExcel_5 finally ] stop
+				 */
+
+				/**
+				 * [tMap_1 finally ] start
+				 */
+
+				currentComponent = "tMap_1";
+
+				/**
+				 * [tMap_1 finally ] stop
+				 */
+
+				/**
+				 * [tLogRow_2 finally ] start
+				 */
+
+				currentComponent = "tLogRow_2";
+
+				/**
+				 * [tLogRow_2 finally ] stop
+				 */
+
+				/**
+				 * [tDBOutput_1 finally ] start
+				 */
+
+				currentComponent = "tDBOutput_1";
+
+				try {
+					if (resourceMap.get("statementClosed_tDBOutput_1") == null) {
+						java.sql.PreparedStatement pstmtToClose_tDBOutput_1 = null;
+						if ((pstmtToClose_tDBOutput_1 = (java.sql.PreparedStatement) resourceMap
+								.remove("pstmt_tDBOutput_1")) != null) {
+							pstmtToClose_tDBOutput_1.close();
+						}
+					}
+				} finally {
+					if (resourceMap.get("finish_tDBOutput_1") == null) {
+						java.sql.Connection ctn_tDBOutput_1 = null;
+						if ((ctn_tDBOutput_1 = (java.sql.Connection) resourceMap
+								.get("conn_tDBOutput_1")) != null) {
+							try {
+								ctn_tDBOutput_1.close();
+							} catch (java.sql.SQLException sqlEx_tDBOutput_1) {
+								String errorMessage_tDBOutput_1 = "failed to close the connection in tDBOutput_1 :"
+										+ sqlEx_tDBOutput_1.getMessage();
+								System.err.println(errorMessage_tDBOutput_1);
+							}
+						}
+					}
+				}
+
+				/**
+				 * [tDBOutput_1 finally ] stop
+				 */
+
+			} catch (java.lang.Exception e) {
+				// ignore
+			} catch (java.lang.Error error) {
+				// ignore
+			}
+			resourceMap = null;
+		}
+
+		globalMap.put("tFileInputExcel_5_SUBPROCESS_STATE", 1);
+	}
+
+	public static class row12Struct implements
+			routines.system.IPersistableRow<row12Struct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String libelle_pays;
+
+		public String getLibelle_pays() {
+			return this.libelle_pays;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.libelle_pays = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.libelle_pays, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("libelle_pays=" + libelle_pays);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row12Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class integrationPaysStruct implements
+			routines.system.IPersistableRow<integrationPaysStruct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String libelle_pays;
+
+		public String getLibelle_pays() {
+			return this.libelle_pays;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.libelle_pays = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.libelle_pays, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("libelle_pays=" + libelle_pays);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(integrationPaysStruct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class row11Struct implements
+			routines.system.IPersistableRow<row11Struct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String Pays;
+
+		public String getPays() {
+			return this.Pays;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.Pays = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.Pays, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("Pays=" + Pays);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row11Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public void tFileInputExcel_6Process(
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+		globalMap.put("tFileInputExcel_6_SUBPROCESS_STATE", 0);
+
+		final boolean execStat = this.execStat;
+
+		String iterateId = "";
+
+		String currentComponent = "";
+		java.util.Map<String, Object> resourceMap = new java.util.HashMap<String, Object>();
+
+		try {
+			// TDI-39566 avoid throwing an useless Exception
+			boolean resumeIt = true;
+			if (globalResumeTicket == false && resumeEntryMethodName != null) {
+				String currentMethodName = new java.lang.Exception()
+						.getStackTrace()[0].getMethodName();
+				resumeIt = resumeEntryMethodName.equals(currentMethodName);
+			}
+			if (resumeIt || globalResumeTicket) { // start the resume
+				globalResumeTicket = true;
+
+				row11Struct row11 = new row11Struct();
+				integrationPaysStruct integrationPays = new integrationPaysStruct();
+				integrationPaysStruct row12 = integrationPays;
+
+				/**
+				 * [tDBOutput_6 begin ] start
+				 */
+
+				ok_Hash.put("tDBOutput_6", false);
+				start_Hash.put("tDBOutput_6", System.currentTimeMillis());
+
+				currentComponent = "tDBOutput_6";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("row12" + iterateId, 0,
+								0);
+
+					}
+				}
+
+				int tos_count_tDBOutput_6 = 0;
+
+				int nb_line_tDBOutput_6 = 0;
+				int nb_line_update_tDBOutput_6 = 0;
+				int nb_line_inserted_tDBOutput_6 = 0;
+				int nb_line_deleted_tDBOutput_6 = 0;
+				int nb_line_rejected_tDBOutput_6 = 0;
+
+				int deletedCount_tDBOutput_6 = 0;
+				int updatedCount_tDBOutput_6 = 0;
+				int insertedCount_tDBOutput_6 = 0;
+				int rejectedCount_tDBOutput_6 = 0;
+				String dbschema_tDBOutput_6 = null;
+				String tableName_tDBOutput_6 = null;
+				boolean whetherReject_tDBOutput_6 = false;
+
+				java.util.Calendar calendar_tDBOutput_6 = java.util.Calendar
+						.getInstance();
+				long year1_tDBOutput_6 = TalendDate.parseDate("yyyy-MM-dd",
+						"0001-01-01").getTime();
+				long year2_tDBOutput_6 = TalendDate.parseDate("yyyy-MM-dd",
+						"1753-01-01").getTime();
+				long year10000_tDBOutput_6 = TalendDate.parseDate(
+						"yyyy-MM-dd HH:mm:ss", "9999-12-31 24:00:00").getTime();
+				long date_tDBOutput_6;
+
+				java.util.Calendar calendar_datetimeoffset_tDBOutput_6 = java.util.Calendar
+						.getInstance(java.util.TimeZone.getTimeZone("UTC"));
+
+				java.sql.Connection conn_tDBOutput_6 = null;
+				String dbUser_tDBOutput_6 = null;
+				dbschema_tDBOutput_6 = "";
+				String driverClass_tDBOutput_6 = "net.sourceforge.jtds.jdbc.Driver";
+
+				java.lang.Class.forName(driverClass_tDBOutput_6);
+				String port_tDBOutput_6 = "52890";
+				String dbname_tDBOutput_6 = "PROJET_ENT";
+				String url_tDBOutput_6 = "jdbc:jtds:sqlserver://"
+						+ "desktop-4c70u1q";
+				if (!"".equals(port_tDBOutput_6)) {
+					url_tDBOutput_6 += ":" + "52890";
+				}
+				if (!"".equals(dbname_tDBOutput_6)) {
+					url_tDBOutput_6 += "//" + "PROJET_ENT";
+
+				}
+				url_tDBOutput_6 += ";appName=" + projectName + ";" + "";
+				dbUser_tDBOutput_6 = "sa";
+
+				final String decryptedPassword_tDBOutput_6 = routines.system.PasswordEncryptUtil
+						.decryptPassword("45c9c2d701725302");
+
+				String dbPwd_tDBOutput_6 = decryptedPassword_tDBOutput_6;
+				conn_tDBOutput_6 = java.sql.DriverManager.getConnection(
+						url_tDBOutput_6, dbUser_tDBOutput_6, dbPwd_tDBOutput_6);
+
+				resourceMap.put("conn_tDBOutput_6", conn_tDBOutput_6);
+
+				conn_tDBOutput_6.setAutoCommit(false);
+				int commitEvery_tDBOutput_6 = 10000;
+				int commitCounter_tDBOutput_6 = 0;
+
+				int batchSize_tDBOutput_6 = 10000;
+				int batchSizeCounter_tDBOutput_6 = 0;
+
+				if (dbschema_tDBOutput_6 == null
+						|| dbschema_tDBOutput_6.trim().length() == 0) {
+					tableName_tDBOutput_6 = "PAYS_DIM";
+				} else {
+					tableName_tDBOutput_6 = dbschema_tDBOutput_6 + "].["
+							+ "PAYS_DIM";
+				}
+				int count_tDBOutput_6 = 0;
+
+				String insert_tDBOutput_6 = "INSERT INTO ["
+						+ tableName_tDBOutput_6
+						+ "] ([libelle_pays]) VALUES (?)";
+				java.sql.PreparedStatement pstmt_tDBOutput_6 = conn_tDBOutput_6
+						.prepareStatement(insert_tDBOutput_6);
+				resourceMap.put("pstmt_tDBOutput_6", pstmt_tDBOutput_6);
+
+				/**
+				 * [tDBOutput_6 begin ] stop
+				 */
+
+				/**
+				 * [tLogRow_1 begin ] start
+				 */
+
+				ok_Hash.put("tLogRow_1", false);
+				start_Hash.put("tLogRow_1", System.currentTimeMillis());
+
+				currentComponent = "tLogRow_1";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("integrationPays"
+								+ iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tLogRow_1 = 0;
+
+				// /////////////////////
+
+				final String OUTPUT_FIELD_SEPARATOR_tLogRow_1 = "|";
+				java.io.PrintStream consoleOut_tLogRow_1 = null;
+
+				StringBuilder strBuffer_tLogRow_1 = null;
+				int nb_line_tLogRow_1 = 0;
+				// /////////////////////
+
+				/**
+				 * [tLogRow_1 begin ] stop
+				 */
+
+				/**
+				 * [tMap_6 begin ] start
+				 */
+
+				ok_Hash.put("tMap_6", false);
+				start_Hash.put("tMap_6", System.currentTimeMillis());
+
+				currentComponent = "tMap_6";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("row11" + iterateId, 0,
+								0);
+
+					}
+				}
+
+				int tos_count_tMap_6 = 0;
+
+				// ###############################
+				// # Lookup's keys initialization
+				// ###############################
+
+				// ###############################
+				// # Vars initialization
+				class Var__tMap_6__Struct {
+				}
+				Var__tMap_6__Struct Var__tMap_6 = new Var__tMap_6__Struct();
+				// ###############################
+
+				// ###############################
+				// # Outputs initialization
+				integrationPaysStruct integrationPays_tmp = new integrationPaysStruct();
+				// ###############################
+
+				/**
+				 * [tMap_6 begin ] stop
+				 */
+
+				/**
+				 * [tFileInputExcel_6 begin ] start
+				 */
+
+				ok_Hash.put("tFileInputExcel_6", false);
+				start_Hash.put("tFileInputExcel_6", System.currentTimeMillis());
+
+				currentComponent = "tFileInputExcel_6";
+
+				int tos_count_tFileInputExcel_6 = 0;
+
+				class RegexUtil_tFileInputExcel_6 {
+
+					public java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(
+							org.apache.poi.xssf.usermodel.XSSFWorkbook workbook,
+							String oneSheetName, boolean useRegex) {
+
+						java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> list = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+
+						if (useRegex) {// this part process the regex issue
+
+							java.util.regex.Pattern pattern = java.util.regex.Pattern
+									.compile(oneSheetName);
+							for (org.apache.poi.ss.usermodel.Sheet sheet : workbook) {
+								String sheetName = sheet.getSheetName();
+								java.util.regex.Matcher matcher = pattern
+										.matcher(sheetName);
+								if (matcher.matches()) {
+									if (sheet != null) {
+										list.add((org.apache.poi.xssf.usermodel.XSSFSheet) sheet);
+									}
+								}
+							}
+
+						} else {
+							org.apache.poi.xssf.usermodel.XSSFSheet sheet = (org.apache.poi.xssf.usermodel.XSSFSheet) workbook
+									.getSheet(oneSheetName);
+							if (sheet != null) {
+								list.add(sheet);
+							}
+
+						}
+
+						return list;
+					}
+
+					public java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(
+							org.apache.poi.xssf.usermodel.XSSFWorkbook workbook,
+							int index, boolean useRegex) {
+						java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> list = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+						org.apache.poi.xssf.usermodel.XSSFSheet sheet = (org.apache.poi.xssf.usermodel.XSSFSheet) workbook
+								.getSheetAt(index);
+						if (sheet != null) {
+							list.add(sheet);
+						}
+						return list;
+					}
+
+				}
+				RegexUtil_tFileInputExcel_6 regexUtil_tFileInputExcel_6 = new RegexUtil_tFileInputExcel_6();
+
+				Object source_tFileInputExcel_6 = "C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/DIM - Excel/PAYS_DIM.xlsx";
+				org.apache.poi.xssf.usermodel.XSSFWorkbook workbook_tFileInputExcel_6 = null;
+
+				if (source_tFileInputExcel_6 instanceof String) {
+					workbook_tFileInputExcel_6 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
+							(String) source_tFileInputExcel_6);
+				} else if (source_tFileInputExcel_6 instanceof java.io.InputStream) {
+					workbook_tFileInputExcel_6 = new org.apache.poi.xssf.usermodel.XSSFWorkbook(
+							(java.io.InputStream) source_tFileInputExcel_6);
+				} else {
+					workbook_tFileInputExcel_6 = null;
+					throw new java.lang.Exception(
+							"The data source should be specified as Inputstream or File Path!");
+				}
+				try {
+
+					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_tFileInputExcel_6 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+					for (org.apache.poi.ss.usermodel.Sheet sheet_tFileInputExcel_6 : workbook_tFileInputExcel_6) {
+						sheetList_tFileInputExcel_6
+								.add((org.apache.poi.xssf.usermodel.XSSFSheet) sheet_tFileInputExcel_6);
+					}
+					if (sheetList_tFileInputExcel_6.size() <= 0) {
+						throw new RuntimeException("Special sheets not exist!");
+					}
+
+					java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> sheetList_FilterNull_tFileInputExcel_6 = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();
+					for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_FilterNull_tFileInputExcel_6 : sheetList_tFileInputExcel_6) {
+						if (sheet_FilterNull_tFileInputExcel_6 != null
+								&& sheetList_FilterNull_tFileInputExcel_6
+										.iterator() != null
+								&& sheet_FilterNull_tFileInputExcel_6
+										.iterator().hasNext()) {
+							sheetList_FilterNull_tFileInputExcel_6
+									.add(sheet_FilterNull_tFileInputExcel_6);
+						}
+					}
+					sheetList_tFileInputExcel_6 = sheetList_FilterNull_tFileInputExcel_6;
+					if (sheetList_tFileInputExcel_6.size() > 0) {
+						int nb_line_tFileInputExcel_6 = 0;
+
+						int begin_line_tFileInputExcel_6 = 1;
+
+						int footer_input_tFileInputExcel_6 = 0;
+
+						int end_line_tFileInputExcel_6 = 0;
+						for (org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_6 : sheetList_tFileInputExcel_6) {
+							end_line_tFileInputExcel_6 += (sheet_tFileInputExcel_6
+									.getLastRowNum() + 1);
+						}
+						end_line_tFileInputExcel_6 -= footer_input_tFileInputExcel_6;
+						int limit_tFileInputExcel_6 = -1;
+						int start_column_tFileInputExcel_6 = 1 - 1;
+						int end_column_tFileInputExcel_6 = -1;
+
+						org.apache.poi.xssf.usermodel.XSSFRow row_tFileInputExcel_6 = null;
+						org.apache.poi.xssf.usermodel.XSSFSheet sheet_tFileInputExcel_6 = sheetList_tFileInputExcel_6
+								.get(0);
+						int rowCount_tFileInputExcel_6 = 0;
+						int sheetIndex_tFileInputExcel_6 = 0;
+						int currentRows_tFileInputExcel_6 = (sheetList_tFileInputExcel_6
+								.get(0).getLastRowNum() + 1);
+
+						// for the number format
+						java.text.DecimalFormat df_tFileInputExcel_6 = new java.text.DecimalFormat(
+								"#.####################################");
+						char decimalChar_tFileInputExcel_6 = df_tFileInputExcel_6
+								.getDecimalFormatSymbols()
+								.getDecimalSeparator();
+
+						for (int i_tFileInputExcel_6 = begin_line_tFileInputExcel_6; i_tFileInputExcel_6 < end_line_tFileInputExcel_6; i_tFileInputExcel_6++) {
+
+							int emptyColumnCount_tFileInputExcel_6 = 0;
+
+							if (limit_tFileInputExcel_6 != -1
+									&& nb_line_tFileInputExcel_6 >= limit_tFileInputExcel_6) {
+								break;
+							}
+
+							while (i_tFileInputExcel_6 >= rowCount_tFileInputExcel_6
+									+ currentRows_tFileInputExcel_6) {
+								rowCount_tFileInputExcel_6 += currentRows_tFileInputExcel_6;
+								sheet_tFileInputExcel_6 = sheetList_tFileInputExcel_6
+										.get(++sheetIndex_tFileInputExcel_6);
+								currentRows_tFileInputExcel_6 = (sheet_tFileInputExcel_6
+										.getLastRowNum() + 1);
+							}
+							globalMap.put("tFileInputExcel_6_CURRENT_SHEET",
+									sheet_tFileInputExcel_6.getSheetName());
+							if (rowCount_tFileInputExcel_6 <= i_tFileInputExcel_6) {
+								row_tFileInputExcel_6 = sheet_tFileInputExcel_6
+										.getRow(i_tFileInputExcel_6
+												- rowCount_tFileInputExcel_6);
+							}
+							row11 = null;
+							int tempRowLength_tFileInputExcel_6 = 1;
+
+							int columnIndex_tFileInputExcel_6 = 0;
+
+							String[] temp_row_tFileInputExcel_6 = new String[tempRowLength_tFileInputExcel_6];
+							int excel_end_column_tFileInputExcel_6;
+							if (row_tFileInputExcel_6 == null) {
+								excel_end_column_tFileInputExcel_6 = 0;
+							} else {
+								excel_end_column_tFileInputExcel_6 = row_tFileInputExcel_6
+										.getLastCellNum();
+							}
+							int actual_end_column_tFileInputExcel_6;
+							if (end_column_tFileInputExcel_6 == -1) {
+								actual_end_column_tFileInputExcel_6 = excel_end_column_tFileInputExcel_6;
+							} else {
+								actual_end_column_tFileInputExcel_6 = end_column_tFileInputExcel_6 > excel_end_column_tFileInputExcel_6 ? excel_end_column_tFileInputExcel_6
+										: end_column_tFileInputExcel_6;
+							}
+							org.apache.poi.ss.formula.eval.NumberEval ne_tFileInputExcel_6 = null;
+							for (int i = 0; i < tempRowLength_tFileInputExcel_6; i++) {
+								if (i + start_column_tFileInputExcel_6 < actual_end_column_tFileInputExcel_6) {
+									org.apache.poi.ss.usermodel.Cell cell_tFileInputExcel_6 = row_tFileInputExcel_6
+											.getCell(i
+													+ start_column_tFileInputExcel_6);
+									if (cell_tFileInputExcel_6 != null) {
+										switch (cell_tFileInputExcel_6
+												.getCellType()) {
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_STRING:
+											temp_row_tFileInputExcel_6[i] = cell_tFileInputExcel_6
+													.getRichStringCellValue()
+													.getString();
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC:
+											if (org.apache.poi.ss.usermodel.DateUtil
+													.isCellDateFormatted(cell_tFileInputExcel_6)) {
+												temp_row_tFileInputExcel_6[i] = cell_tFileInputExcel_6
+														.getDateCellValue()
+														.toString();
+											} else {
+												temp_row_tFileInputExcel_6[i] = df_tFileInputExcel_6
+														.format(cell_tFileInputExcel_6
+																.getNumericCellValue());
+											}
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_BOOLEAN:
+											temp_row_tFileInputExcel_6[i] = String
+													.valueOf(cell_tFileInputExcel_6
+															.getBooleanCellValue());
+											break;
+										case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_FORMULA:
+											switch (cell_tFileInputExcel_6
+													.getCachedFormulaResultType()) {
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_STRING:
+												temp_row_tFileInputExcel_6[i] = cell_tFileInputExcel_6
+														.getRichStringCellValue()
+														.getString();
+												break;
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC:
+												if (org.apache.poi.ss.usermodel.DateUtil
+														.isCellDateFormatted(cell_tFileInputExcel_6)) {
+													temp_row_tFileInputExcel_6[i] = cell_tFileInputExcel_6
+															.getDateCellValue()
+															.toString();
+												} else {
+													ne_tFileInputExcel_6 = new org.apache.poi.ss.formula.eval.NumberEval(
+															cell_tFileInputExcel_6
+																	.getNumericCellValue());
+													temp_row_tFileInputExcel_6[i] = ne_tFileInputExcel_6
+															.getStringValue();
+												}
+												break;
+											case org.apache.poi.ss.usermodel.Cell.CELL_TYPE_BOOLEAN:
+												temp_row_tFileInputExcel_6[i] = String
+														.valueOf(cell_tFileInputExcel_6
+																.getBooleanCellValue());
+												break;
+											default:
+												temp_row_tFileInputExcel_6[i] = "";
+											}
+											break;
+										default:
+											temp_row_tFileInputExcel_6[i] = "";
+										}
+									} else {
+										temp_row_tFileInputExcel_6[i] = "";
+									}
+
+								} else {
+									temp_row_tFileInputExcel_6[i] = "";
+								}
+							}
+							boolean whetherReject_tFileInputExcel_6 = false;
+							row11 = new row11Struct();
+							int curColNum_tFileInputExcel_6 = -1;
+							String curColName_tFileInputExcel_6 = "";
+							try {
+								columnIndex_tFileInputExcel_6 = 0;
+
+								if (temp_row_tFileInputExcel_6[columnIndex_tFileInputExcel_6]
+										.length() > 0) {
+									curColNum_tFileInputExcel_6 = columnIndex_tFileInputExcel_6
+											+ start_column_tFileInputExcel_6
+											+ 1;
+									curColName_tFileInputExcel_6 = "Pays";
+
+									row11.Pays = temp_row_tFileInputExcel_6[columnIndex_tFileInputExcel_6];
+								} else {
+									row11.Pays = null;
+									emptyColumnCount_tFileInputExcel_6++;
+								}
+
+								nb_line_tFileInputExcel_6++;
+
+							} catch (java.lang.Exception e) {
+								whetherReject_tFileInputExcel_6 = true;
+								System.err.println(e.getMessage());
+								row11 = null;
+							}
+
+							/**
+							 * [tFileInputExcel_6 begin ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_6 main ] start
+							 */
+
+							currentComponent = "tFileInputExcel_6";
+
+							tos_count_tFileInputExcel_6++;
+
+							/**
+							 * [tFileInputExcel_6 main ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_6 process_data_begin ] start
+							 */
+
+							currentComponent = "tFileInputExcel_6";
+
+							/**
+							 * [tFileInputExcel_6 process_data_begin ] stop
+							 */
+							// Start of branch "row11"
+							if (row11 != null) {
+
+								/**
+								 * [tMap_6 main ] start
+								 */
+
+								currentComponent = "tMap_6";
+
+								// row11
+								// row11
+
+								if (execStat) {
+									runStat.updateStatOnConnection("row11"
+											+ iterateId, 1, 1);
+								}
+
+								boolean hasCasePrimitiveKeyWithNull_tMap_6 = false;
+
+								// ###############################
+								// # Input tables (lookups)
+								boolean rejectedInnerJoin_tMap_6 = false;
+								boolean mainRowRejected_tMap_6 = false;
+
+								// ###############################
+								{ // start of Var scope
+
+									// ###############################
+									// # Vars tables
+
+									Var__tMap_6__Struct Var = Var__tMap_6;// ###############################
+									// ###############################
+									// # Output tables
+
+									integrationPays = null;
+
+									// # Output table : 'integrationPays'
+									integrationPays_tmp.libelle_pays = row11.Pays;
+									integrationPays = integrationPays_tmp;
+									// ###############################
+
+								} // end of Var scope
+
+								rejectedInnerJoin_tMap_6 = false;
+
+								tos_count_tMap_6++;
+
+								/**
+								 * [tMap_6 main ] stop
+								 */
+
+								/**
+								 * [tMap_6 process_data_begin ] start
+								 */
+
+								currentComponent = "tMap_6";
+
+								/**
+								 * [tMap_6 process_data_begin ] stop
+								 */
+								// Start of branch "integrationPays"
+								if (integrationPays != null) {
+
+									/**
+									 * [tLogRow_1 main ] start
+									 */
+
+									currentComponent = "tLogRow_1";
+
+									// integrationPays
+									// integrationPays
+
+									if (execStat) {
+										runStat.updateStatOnConnection(
+												"integrationPays" + iterateId,
+												1, 1);
+									}
+
+									// /////////////////////
+
+									strBuffer_tLogRow_1 = new StringBuilder();
+
+									if (integrationPays.libelle_pays != null) { //
+
+										strBuffer_tLogRow_1
+												.append(String
+														.valueOf(integrationPays.libelle_pays));
+
+									} //
+
+									if (globalMap.get("tLogRow_CONSOLE") != null) {
+										consoleOut_tLogRow_1 = (java.io.PrintStream) globalMap
+												.get("tLogRow_CONSOLE");
+									} else {
+										consoleOut_tLogRow_1 = new java.io.PrintStream(
+												new java.io.BufferedOutputStream(
+														System.out));
+										globalMap.put("tLogRow_CONSOLE",
+												consoleOut_tLogRow_1);
+									}
+									consoleOut_tLogRow_1
+											.println(strBuffer_tLogRow_1
+													.toString());
+									consoleOut_tLogRow_1.flush();
+									nb_line_tLogRow_1++;
+									// ////
+
+									// ////
+
+									// /////////////////////
+
+									row12 = integrationPays;
+
+									tos_count_tLogRow_1++;
+
+									/**
+									 * [tLogRow_1 main ] stop
+									 */
+
+									/**
+									 * [tLogRow_1 process_data_begin ] start
+									 */
+
+									currentComponent = "tLogRow_1";
+
+									/**
+									 * [tLogRow_1 process_data_begin ] stop
+									 */
+
+									/**
+									 * [tDBOutput_6 main ] start
+									 */
+
+									currentComponent = "tDBOutput_6";
+
+									// row12
+									// row12
+
+									if (execStat) {
+										runStat.updateStatOnConnection("row12"
+												+ iterateId, 1, 1);
+									}
+
+									whetherReject_tDBOutput_6 = false;
+									if (row12.libelle_pays == null) {
+										pstmt_tDBOutput_6.setNull(1,
+												java.sql.Types.VARCHAR);
+									} else {
+										pstmt_tDBOutput_6.setString(1,
+												row12.libelle_pays);
+									}
+
+									pstmt_tDBOutput_6.addBatch();
+									nb_line_tDBOutput_6++;
+
+									batchSizeCounter_tDBOutput_6++;
+
+									// ////////batch execute by batch
+									// size///////
+									class LimitBytesHelper_tDBOutput_6 {
+										public int limitBytePart1(
+												int counter,
+												java.sql.PreparedStatement pstmt_tDBOutput_6)
+												throws Exception {
+											try {
+
+												for (int countEach_tDBOutput_6 : pstmt_tDBOutput_6
+														.executeBatch()) {
+													if (countEach_tDBOutput_6 == -2
+															|| countEach_tDBOutput_6 == -3) {
+														break;
+													}
+													counter += countEach_tDBOutput_6;
+												}
+
+											} catch (java.sql.BatchUpdateException e) {
+
+												int countSum_tDBOutput_6 = 0;
+												for (int countEach_tDBOutput_6 : e
+														.getUpdateCounts()) {
+													counter += (countEach_tDBOutput_6 < 0 ? 0
+															: countEach_tDBOutput_6);
+												}
+
+												System.err.println(e
+														.getMessage());
+
+											}
+											return counter;
+										}
+
+										public int limitBytePart2(
+												int counter,
+												java.sql.PreparedStatement pstmt_tDBOutput_6)
+												throws Exception {
+											try {
+
+												for (int countEach_tDBOutput_6 : pstmt_tDBOutput_6
+														.executeBatch()) {
+													if (countEach_tDBOutput_6 == -2
+															|| countEach_tDBOutput_6 == -3) {
+														break;
+													}
+													counter += countEach_tDBOutput_6;
+												}
+
+											} catch (java.sql.BatchUpdateException e) {
+
+												for (int countEach_tDBOutput_6 : e
+														.getUpdateCounts()) {
+													counter += (countEach_tDBOutput_6 < 0 ? 0
+															: countEach_tDBOutput_6);
+												}
+
+												System.err.println(e
+														.getMessage());
+
+											}
+											return counter;
+										}
+									}
+									if ((batchSize_tDBOutput_6 > 0)
+											&& (batchSize_tDBOutput_6 <= batchSizeCounter_tDBOutput_6)) {
+
+										insertedCount_tDBOutput_6 = new LimitBytesHelper_tDBOutput_6()
+												.limitBytePart1(
+														insertedCount_tDBOutput_6,
+														pstmt_tDBOutput_6);
+
+										batchSizeCounter_tDBOutput_6 = 0;
+									}
+
+									// //////////commit every////////////
+
+									commitCounter_tDBOutput_6++;
+									if (commitEvery_tDBOutput_6 <= commitCounter_tDBOutput_6) {
+										if ((batchSize_tDBOutput_6 > 0)
+												&& (batchSizeCounter_tDBOutput_6 > 0)) {
+
+											insertedCount_tDBOutput_6 = new LimitBytesHelper_tDBOutput_6()
+													.limitBytePart1(
+															insertedCount_tDBOutput_6,
+															pstmt_tDBOutput_6);
+
+											batchSizeCounter_tDBOutput_6 = 0;
+										}
+
+										conn_tDBOutput_6.commit();
+
+										commitCounter_tDBOutput_6 = 0;
+									}
+
+									tos_count_tDBOutput_6++;
+
+									/**
+									 * [tDBOutput_6 main ] stop
+									 */
+
+									/**
+									 * [tDBOutput_6 process_data_begin ] start
+									 */
+
+									currentComponent = "tDBOutput_6";
+
+									/**
+									 * [tDBOutput_6 process_data_begin ] stop
+									 */
+
+									/**
+									 * [tDBOutput_6 process_data_end ] start
+									 */
+
+									currentComponent = "tDBOutput_6";
+
+									/**
+									 * [tDBOutput_6 process_data_end ] stop
+									 */
+
+									/**
+									 * [tLogRow_1 process_data_end ] start
+									 */
+
+									currentComponent = "tLogRow_1";
+
+									/**
+									 * [tLogRow_1 process_data_end ] stop
+									 */
+
+								} // End of branch "integrationPays"
+
+								/**
+								 * [tMap_6 process_data_end ] start
+								 */
+
+								currentComponent = "tMap_6";
+
+								/**
+								 * [tMap_6 process_data_end ] stop
+								 */
+
+							} // End of branch "row11"
+
+							/**
+							 * [tFileInputExcel_6 process_data_end ] start
+							 */
+
+							currentComponent = "tFileInputExcel_6";
+
+							/**
+							 * [tFileInputExcel_6 process_data_end ] stop
+							 */
+
+							/**
+							 * [tFileInputExcel_6 end ] start
+							 */
+
+							currentComponent = "tFileInputExcel_6";
+
+						}
+
+						globalMap.put("tFileInputExcel_6_NB_LINE",
+								nb_line_tFileInputExcel_6);
+
+					}
+
+				} finally {
+
+					if (!(source_tFileInputExcel_6 instanceof java.io.InputStream)) {
+						workbook_tFileInputExcel_6.getPackage().revert();
+					}
+
+				}
+
+				ok_Hash.put("tFileInputExcel_6", true);
+				end_Hash.put("tFileInputExcel_6", System.currentTimeMillis());
+
+				/**
+				 * [tFileInputExcel_6 end ] stop
+				 */
+
+				/**
+				 * [tMap_6 end ] start
+				 */
+
+				currentComponent = "tMap_6";
+
+				// ###############################
+				// # Lookup hashes releasing
+				// ###############################
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row11" + iterateId, 2,
+								0);
+					}
+				}
+
+				ok_Hash.put("tMap_6", true);
+				end_Hash.put("tMap_6", System.currentTimeMillis());
+
+				/**
+				 * [tMap_6 end ] stop
+				 */
+
+				/**
+				 * [tLogRow_1 end ] start
+				 */
+
+				currentComponent = "tLogRow_1";
+
+				// ////
+				// ////
+				globalMap.put("tLogRow_1_NB_LINE", nb_line_tLogRow_1);
+
+				// /////////////////////
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("integrationPays"
+								+ iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tLogRow_1", true);
+				end_Hash.put("tLogRow_1", System.currentTimeMillis());
+
+				/**
+				 * [tLogRow_1 end ] stop
+				 */
+
+				/**
+				 * [tDBOutput_6 end ] start
+				 */
+
+				currentComponent = "tDBOutput_6";
+
+				try {
+					int countSum_tDBOutput_6 = 0;
+					if (pstmt_tDBOutput_6 != null
+							&& batchSizeCounter_tDBOutput_6 > 0) {
+
+						for (int countEach_tDBOutput_6 : pstmt_tDBOutput_6
+								.executeBatch()) {
+							if (countEach_tDBOutput_6 == -2
+									|| countEach_tDBOutput_6 == -3) {
+								break;
+							}
+							countSum_tDBOutput_6 += countEach_tDBOutput_6;
+						}
+
+					}
+
+					insertedCount_tDBOutput_6 += countSum_tDBOutput_6;
+
+				} catch (java.sql.BatchUpdateException e) {
+
+					int countSum_tDBOutput_6 = 0;
+					for (int countEach_tDBOutput_6 : e.getUpdateCounts()) {
+						countSum_tDBOutput_6 += (countEach_tDBOutput_6 < 0 ? 0
+								: countEach_tDBOutput_6);
+					}
+
+					insertedCount_tDBOutput_6 += countSum_tDBOutput_6;
+
+					System.err.println(e.getMessage());
+
+				}
+				if (pstmt_tDBOutput_6 != null) {
+
+					pstmt_tDBOutput_6.close();
+					resourceMap.remove("pstmt_tDBOutput_6");
+
+				}
+				resourceMap.put("statementClosed_tDBOutput_6", true);
+				conn_tDBOutput_6.commit();
+
+				conn_tDBOutput_6.close();
+				resourceMap.put("finish_tDBOutput_6", true);
+
+				nb_line_deleted_tDBOutput_6 = nb_line_deleted_tDBOutput_6
+						+ deletedCount_tDBOutput_6;
+				nb_line_update_tDBOutput_6 = nb_line_update_tDBOutput_6
+						+ updatedCount_tDBOutput_6;
+				nb_line_inserted_tDBOutput_6 = nb_line_inserted_tDBOutput_6
+						+ insertedCount_tDBOutput_6;
+				nb_line_rejected_tDBOutput_6 = nb_line_rejected_tDBOutput_6
+						+ rejectedCount_tDBOutput_6;
+
+				globalMap.put("tDBOutput_6_NB_LINE", nb_line_tDBOutput_6);
+				globalMap.put("tDBOutput_6_NB_LINE_UPDATED",
+						nb_line_update_tDBOutput_6);
+				globalMap.put("tDBOutput_6_NB_LINE_INSERTED",
+						nb_line_inserted_tDBOutput_6);
+				globalMap.put("tDBOutput_6_NB_LINE_DELETED",
+						nb_line_deleted_tDBOutput_6);
+				globalMap.put("tDBOutput_6_NB_LINE_REJECTED",
+						nb_line_rejected_tDBOutput_6);
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row12" + iterateId, 2,
+								0);
+					}
+				}
+
+				ok_Hash.put("tDBOutput_6", true);
+				end_Hash.put("tDBOutput_6", System.currentTimeMillis());
+
+				/**
+				 * [tDBOutput_6 end ] stop
+				 */
+
+			}// end the resume
+
+		} catch (java.lang.Exception e) {
+
+			TalendException te = new TalendException(e, currentComponent,
+					globalMap);
+
+			throw te;
+		} catch (java.lang.Error error) {
+
+			runStat.stopThreadStat();
+
+			throw error;
+		} finally {
+
+			try {
+
+				/**
+				 * [tFileInputExcel_6 finally ] start
+				 */
+
+				currentComponent = "tFileInputExcel_6";
+
+				/**
+				 * [tFileInputExcel_6 finally ] stop
+				 */
+
+				/**
+				 * [tMap_6 finally ] start
+				 */
+
+				currentComponent = "tMap_6";
+
+				/**
+				 * [tMap_6 finally ] stop
+				 */
+
+				/**
+				 * [tLogRow_1 finally ] start
+				 */
+
+				currentComponent = "tLogRow_1";
+
+				/**
+				 * [tLogRow_1 finally ] stop
+				 */
+
+				/**
+				 * [tDBOutput_6 finally ] start
+				 */
+
+				currentComponent = "tDBOutput_6";
+
+				try {
+					if (resourceMap.get("statementClosed_tDBOutput_6") == null) {
+						java.sql.PreparedStatement pstmtToClose_tDBOutput_6 = null;
+						if ((pstmtToClose_tDBOutput_6 = (java.sql.PreparedStatement) resourceMap
+								.remove("pstmt_tDBOutput_6")) != null) {
+							pstmtToClose_tDBOutput_6.close();
+						}
+					}
+				} finally {
+					if (resourceMap.get("finish_tDBOutput_6") == null) {
+						java.sql.Connection ctn_tDBOutput_6 = null;
+						if ((ctn_tDBOutput_6 = (java.sql.Connection) resourceMap
+								.get("conn_tDBOutput_6")) != null) {
+							try {
+								ctn_tDBOutput_6.close();
+							} catch (java.sql.SQLException sqlEx_tDBOutput_6) {
+								String errorMessage_tDBOutput_6 = "failed to close the connection in tDBOutput_6 :"
+										+ sqlEx_tDBOutput_6.getMessage();
+								System.err.println(errorMessage_tDBOutput_6);
+							}
+						}
+					}
+				}
+
+				/**
+				 * [tDBOutput_6 finally ] stop
+				 */
+
+			} catch (java.lang.Exception e) {
+				// ignore
+			} catch (java.lang.Error error) {
+				// ignore
+			}
+			resourceMap = null;
+		}
+
+		globalMap.put("tFileInputExcel_6_SUBPROCESS_STATE", 1);
 	}
 
 	public String resuming_logs_dir_path = null;
@@ -1983,6 +9580,42 @@ public class integrationDimensions implements TalendJob {
 
 		try {
 			errorCode = null;
+			tFileInputExcel_1Process(globalMap);
+			if (!"failure".equals(status)) {
+				status = "end";
+			}
+		} catch (TalendException e_tFileInputExcel_1) {
+			globalMap.put("tFileInputExcel_1_SUBPROCESS_STATE", -1);
+
+			e_tFileInputExcel_1.printStackTrace();
+
+		}
+		try {
+			errorCode = null;
+			tFileInputExcel_2Process(globalMap);
+			if (!"failure".equals(status)) {
+				status = "end";
+			}
+		} catch (TalendException e_tFileInputExcel_2) {
+			globalMap.put("tFileInputExcel_2_SUBPROCESS_STATE", -1);
+
+			e_tFileInputExcel_2.printStackTrace();
+
+		}
+		try {
+			errorCode = null;
+			tFileInputExcel_3Process(globalMap);
+			if (!"failure".equals(status)) {
+				status = "end";
+			}
+		} catch (TalendException e_tFileInputExcel_3) {
+			globalMap.put("tFileInputExcel_3_SUBPROCESS_STATE", -1);
+
+			e_tFileInputExcel_3.printStackTrace();
+
+		}
+		try {
+			errorCode = null;
 			tFileInputExcel_4Process(globalMap);
 			if (!"failure".equals(status)) {
 				status = "end";
@@ -1991,6 +9624,30 @@ public class integrationDimensions implements TalendJob {
 			globalMap.put("tFileInputExcel_4_SUBPROCESS_STATE", -1);
 
 			e_tFileInputExcel_4.printStackTrace();
+
+		}
+		try {
+			errorCode = null;
+			tFileInputExcel_5Process(globalMap);
+			if (!"failure".equals(status)) {
+				status = "end";
+			}
+		} catch (TalendException e_tFileInputExcel_5) {
+			globalMap.put("tFileInputExcel_5_SUBPROCESS_STATE", -1);
+
+			e_tFileInputExcel_5.printStackTrace();
+
+		}
+		try {
+			errorCode = null;
+			tFileInputExcel_6Process(globalMap);
+			if (!"failure".equals(status)) {
+				status = "end";
+			}
+		} catch (TalendException e_tFileInputExcel_6) {
+			globalMap.put("tFileInputExcel_6_SUBPROCESS_STATE", -1);
+
+			e_tFileInputExcel_6.printStackTrace();
 
 		}
 
@@ -2150,6 +9807,6 @@ public class integrationDimensions implements TalendJob {
 	ResumeUtil resumeUtil = null;
 }
 /************************************************************************************************
- * 64758 characters generated by Talend Open Studio for Data Integration on the
- * 27 mai 2019 13:57:40 CEST
+ * 286337 characters generated by Talend Open Studio for Data Integration on the
+ * 27 mai 2019 18:54:38 CEST
  ************************************************************************************************/

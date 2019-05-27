@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_VubsQICJEemWCPWaaEmrzw" name="DIM_Activite_Excel" dataPackage="_VubsQYCJEemWCPWaaEmrzw" Server="Localhost 127.0.0.1" FilePath="C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/DIM - Excel/ACTIVITE_DIM.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Feuil2" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Feuil2:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_VubsQYCJEemWCPWaaEmrzw" name="default" dataManager="_VubsQICJEemWCPWaaEmrzw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_VubsQoCJEemWCPWaaEmrzw" id="_EojJYICJEemWCPWaaEmrzw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VubsQ4CJEemWCPWaaEmrzw" label="libelle_activite" length="98" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
