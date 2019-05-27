@@ -296,6 +296,17 @@ public class integrationDimensions implements TalendJob {
 		tFileInputExcel_4_onSubJobError(exception, errorComponent, globalMap);
 	}
 
+	public void tLogRow_1_error(Exception exception, String errorComponent,
+			final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputExcel_4_onSubJobError(exception, errorComponent, globalMap);
+	}
+
 	public void tDBOutput_4_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap)
 			throws TalendException {
@@ -318,15 +329,15 @@ public class integrationDimensions implements TalendJob {
 
 	}
 
-	public static class testIntgrationStruct implements
-			routines.system.IPersistableRow<testIntgrationStruct> {
+	public static class row4Struct implements
+			routines.system.IPersistableRow<row4Struct> {
 		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
 		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
 
-		public String libelle_pays;
+		public String libelle_socio_prof;
 
-		public String getLibelle_pays() {
-			return this.libelle_pays;
+		public String getLibelle_socio_prof() {
+			return this.libelle_socio_prof;
 		}
 
 		private String readString(ObjectInputStream dis) throws IOException {
@@ -372,7 +383,7 @@ public class integrationDimensions implements TalendJob {
 
 					int length = 0;
 
-					this.libelle_pays = readString(dis);
+					this.libelle_socio_prof = readString(dis);
 
 				} catch (IOException e) {
 					throw new RuntimeException(e);
@@ -388,7 +399,7 @@ public class integrationDimensions implements TalendJob {
 
 				// String
 
-				writeString(this.libelle_pays, dos);
+				writeString(this.libelle_socio_prof, dos);
 
 			} catch (IOException e) {
 				throw new RuntimeException(e);
@@ -401,7 +412,7 @@ public class integrationDimensions implements TalendJob {
 			StringBuilder sb = new StringBuilder();
 			sb.append(super.toString());
 			sb.append("[");
-			sb.append("libelle_pays=" + libelle_pays);
+			sb.append("libelle_socio_prof=" + libelle_socio_prof);
 			sb.append("]");
 
 			return sb.toString();
@@ -410,7 +421,7 @@ public class integrationDimensions implements TalendJob {
 		/**
 		 * Compare keys
 		 */
-		public int compareTo(testIntgrationStruct other) {
+		public int compareTo(row4Struct other) {
 
 			int returnValue = -1;
 
@@ -441,21 +452,15 @@ public class integrationDimensions implements TalendJob {
 
 	}
 
-	public static class row4Struct implements
-			routines.system.IPersistableRow<row4Struct> {
+	public static class socioProStruct implements
+			routines.system.IPersistableRow<socioProStruct> {
 		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
 		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
 
-		public String code_taille_entreprise;
+		public String libelle_socio_prof;
 
-		public String getCode_taille_entreprise() {
-			return this.code_taille_entreprise;
-		}
-
-		public String libelle_taille_entreprise;
-
-		public String getLibelle_taille_entreprise() {
-			return this.libelle_taille_entreprise;
+		public String getLibelle_socio_prof() {
+			return this.libelle_socio_prof;
 		}
 
 		private String readString(ObjectInputStream dis) throws IOException {
@@ -501,9 +506,7 @@ public class integrationDimensions implements TalendJob {
 
 					int length = 0;
 
-					this.code_taille_entreprise = readString(dis);
-
-					this.libelle_taille_entreprise = readString(dis);
+					this.libelle_socio_prof = readString(dis);
 
 				} catch (IOException e) {
 					throw new RuntimeException(e);
@@ -519,11 +522,7 @@ public class integrationDimensions implements TalendJob {
 
 				// String
 
-				writeString(this.code_taille_entreprise, dos);
-
-				// String
-
-				writeString(this.libelle_taille_entreprise, dos);
+				writeString(this.libelle_socio_prof, dos);
 
 			} catch (IOException e) {
 				throw new RuntimeException(e);
@@ -536,8 +535,7 @@ public class integrationDimensions implements TalendJob {
 			StringBuilder sb = new StringBuilder();
 			sb.append(super.toString());
 			sb.append("[");
-			sb.append("code_taille_entreprise=" + code_taille_entreprise);
-			sb.append(",libelle_taille_entreprise=" + libelle_taille_entreprise);
+			sb.append("libelle_socio_prof=" + libelle_socio_prof);
 			sb.append("]");
 
 			return sb.toString();
@@ -546,7 +544,144 @@ public class integrationDimensions implements TalendJob {
 		/**
 		 * Compare keys
 		 */
-		public int compareTo(row4Struct other) {
+		public int compareTo(socioProStruct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
+
+	}
+
+	public static class row9Struct implements
+			routines.system.IPersistableRow<row9Struct> {
+		final static byte[] commonByteArrayLock_TEST_2_integrationDimensions = new byte[0];
+		static byte[] commonByteArray_TEST_2_integrationDimensions = new byte[0];
+
+		public String code_categorie_socio_prof;
+
+		public String getCode_categorie_socio_prof() {
+			return this.code_categorie_socio_prof;
+		}
+
+		public String libelle_categorie_socio_prof;
+
+		public String getLibelle_categorie_socio_prof() {
+			return this.libelle_categorie_socio_prof;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_TEST_2_integrationDimensions.length) {
+					if (length < 1024
+							&& commonByteArray_TEST_2_integrationDimensions.length == 0) {
+						commonByteArray_TEST_2_integrationDimensions = new byte[1024];
+					} else {
+						commonByteArray_TEST_2_integrationDimensions = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_TEST_2_integrationDimensions, 0,
+						length);
+				strReturn = new String(
+						commonByteArray_TEST_2_integrationDimensions, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_TEST_2_integrationDimensions) {
+
+				try {
+
+					int length = 0;
+
+					this.code_categorie_socio_prof = readString(dis);
+
+					this.libelle_categorie_socio_prof = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.code_categorie_socio_prof, dos);
+
+				// String
+
+				writeString(this.libelle_categorie_socio_prof, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("code_categorie_socio_prof=" + code_categorie_socio_prof);
+			sb.append(",libelle_categorie_socio_prof="
+					+ libelle_categorie_socio_prof);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row9Struct other) {
 
 			int returnValue = -1;
 
@@ -600,8 +735,9 @@ public class integrationDimensions implements TalendJob {
 			if (resumeIt || globalResumeTicket) { // start the resume
 				globalResumeTicket = true;
 
-				row4Struct row4 = new row4Struct();
-				testIntgrationStruct testIntgration = new testIntgrationStruct();
+				row9Struct row9 = new row9Struct();
+				socioProStruct socioPro = new socioProStruct();
+				socioProStruct row4 = socioPro;
 
 				/**
 				 * [tDBOutput_4 begin ] start
@@ -615,8 +751,7 @@ public class integrationDimensions implements TalendJob {
 				if (execStat) {
 					if (resourceMap.get("inIterateVComp") == null) {
 
-						runStat.updateStatOnConnection("testIntgration"
-								+ iterateId, 0, 0);
+						runStat.updateStatOnConnection("row4" + iterateId, 0, 0);
 
 					}
 				}
@@ -688,22 +823,55 @@ public class integrationDimensions implements TalendJob {
 
 				if (dbschema_tDBOutput_4 == null
 						|| dbschema_tDBOutput_4.trim().length() == 0) {
-					tableName_tDBOutput_4 = "PAYS_DIM";
+					tableName_tDBOutput_4 = "CATEGORIE_SOCIO_PROF_DIM";
 				} else {
 					tableName_tDBOutput_4 = dbschema_tDBOutput_4 + "].["
-							+ "PAYS_DIM";
+							+ "CATEGORIE_SOCIO_PROF_DIM";
 				}
 				int count_tDBOutput_4 = 0;
 
 				String insert_tDBOutput_4 = "INSERT INTO ["
 						+ tableName_tDBOutput_4
-						+ "] ([libelle_pays]) VALUES (?)";
+						+ "] ([libelle_socio_prof]) VALUES (?)";
 				java.sql.PreparedStatement pstmt_tDBOutput_4 = conn_tDBOutput_4
 						.prepareStatement(insert_tDBOutput_4);
 				resourceMap.put("pstmt_tDBOutput_4", pstmt_tDBOutput_4);
 
 				/**
 				 * [tDBOutput_4 begin ] stop
+				 */
+
+				/**
+				 * [tLogRow_1 begin ] start
+				 */
+
+				ok_Hash.put("tLogRow_1", false);
+				start_Hash.put("tLogRow_1", System.currentTimeMillis());
+
+				currentComponent = "tLogRow_1";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("socioPro" + iterateId,
+								0, 0);
+
+					}
+				}
+
+				int tos_count_tLogRow_1 = 0;
+
+				// /////////////////////
+
+				final String OUTPUT_FIELD_SEPARATOR_tLogRow_1 = "|";
+				java.io.PrintStream consoleOut_tLogRow_1 = null;
+
+				StringBuilder strBuffer_tLogRow_1 = null;
+				int nb_line_tLogRow_1 = 0;
+				// /////////////////////
+
+				/**
+				 * [tLogRow_1 begin ] stop
 				 */
 
 				/**
@@ -718,7 +886,7 @@ public class integrationDimensions implements TalendJob {
 				if (execStat) {
 					if (resourceMap.get("inIterateVComp") == null) {
 
-						runStat.updateStatOnConnection("row4" + iterateId, 0, 0);
+						runStat.updateStatOnConnection("row9" + iterateId, 0, 0);
 
 					}
 				}
@@ -738,7 +906,7 @@ public class integrationDimensions implements TalendJob {
 
 				// ###############################
 				// # Outputs initialization
-				testIntgrationStruct testIntgration_tmp = new testIntgrationStruct();
+				socioProStruct socioPro_tmp = new socioProStruct();
 				// ###############################
 
 				/**
@@ -806,7 +974,7 @@ public class integrationDimensions implements TalendJob {
 				}
 				RegexUtil_tFileInputExcel_4 regexUtil_tFileInputExcel_4 = new RegexUtil_tFileInputExcel_4();
 
-				Object source_tFileInputExcel_4 = "C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/Transformation/TEST.xlsx";
+				Object source_tFileInputExcel_4 = "C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/Transformation/CATEGORIE_SOCIO_PROF_DIM.xlsx";
 				org.apache.poi.xssf.usermodel.XSSFWorkbook workbook_tFileInputExcel_4 = null;
 
 				if (source_tFileInputExcel_4 instanceof String) {
@@ -899,7 +1067,7 @@ public class integrationDimensions implements TalendJob {
 										.getRow(i_tFileInputExcel_4
 												- rowCount_tFileInputExcel_4);
 							}
-							row4 = null;
+							row9 = null;
 							int tempRowLength_tFileInputExcel_4 = 2;
 
 							int columnIndex_tFileInputExcel_4 = 0;
@@ -993,7 +1161,7 @@ public class integrationDimensions implements TalendJob {
 								}
 							}
 							boolean whetherReject_tFileInputExcel_4 = false;
-							row4 = new row4Struct();
+							row9 = new row9Struct();
 							int curColNum_tFileInputExcel_4 = -1;
 							String curColName_tFileInputExcel_4 = "";
 							try {
@@ -1004,11 +1172,11 @@ public class integrationDimensions implements TalendJob {
 									curColNum_tFileInputExcel_4 = columnIndex_tFileInputExcel_4
 											+ start_column_tFileInputExcel_4
 											+ 1;
-									curColName_tFileInputExcel_4 = "code_taille_entreprise";
+									curColName_tFileInputExcel_4 = "code_categorie_socio_prof";
 
-									row4.code_taille_entreprise = temp_row_tFileInputExcel_4[columnIndex_tFileInputExcel_4];
+									row9.code_categorie_socio_prof = temp_row_tFileInputExcel_4[columnIndex_tFileInputExcel_4];
 								} else {
-									row4.code_taille_entreprise = null;
+									row9.code_categorie_socio_prof = null;
 									emptyColumnCount_tFileInputExcel_4++;
 								}
 								columnIndex_tFileInputExcel_4 = 1;
@@ -1018,11 +1186,11 @@ public class integrationDimensions implements TalendJob {
 									curColNum_tFileInputExcel_4 = columnIndex_tFileInputExcel_4
 											+ start_column_tFileInputExcel_4
 											+ 1;
-									curColName_tFileInputExcel_4 = "libelle_taille_entreprise";
+									curColName_tFileInputExcel_4 = "libelle_categorie_socio_prof";
 
-									row4.libelle_taille_entreprise = temp_row_tFileInputExcel_4[columnIndex_tFileInputExcel_4];
+									row9.libelle_categorie_socio_prof = temp_row_tFileInputExcel_4[columnIndex_tFileInputExcel_4];
 								} else {
-									row4.libelle_taille_entreprise = null;
+									row9.libelle_categorie_socio_prof = null;
 									emptyColumnCount_tFileInputExcel_4++;
 								}
 
@@ -1031,7 +1199,7 @@ public class integrationDimensions implements TalendJob {
 							} catch (java.lang.Exception e) {
 								whetherReject_tFileInputExcel_4 = true;
 								System.err.println(e.getMessage());
-								row4 = null;
+								row9 = null;
 							}
 
 							/**
@@ -1059,8 +1227,8 @@ public class integrationDimensions implements TalendJob {
 							/**
 							 * [tFileInputExcel_4 process_data_begin ] stop
 							 */
-							// Start of branch "row4"
-							if (row4 != null) {
+							// Start of branch "row9"
+							if (row9 != null) {
 
 								/**
 								 * [tMap_4 main ] start
@@ -1068,11 +1236,11 @@ public class integrationDimensions implements TalendJob {
 
 								currentComponent = "tMap_4";
 
-								// row4
-								// row4
+								// row9
+								// row9
 
 								if (execStat) {
-									runStat.updateStatOnConnection("row4"
+									runStat.updateStatOnConnection("row9"
 											+ iterateId, 1, 1);
 								}
 
@@ -1093,11 +1261,11 @@ public class integrationDimensions implements TalendJob {
 									// ###############################
 									// # Output tables
 
-									testIntgration = null;
+									socioPro = null;
 
-									// # Output table : 'testIntgration'
-									testIntgration_tmp.libelle_pays = row4.libelle_taille_entreprise;
-									testIntgration = testIntgration_tmp;
+									// # Output table : 'socioPro'
+									socioPro_tmp.libelle_socio_prof = row9.libelle_categorie_socio_prof;
+									socioPro = socioPro_tmp;
 									// ###############################
 
 								} // end of Var scope
@@ -1119,8 +1287,73 @@ public class integrationDimensions implements TalendJob {
 								/**
 								 * [tMap_4 process_data_begin ] stop
 								 */
-								// Start of branch "testIntgration"
-								if (testIntgration != null) {
+								// Start of branch "socioPro"
+								if (socioPro != null) {
+
+									/**
+									 * [tLogRow_1 main ] start
+									 */
+
+									currentComponent = "tLogRow_1";
+
+									// socioPro
+									// socioPro
+
+									if (execStat) {
+										runStat.updateStatOnConnection(
+												"socioPro" + iterateId, 1, 1);
+									}
+
+									// /////////////////////
+
+									strBuffer_tLogRow_1 = new StringBuilder();
+
+									if (socioPro.libelle_socio_prof != null) { //
+
+										strBuffer_tLogRow_1
+												.append(String
+														.valueOf(socioPro.libelle_socio_prof));
+
+									} //
+
+									if (globalMap.get("tLogRow_CONSOLE") != null) {
+										consoleOut_tLogRow_1 = (java.io.PrintStream) globalMap
+												.get("tLogRow_CONSOLE");
+									} else {
+										consoleOut_tLogRow_1 = new java.io.PrintStream(
+												new java.io.BufferedOutputStream(
+														System.out));
+										globalMap.put("tLogRow_CONSOLE",
+												consoleOut_tLogRow_1);
+									}
+									consoleOut_tLogRow_1
+											.println(strBuffer_tLogRow_1
+													.toString());
+									consoleOut_tLogRow_1.flush();
+									nb_line_tLogRow_1++;
+									// ////
+
+									// ////
+
+									// /////////////////////
+
+									row4 = socioPro;
+
+									tos_count_tLogRow_1++;
+
+									/**
+									 * [tLogRow_1 main ] stop
+									 */
+
+									/**
+									 * [tLogRow_1 process_data_begin ] start
+									 */
+
+									currentComponent = "tLogRow_1";
+
+									/**
+									 * [tLogRow_1 process_data_begin ] stop
+									 */
 
 									/**
 									 * [tDBOutput_4 main ] start
@@ -1128,22 +1361,21 @@ public class integrationDimensions implements TalendJob {
 
 									currentComponent = "tDBOutput_4";
 
-									// testIntgration
-									// testIntgration
+									// row4
+									// row4
 
 									if (execStat) {
-										runStat.updateStatOnConnection(
-												"testIntgration" + iterateId,
-												1, 1);
+										runStat.updateStatOnConnection("row4"
+												+ iterateId, 1, 1);
 									}
 
 									whetherReject_tDBOutput_4 = false;
-									if (testIntgration.libelle_pays == null) {
+									if (row4.libelle_socio_prof == null) {
 										pstmt_tDBOutput_4.setNull(1,
 												java.sql.Types.VARCHAR);
 									} else {
 										pstmt_tDBOutput_4.setString(1,
-												testIntgration.libelle_pays);
+												row4.libelle_socio_prof);
 									}
 
 									pstmt_tDBOutput_4.addBatch();
@@ -1272,7 +1504,17 @@ public class integrationDimensions implements TalendJob {
 									 * [tDBOutput_4 process_data_end ] stop
 									 */
 
-								} // End of branch "testIntgration"
+									/**
+									 * [tLogRow_1 process_data_end ] start
+									 */
+
+									currentComponent = "tLogRow_1";
+
+									/**
+									 * [tLogRow_1 process_data_end ] stop
+									 */
+
+								} // End of branch "socioPro"
 
 								/**
 								 * [tMap_4 process_data_end ] start
@@ -1284,7 +1526,7 @@ public class integrationDimensions implements TalendJob {
 								 * [tMap_4 process_data_end ] stop
 								 */
 
-							} // End of branch "row4"
+							} // End of branch "row9"
 
 							/**
 							 * [tFileInputExcel_4 process_data_end ] start
@@ -1337,7 +1579,7 @@ public class integrationDimensions implements TalendJob {
 				if (execStat) {
 					if (resourceMap.get("inIterateVComp") == null
 							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
-						runStat.updateStatOnConnection("row4" + iterateId, 2, 0);
+						runStat.updateStatOnConnection("row9" + iterateId, 2, 0);
 					}
 				}
 
@@ -1346,6 +1588,33 @@ public class integrationDimensions implements TalendJob {
 
 				/**
 				 * [tMap_4 end ] stop
+				 */
+
+				/**
+				 * [tLogRow_1 end ] start
+				 */
+
+				currentComponent = "tLogRow_1";
+
+				// ////
+				// ////
+				globalMap.put("tLogRow_1_NB_LINE", nb_line_tLogRow_1);
+
+				// /////////////////////
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("socioPro" + iterateId,
+								2, 0);
+					}
+				}
+
+				ok_Hash.put("tLogRow_1", true);
+				end_Hash.put("tLogRow_1", System.currentTimeMillis());
+
+				/**
+				 * [tLogRow_1 end ] stop
 				 */
 
 				/**
@@ -1419,8 +1688,7 @@ public class integrationDimensions implements TalendJob {
 				if (execStat) {
 					if (resourceMap.get("inIterateVComp") == null
 							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
-						runStat.updateStatOnConnection("testIntgration"
-								+ iterateId, 2, 0);
+						runStat.updateStatOnConnection("row4" + iterateId, 2, 0);
 					}
 				}
 
@@ -1466,6 +1734,16 @@ public class integrationDimensions implements TalendJob {
 
 				/**
 				 * [tMap_4 finally ] stop
+				 */
+
+				/**
+				 * [tLogRow_1 finally ] start
+				 */
+
+				currentComponent = "tLogRow_1";
+
+				/**
+				 * [tLogRow_1 finally ] stop
 				 */
 
 				/**
@@ -1872,6 +2150,6 @@ public class integrationDimensions implements TalendJob {
 	ResumeUtil resumeUtil = null;
 }
 /************************************************************************************************
- * 57908 characters generated by Talend Open Studio for Data Integration on the
- * 25 mai 2019 18:08:12 CEST
+ * 64758 characters generated by Talend Open Studio for Data Integration on the
+ * 27 mai 2019 13:57:40 CEST
  ************************************************************************************************/
