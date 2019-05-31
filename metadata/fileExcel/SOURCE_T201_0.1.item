@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="__e9DoYDbEem4kuD8dH3Szg" name="SOURCE_T201" dataPackage="__e9DooDbEem4kuD8dH3Szg" Server="Localhost 127.0.0.1" FilePath="C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/SOURCES - Transformation/Transformation T201.xls" Encoding="windows-1252" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="C - T distribu�" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="akjzkjzkjak:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="__e9DooDbEem4kuD8dH3Szg" name="default" dataManager="__e9DoYDbEem4kuD8dH3Szg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="__e9Do4DbEem4kuD8dH3Szg" id="_zdHCYIDbEem4kuD8dH3Szg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__e9DpIDbEem4kuD8dH3Szg" label="Age" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__e9DpYDbEem4kuD8dH3Szg" label="Categorie_Socioprofessionnelle" length="49" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__e9DpoDbEem4kuD8dH3Szg" label="Valeur" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__e9Dp4DbEem4kuD8dH3Szg" label="Sexe" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_p1xRgIDXEem4kuD8dH3Szg" name="SOURCE_T401B" dataPackage="_p1xRgYDXEem4kuD8dH3Szg" Server="Localhost 127.0.0.1" FilePath="C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/SOURCES - Transformation/Transformation T401B.xls" Encoding="windows-1252" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="C - T distribu�" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="sqSNQazzza:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_p1xRgYDXEem4kuD8dH3Szg" name="default" dataManager="_p1xRgIDXEem4kuD8dH3Szg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_p1xRgoDXEem4kuD8dH3Szg" id="_g7gsQIDXEem4kuD8dH3Szg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_p1xRg4DXEem4kuD8dH3Szg" label="Region_et_departement" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_p1xRhIDXEem4kuD8dH3Szg" label="Categorie_socioprofessionnelle__5_modalites_" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_p1xRhYDXEem4kuD8dH3Szg" label="Valeur" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_p1xRhoDXEem4kuD8dH3Szg" label="Sexe" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

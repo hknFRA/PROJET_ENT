@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_IX-3oIDNEemPBcEEK9BT8Q" name="SOURCE_T204" dataPackage="_IX-3oYDNEemPBcEEK9BT8Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/hakan/OneDrive/M2/Semestre 2/PROJET ENT/2 - Réalisation/SOURCES - Transformation/Transformation T204.xls" Encoding="windows-1252" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="C - T" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="C - T:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_IX-3oYDNEemPBcEEK9BT8Q" name="default" dataManager="_IX-3oIDNEemPBcEEK9BT8Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_IX-3ooDNEemPBcEEK9BT8Q" id="_Cb8XAIDNEemPBcEEK9BT8Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IX-3o4DNEemPBcEEK9BT8Q" label="Tranche_d_effectif_de_l__tablissement__en_12_modalit_s_" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IX-3pIDNEemPBcEEK9BT8Q" label="Salaire_brut_en_equivalent_temps_plein____" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IX-3pYDNEemPBcEEK9BT8Q" label="Column2" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
